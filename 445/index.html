@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/445">블로그 이전 및 WimyBlog 소개</a></h1></div>
         <div id="post_datetime">2017-08-26 23:28:17</div>
-        <div id="post_content"><p>블로그를 이사했다. 티스토리가 백업을 중지한 후부터 언젠가는 티스토리를 떠나야겠다라고 생각하고 있었는데, 이런저런 생각을 해보다가 github로 가자는 결론을 내렸고 정적 페이지로 블로그를 만들어야겠다고 생각하고 있었다. 하나 걸리는 것이 github의 공식적인 블로그툴이 Jekyll 이라는 툴인데, 루비 언어로 만들어져있었고, 조금 들여다보니 '정적인 페이지들인데 간단히 만들 수 있지 않을까' 라는 생각에 직접 만들기 시작했다.</p>
+
+        <div id="post_content">
+          <p>블로그를 이사했다. 티스토리가 백업을 중지한 후부터 언젠가는 티스토리를 떠나야겠다라고 생각하고 있었는데, 이런저런 생각을 해보다가 github로 가자는 결론을 내렸고 정적 페이지로 블로그를 만들어야겠다고 생각하고 있었다. 하나 걸리는 것이 github의 공식적인 블로그툴이 Jekyll 이라는 툴인데, 루비 언어로 만들어져있었고, 조금 들여다보니 '정적인 페이지들인데 간단히 만들 수 있지 않을까' 라는 생각에 직접 만들기 시작했다.</p>
 <h1 id="wimyblog">WimyBlog</h1>
 <p><a href="https://github.com/zelon/WimyBlog">WimyBlog on github</a>에 C#, .NET Core 2.0에서 동작하는 소스를 올려두었다. 참고로 이 블로그는 <a href="https://github.com/zelon/blog.wimy.com">blog.wimy.com on github</a>에 소스가 있다. 즉, <a href="https://github.com/zelon/blog.wimy.com">blog.wimy.com on gihub</a>에 markdown 형식으로 글을 쓰고, <a href="https://github.com/zelon/blog.wimy.com">WimyBlog on gihub</a>를 실행해서 html들을 뽑아내게 된다</p>
 <p>그냥 기존처럼 파이썬이나 Go를 쓰지 않고, 정적인 페이지들을 만들면 되니까 어떤 언어를 써도 상관은 없었는데, C++ 다음으로 관심이 많은 C#을 좀 더 써보기로 하고, 최신(!) 트렌드인 .NET Core로 만들어보기로 했다. 1.1에서 만들었는데, 도중에 2.0이 나와서 업데이트. Microsoft에서 한창 밀고 있는 .NET Core가 어떤지 궁금하기도 했다.</p>
@@ -37,7 +39,28 @@
 <h1 id="---">참고: 기존 데이터의 이전</h1>
 <p>전체 들인 시간 중에 가장 많은 공을 들인 부분. 기존 티스토리 백업 파일(xml)에서 index.md 파일들을 뽑아내는 것이었다. 검색을 해보면, 3~4가지의 포스팅과 소스 파일이 나오는데, 내가 원하는 형태가 없었다. php라든지, 첨부 파일을 고려하지 않았다든지.. 그래서 직접 만들어봤다. <a href="https://github.com/zelon/TistoryConvertor">TistoryConvertor on Github</a>에 소스를 올려두었다. 사실 한번만 제대로 실행되고 버려질 프로젝트이지만 ㅠㅜ</p>
 <h1>에필로그</h1>
-<p>티스토리의 데이터 복원 기능 종료가 2013년이었다고 하니, 거의 4년을 마음 속에만 간직한 작업을 이제야 끝냈다. 물론 기능은 너무 미미하지만, 대학교 때 처음 php로 내 전용 게시판을 만들 때처럼 감회가 새롭다. 덕분에 .NET Core를 좀 써볼 기회가 있었고, 유닛테스트를 제법 고려한 코딩을 해보기도 했다. 앞으로 WimyBlog에 얼마나 더 시간을 쓸 수 있을지는 모르겠지만, 대부분의 개인 프로젝트가 그렇듯이 즐거운 마음으로 시작했고, 재미있게 코딩해서 좋았던 것 같다.</p></div>
+<p>티스토리의 데이터 복원 기능 종료가 2013년이었다고 하니, 거의 4년을 마음 속에만 간직한 작업을 이제야 끝냈다. 물론 기능은 너무 미미하지만, 대학교 때 처음 php로 내 전용 게시판을 만들 때처럼 감회가 새롭다. 덕분에 .NET Core를 좀 써볼 기회가 있었고, 유닛테스트를 제법 고려한 코딩을 해보기도 했다. 앞으로 WimyBlog에 얼마나 더 시간을 쓸 수 있을지는 모르겠지만, 대부분의 개인 프로젝트가 그렇듯이 즐거운 마음으로 시작했고, 재미있게 코딩해서 좋았던 것 같다.</p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/445';
+    this.page.identifier = '445';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

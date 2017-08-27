@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/135">Virtualbox 버젼을 업데이트 후 에러날 때</a></h1></div>
         <div id="post_datetime">2007-12-18 00:40:18</div>
-        <div id="post_content"><p> 난 우분투 7.4 를 쓰다가 7.10 을 쓰게 된 유저이다. 7.4 에서는 외부 저장소에서 virtualbox 를 쓰다가 이제 7.10 에 오면서 기본 저장소의 virtualbox 를 쓰기 시작했다.<br />
+
+        <div id="post_content">
+          <p> 난 우분투 7.4 를 쓰다가 7.10 을 쓰게 된 유저이다. 7.4 에서는 외부 저장소에서 virtualbox 를 쓰다가 이제 7.10 에 오면서 기본 저장소의 virtualbox 를 쓰기 시작했다.<br />
  그런데 이상하게 우분투 7.10 에서 자꾸 VirtualBox 로 작동 중인 윈도우 클라이언트가 수시로 크래시되었다. 그래서 혹시나하고 홈페이지에 가서 확인을 해보니 현재 우분투 7.10 의 공식 저장소의 버젼은 1.5.0 인데  공식 홈페이지의 버젼은 1.5.2 였다. 그래서 업그레이드를 하기로 결정하고, 현재 버젼을 삭제하고, virtualbox 쪽의 apt 소스를 추가하고 설치했다. 그런데 새로운 버젼으로 기존의 이미지를 읽으니 다음과 같은 에러를 내면서 시작을 할 수 없는 것이었다.<br />
 ----<br />
 00:00:01.506 VirtualBox 1.5.2 r25433 linux.x86 (Oct 18 2007 08:59:10) release log<br />
@@ -31,7 +33,28 @@
  <br />
  <a href="http://doc.gwos.org/doku.php/doc:office:virtualbox" class="uri">http://doc.gwos.org/doku.php/doc:office:virtualbox</a> 에서 알아냄.<br />
  결과적으로는  sudo /etc/init.d/vboxdrv setup 을 실행 하면 내부적으로 커널 모듈 관련 컴파일을 하면서 이번 버젼 때문에 새로 설치하라는 메시지 에러가 사라진다!!<br />
-<img src="virtualbox.png" width="500" height="369" /></p></div>
+<img src="virtualbox.png" width="500" height="369" /></p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/135';
+    this.page.identifier = '135';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

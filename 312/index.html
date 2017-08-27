@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/312">우분투 10.04 한글 글꼴 잘 보이게 설정하기</a></h1></div>
         <div id="post_datetime">2010-05-04 01:11:13</div>
-        <div id="post_content"><p>/home/.fonts 폴더에 ttf 파일을 복사하고,(폴더 없으면 만들고)<br />
+
+        <div id="post_content">
+          <p>/home/.fonts 폴더에 ttf 파일을 복사하고,(폴더 없으면 만들고)<br />
 /etc/fonts/conf.d/29-language-selector-ko-kr.conf 파일을 편집해서,<br />
 &lt;!-- Turn off antialias and autohint for Korean fonts depending on pixelsize --&gt;<br />
 밑에 있는<br />
@@ -29,7 +31,28 @@
         &lt;edit name=&quot;autohint&quot; mode=&quot;assign&quot;&gt;<br />
         &lt;bool&gt;true&lt;/bool&gt;<br />
     &lt;/edit&gt;<br />
-이렇게 true 로 수정하면 된다. 기본적으로 이렇게 배포되면 좋을텐데 좀 아쉬운 부분이다.</p></div>
+이렇게 true 로 수정하면 된다. 기본적으로 이렇게 배포되면 좋을텐데 좀 아쉬운 부분이다.</p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/312';
+    this.page.identifier = '312';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/222">의존성 파악해서 빌드하는 makefile 만들기</a></h1></div>
         <div id="post_datetime">2008-12-12 06:56:29</div>
-        <div id="post_content"><p> Makefile 로 빌드에 관심을 가지면서 의존성 문제는 이상하게 해결하기 힘든 것이었다. Visual Studio 에서는 알아서 잘(!) 해주는 데, 리눅스에서 간단한 프로그래밍을 하거나, eclipse 에서 MingW 를 이용해서 뭔가 해보려면 꼭 이 문제가 마음에 걸렸다.<br />
+
+        <div id="post_content">
+          <p> Makefile 로 빌드에 관심을 가지면서 의존성 문제는 이상하게 해결하기 힘든 것이었다. Visual Studio 에서는 알아서 잘(!) 해주는 데, 리눅스에서 간단한 프로그래밍을 하거나, eclipse 에서 MingW 를 이용해서 뭔가 해보려면 꼭 이 문제가 마음에 걸렸다.<br />
  기숙사에 있을 때 제윤이형과 함께 이 얘기를 하다가 <a href="http://kangcom.com/common/bookinfo/bookinfo.asp?sku=200204290004">이 책</a>을 보라고 해서 gcc 에 -M 이란 옵션이 있는 것을 알았고, 얼마전에 문득 ZViewer 를 mingw 로 컴파일 해보기로 했고, 다시 Makefile 에 의존성을 넣는 것을 해봤다.<br />
  일단 시작은 <a href="http://kldp.org/node/39429">kldp에서의 글</a>이다. 잘 만들어진 makefile 을 얻을 수 있다. 하지만 난 환경이 윈도우 환경이라서 약간의 수정이 필요했고, 이것저것 찾아보면서 고쳤다.</p>
 <blockquote>
@@ -101,7 +103,28 @@ $(PREDEPS):$(PRECOMPILED_HEADER)
  precompiled header 를 추가했다. 이 부분은 약간의 최적화가 필요할 듯도 한데, 일단 <a href="http://www.wimy.com/wiki/wiki.php/linuxProgramming#s-4">gcc 에서의 precompiled header 기능</a>을 활용해보고자 넣어보았다.<br />
  Makefile 에 gcc 외에 sed 라는 프로그램이 실행되는 것을 볼 수 있는데, 이건 정규식을 통해서 치환을 하는 것이다. 관련 내용은 <a href="http://web.cecs.pdx.edu/%7Ekya/wiki/GNUMake#s-1.4.1">여기</a>에서 찾아볼 수 있다.<br />
  중간에 python <a href="http://kldp.net/plugins/scmsvn/viewcvs.php/trunk/ZViewer/ConvertFromVCProj.py?rev=507&amp;root=zviewer&amp;view=markup">ConvertFromVCProj.py</a> 라는 부분은, Visual Studio .NET 2005 의 vcproj 에서 cpp 파일들을 뽑아주는 간단한 스크립트이다. 즉 ZViewer 의 Makefile 은 .NET 2005 의 vcproj 에서 cpp 목록을 뽑아서 컴파일을 하게 된다.(아직 주개발 tool 이 Visual Studio이다)<br />
-ps : <a href="http://kkamagui.tistory.com/605">유능한 후배의 글</a>을 보고, 도움이 될까해서 얼마전에 있었던 일을 정리해봄 ^^</p></div>
+ps : <a href="http://kkamagui.tistory.com/605">유능한 후배의 글</a>을 보고, 도움이 될까해서 얼마전에 있었던 일을 정리해봄 ^^</p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/222';
+    this.page.identifier = '222';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

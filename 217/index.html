@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/217">토탈 커맨더의 파일 분할 및 결합 내용</a></h1></div>
         <div id="post_datetime">2008-12-02 06:33:21</div>
-        <div id="post_content"><p><img src="TC.png" width="359" height="86" /></p>
+
+        <div id="post_content">
+          <p><img src="TC.png" width="359" height="86" /></p>
 <p> 토탈 커맨더는 상당히 유명한 파일 관리자이다. 파일 관리자라는게 윈도우에서는 사실 DOS 시절만큼 유용하지는 않는데, 탐색기가 그 역할을 많이 해주기 때문이다.<br />
  회사에서 많은 사람들이 토탈 커맨더를 쓰고, 회사에서도 구입을 해서 지원을 해주고 있는데, 회사에서 토탈 커맨더를 이용하는 기능 중에 하나는 파일 분할/결합 기능이다. 회사 메일로 파일을 첨부해서 보낼 때 최대 50메가의 제한이 있는데, 이보다 큰 파일을 보낼 때 파일을 분할해서 보내는 것이다.<br />
  이 분할/결합 기능을 잠깐 살펴보자. 분할된 파일은 XXXX.001, XXXX.002 형식의 파일이 여러개 생기고, XXXX.crc 라는 파일이 생긴다. 이 crc 라는 파일을 열어보면 다음과 같은 내용이다.</p>
@@ -50,7 +52,28 @@ if __name__ == &quot;__main__&quot;:<br />
     testmain()</p>
 </blockquote>
 <p> 결과는 간단히 크기, 체크섬 모두 XX.crc 내용과 같았다.<br />
- 이런 분할/결합 방법이 널리 쓰이는 건지는 모르겠지만 토탈 커맨더 같은 유명한 프로그램이 쓸 정도면 제법 괜찮은 방법인것 같다. 나중에 시간되면 C# 으로 간단한 유틸리티를 만들어봐야겠다. 구글에서 검색해보면 <a href="http://sanity-free.org/12/crc32_implementation_in_csharp.html">C# 으로 CRC32 를 구하는 코드</a>도 쉽게 구할 수 있다.</p></div>
+ 이런 분할/결합 방법이 널리 쓰이는 건지는 모르겠지만 토탈 커맨더 같은 유명한 프로그램이 쓸 정도면 제법 괜찮은 방법인것 같다. 나중에 시간되면 C# 으로 간단한 유틸리티를 만들어봐야겠다. 구글에서 검색해보면 <a href="http://sanity-free.org/12/crc32_implementation_in_csharp.html">C# 으로 CRC32 를 구하는 코드</a>도 쉽게 구할 수 있다.</p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/217';
+    this.page.identifier = '217';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

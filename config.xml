@@ -5,6 +5,7 @@
   <site_base_url>http://blog.wimy.com</site_base_url>
   <blog_description>zelon의 프로그래밍과 일상</blog_description>
   <layout_filename>layout.html</layout_filename>
+  <layout_comment_filename>layout_comment.html</layout_comment_filename>
   <post_directory>.</post_directory>
   <page_directory>./page</page_directory>
 </wimyblog>

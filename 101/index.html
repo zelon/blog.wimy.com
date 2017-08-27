@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/101">우분투의 자바 지원에 낚이다</a></h1></div>
         <div id="post_datetime">2007-07-27 02:26:10</div>
-        <div id="post_content"><p> 크~~ ㅠ.ㅜ<br />
+
+        <div id="post_content">
+          <p> 크~~ ㅠ.ㅜ<br />
  우분투에 Sun 의 공식 자바를 GUI 상에서 간단하게 '프로그램 추가/제거' 를 통해서 거의 몇번만 클릭하면 깔아줘서 좋았다고 <a href="http://www.wimy.com/tt/57">생각</a>했다.<br />
  그런데 이게 조금 낚시성이었다. -_-;;; 아마 나만 몰랐던게 아니라고 생각한다. 바로 이렇게 설치한 자바 Runtime 은 설치만 될뿐 설정이 제대로 되지 않은 것이었다.<br />
  자바를 설치한 후 console 을 하나 열어서 java 라고 쳐서 실행해보자. Sun 의 java 의 도움말이 나오는게 아니라, gij 의 도움말이 나올 것이다. 그렇다. 설치만 되었을뿐 '설정' 이 안된거다.<br />
@@ -34,7 +36,28 @@ sudo update-java-alternative --set java-6-sun</p>
 <p>위에서 하신것처럼 java만 달랑 수동으로 바꾸면 나중에 문제가 될 수 있습니다. javac, javaws, appletviewer, ControlPanel, javaplugin.so 등등 바꿀께 꽤 많거든요...</p>
 <p> - iolo 님으로부터</p>
 <p> - <a href="http://kldp.org/node/84800" class="uri">http://kldp.org/node/84800</a></p>
-</blockquote></div>
+</blockquote>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/101';
+    this.page.identifier = '101';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 

@@ -19,7 +19,9 @@
       <section id="main_content" class="inner">
         <div id="post_title"><h1><a href="/337">jar 파일에 포함된 이미지 경로 설정하기 with eclipse</a></h1></div>
         <div id="post_datetime">2011-01-02 14:59:03</div>
-        <div id="post_content"><p><span class="Apple-style-span" style="font-size: 9pt; line-height: 1.5;"></span><br />
+
+        <div id="post_content">
+          <p><span class="Apple-style-span" style="font-size: 9pt; line-height: 1.5;"></span><br />
 <span class="Apple-style-span" style="font-size: 9pt; line-height: 1.5;"><img src="Nuvola_mimetypes_java_jar.png" width="128" height="128" /><br />
 </span></p>
 <p>eclipse 에서는 java 로 프로그램을 만든 후 export 명령을 통해 쉽게 jar 로 묶을 수 있다. 여러개의 class 파일들을 배포하는 것보다 하나의 파일이 배포하기 쉽고, 압축이기 때문에 용량도 줄고, 단순함은 배포의 오류를 줄일 수도 있다.</p>
@@ -27,7 +29,28 @@
 <blockquote>
 <p>URL fileStream = getClass().getClassLoader().getResource(&quot;com/wimy/clipdic/clipdic.png&quot;);</p>
 </blockquote>
-<p>eclipse 에서 getResource 함수를 파싱해서 export 시에 자동으로 해당 파일을 포함해주며, 주의해야할 점은 src/bin 폴더를 따로 관리하는 경우 bin 폴더의 저 위치에 해당 파일을 넣어둬야한다는 점이다. src/bin 을 따로 쓰지 않는다면 가장 좋은 방법인것 같다.</p></div>
+<p>eclipse 에서 getResource 함수를 파싱해서 export 시에 자동으로 해당 파일을 포함해주며, 주의해야할 점은 src/bin 폴더를 따로 관리하는 경우 bin 폴더의 저 위치에 해당 파일을 넣어둬야한다는 점이다. src/bin 을 따로 쓰지 않는다면 가장 좋은 방법인것 같다.</p>
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/337';
+    this.page.identifier = '337';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
       </section>
     </div>
 
