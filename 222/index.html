@@ -96,7 +96,8 @@ $(PREDEPS):$(PRECOMPILED_HEADER)
  @sed &quot;s,\($(basename $(basename $(notdir $@)))\)\.o[ :]*,$(subst \,\\,$(PRECOMPILED_HEADER_OUTPUT)) $(subst \,\\,$@) : ,g&quot; &lt; $@.$$$$ &gt; $@
  @del /Q $@.$$$$
 
--include $(DEPS)</code></pre>
+-include $(DEPS)
+</code></pre>
 </blockquote>
 <p> 소스가 조금 짤리는데, 긁어서 Ctrl+C,V 해서 보거나,  이렇게 만들어진 ZViewer 의 MingW+gcc 윈도우용 버젼은 <a href="http://kldp.net/plugins/scmsvn/viewcvs.php/trunk/ZViewer/Makefile?rev=507&amp;root=zviewer&amp;view=markup">[kldp.net의 ZViewer 소스]</a>에서 볼 수 있다.(하지만 아직 소스 차원의 문제(VC와 gcc 의 함수 지원등) 때문에 빌드는 안된다 ;;)<br />
  ZViewer 의 Makefile 에서 바뀐 것은 -M 옵션을, -MM 으로 바꾸어서, 시스템 헤더 파일들은 의존성에서 뺐다. 시스템 헤더는 보통 다시 수정하지 않기 때문이다.<br />

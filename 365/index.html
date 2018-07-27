@@ -25,10 +25,10 @@
  여튼, 빌드 시에 다음과 같은 에러를 낸다면,<br />
  </p>
 <blockquote>
-<p>MSVCRT.lib(crtexe.obj) : error LNK2019: unresolved external symbol __imp__<a href="mailto:HeapSetInformation@16">HeapSetInformation@16</a> referenced in function ___tmainCRTStartup<br />
-MSVCRT.lib(crtexe.obj) : error LNK2019: unresolved external symbol __imp__<a href="mailto:EncodePointer@4">EncodePointer@4</a> referenced in function _pre_c_init</p>
-<p>MSVCRT.lib(atonexit.obj) : error LNK2001: unresolved external symbol __imp__<a href="mailto:EncodePointer@4">EncodePointer@4</a></p>
-<p>MSVCRT.lib(atonexit.obj) : error LNK2019: unresolved external symbol __imp__<a href="mailto:DecodePointer@4">DecodePointer@4</a> referenced in function __onexit</p>
+<p>MSVCRT.lib(crtexe.obj) : error LNK2019: unresolved external symbol __imp__HeapSetInformation@16 referenced in function ___tmainCRTStartup<br />
+MSVCRT.lib(crtexe.obj) : error LNK2019: unresolved external symbol __imp__EncodePointer@4 referenced in function _pre_c_init</p>
+<p>MSVCRT.lib(atonexit.obj) : error LNK2001: unresolved external symbol __imp__EncodePointer@4</p>
+<p>MSVCRT.lib(atonexit.obj) : error LNK2019: unresolved external symbol __imp__DecodePointer@4 referenced in function __onexit</p>
 </blockquote>
 <p> 메뉴의 Project -&gt; Properties 에 가서, C/C++ Build -&gt; Environment 중에서 INCLUDE, LIB 항목을 살펴보자.<br />
 만약 VC++ 98, VC++ 2010 등 여러 툴이 깔렸다면, INCLUDE, LIB 를 그 중에서 하나만 참조되도록 맞춰주자. 즉, 경로를 VC++ 2010 만 참조하도록 수정.<br />

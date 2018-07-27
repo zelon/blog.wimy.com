@@ -88,8 +88,8 @@
 <p><span class="Apple-tab-span" style="white-space:pre"> </span>print(&quot;[DebugPrint mode is on]&quot;)</p>
 <p>if __name__ == &quot;__main__&quot;:</p>
 <p><span class="Apple-tab-span" style="white-space:pre"> </span>testmain()</p>
-<p> 위의 unittest 를 쓸 때는 항상 소스 파일 명을 a.cpp 로 저장하고, codejam.py 를 실행시킨다. 그러면 위의 코드가 컴파일과 실행, test.in 에서의 입력, test.expect 와의 비교를 하는 것이다.</p>
 </blockquote>
+<p> 위의 unittest 를 쓸 때는 항상 소스 파일 명을 a.cpp 로 저장하고, codejam.py 를 실행시킨다. 그러면 위의 코드가 컴파일과 실행, test.in 에서의 입력, test.expect 와의 비교를 하는 것이다.</p>
 <p> 이 예제 입력/결과를 통한 unittest 를 통과하면, 실제로 코드잼 사이트에서 실제 입력을 받아서 실행시키고, 제출하였다. 대부분 small 문제는 거의 바로 통과가 되었다.</p>
 <p> 일단 위와 같은 방법으로 코드잼을 위한 기본 unittest 설정을 하였고, 최근에 코드잼에 있었던 <a href="http://code.google.com/codejam/contest/dashboard?c=1460488#s=p1" class="tx-link">&quot;Dancing With the Googlers&quot;</a> 문제를 한번 풀어보자.</p>
 <p> 문제는 대략 아래와 같다(내가 번역한 게 맞다면 ㅋ) - 약간의 의역 포함</p>
@@ -287,8 +287,8 @@
 <p><span class="Apple-tab-span" style="white-space:pre"> </span>}</p>
 <p><span class="Apple-tab-span" style="white-space:pre"> </span>return 0;</p>
 <p>}</p>
-<p>#define DP_ON</p>
 </blockquote>
+<p>#define DP_ON</p>
 <p> : 1 일 때는 DP &lt;&lt; &quot;aaa&quot; 와 같이 aaa 를 cout 처럼 사용할 수 있다. DP_ON 일 때는 아무 출력도 되지 않는다. 즉, 디버그용 cout.</p>
 <p>int getintline()</p>
 <p> : 한줄을 읽어서 int 반환한다. 주로 문제 갯수를 알려주는 첫줄을 입력받을 때 사용.</p>
@@ -305,7 +305,8 @@
 <p>int main()</p>
 <p> : 시작점. 문제 갯수를 읽고 각 문제에 대해서 doOperation 을 호출한다.</p>
 <p> 아래는 시험 결과. 토,일 둘다 결혼식이라서 늦게 시작해서, 예선 통과 점수만 넘어서 다음날 결혼식을 위해 자버렸다는;;; 나머지 문제들은 나중에 풀려고 했는데 일주일 넘게 지난 오늘도 안 풀어보고 있음...;; 1,2번 문제 small 풀어서 25점. large 하나 10점으로. 35점. 정확히 몇명이 참가했는지는 모르겠는데, 1번 문제(가장 쉬움)를 19998명이 낸걸 봐서는 약 2만명 정도가 참가한거 같다. 난 11608등 ㅋㅋ 딱 중간이라고 하고 싶음 -0-</p>
-<p><img src="submission.png" width="620" height="149" /></p>
+<img src="submission.png" width="620" height="149" />
+
 <p>참고로 1번 Speaking in Tongues 문제는 알파벳을 뒤섞어놓아서, 1:1 mapping table 만 만들면 쉽게 풀 수 있다. 예제 입력/출력으로 간단히 table 만들고, 빠진 2개 문자만 찾으면 끝~</p>
 <p>ps : 코드잼과 같은 알고리즘 문제를 풀려면, 기본 자료 구조와 알고리즘을 공부하고, 알고리즘 트레이닝 북(<a href="http://www.yes24.com/24/Goods/1396784?Acode=101" class="uri">http://www.yes24.com/24/Goods/1396784?Acode=101</a>) 과 같은 책으로 공부하는게 좋다... 라고 생각하지만 정작 사놓고 잘 안보고 있음;; 역시 난 과학과보다는 공학과 스타일(!) ㅋ</p>
 <p>ps2 : 이 포스팅은 Outsider 님의 포스팅(<a href="http://blog.outsider.ne.kr/775" class="uri">http://blog.outsider.ne.kr/775</a>)을 보고 자극받아서 2시간째 문제를 다시 떠올리면서 작성 중... 역시 뭐라도 자꾸 블로그에 글을 남겨야한다는 생각으로~ 시작했는데, 처음에는 내 생각을 쉽게 풀어 써봐야지 했는데 적다보니 글로 (알고리즘)생각을 적어낸다는게 정말 어려움을 느낌 ㅠㅜ</p>
