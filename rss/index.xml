@@ -4,8 +4,19 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Thu, 20 Dec 2018 15:29:25 GMT</pubDate>
+    <pubDate>Sat, 02 Mar 2019 15:07:47 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>CD ROM에서 Audio CD를 인식하지 못해서 고생함</title>
+      <link>http://blog.wimy.com/450</link>
+      <description>&lt;p&gt;그냥 몇 일간 고생한 게 억울해서 글로 남겨본다.&lt;/p&gt;
+&lt;p&gt;책을 사면, 오디오 시디를 주는 책들이 있고, 당연히 휴대폰이나 차에서 들으려고 mp3로 만들어서 듣는다. 요즘은 데스크탑PC에는 CD-ROM/DVD-ROM을 보통 장착하지 않고, 나같이 꼭 필요한 사람들은 휴대용(Portable) CD-ROM/DVD-ROM을 사서 필요할 때만 USB로 연결해서 쓴다. 그런데!!!&lt;/p&gt;
+&lt;p&gt;이상하게 윈도우를 재설치한 이 후로 오디오 시디를 컴퓨터가 인식하지 못했다. 혹시나 해서 노트북에 휴대용 CD-ROM/DVD-ROM을 연결해도 오디오 시디를 인식하지 못했다. 사용하지 않던 데스크탑용 CD-ROM/DVD-ROM도 있었는데 이걸 연결해도 인식하지 못했다. 웃긴건 오디오 시디는 인식하지 못하는데 DVD는 인식해서 플레이도 잘 되었다. 당연히 다른 오디오 시디를 넣어도 안되고...&lt;/p&gt;
+&lt;p&gt;혹~~~시나 해서 휴대용 CD-ROM/DVD-ROM을 하나 새로 사서 연결하니 잘 되었음 ㅠㅜ 결론은 휴대용 CD-ROM/DVD-ROM과 데스크탑용 CD-ROM/DVD-ROM 둘다 오디오 시디만 인식 못하는 문제가 있는 걸로 결론남.&lt;/p&gt;
+&lt;p&gt;핵심: CD-ROM 기능과 DVD-ROM기능은 별개의 기능으로 별도로 고장날 수 있음. 물론 나의 PS3처럼 둘다 한번에 고장날 수도 있음&lt;/p&gt;</description>
+      <guid>http://blog.wimy.com/450</guid>
+      <pubDate>Fri, 01 Mar 2019 14:10:08 GMT</pubDate>
+    </item>
     <item>
       <title>윈도우10에서 미러링 중 &amp;#39;다시 동기화하는 중&amp;#39; 퍼센트가 나오지 않는 현상</title>
       <link>http://blog.wimy.com/449</link>
@@ -55,7 +66,7 @@
       <description>&lt;p&gt;&lt;img src="Summer.png" alt="여름 서비스 종료" /&gt;&lt;/p&gt;
 &lt;p&gt;여름이라는 앱이 종료되었다. 그렇게 많이 알려진 앱은 아니지만, SK텔레콤에서 제공했던 문자 앱이다. 구글에 '여름 문자 대체'를 검색해보면 꽤 많은 사람들이 이 앱을 잘 쓰고 있었음을 알 수 있다. 물론 나도 그 중의 한 사람이다.&lt;/p&gt;
 &lt;p&gt;나는 넥서스5라는 기기를 사용하고 있는데, 구글에서 제공해주는 기본 문자앱이 영 마음에 들지 않아서 다른 문자앱을 찾아보고 있었는데, 다들 고만고만하기도 하고, 외국 앱이 우리나라의 MMS를 제대로 지원해주지 않을 것같고, T전화를 워낙 만족스럽게 쓰고 있었기 때문에 같은 회사에서 나온 '여름' 앱을 골랐었다. 그런데 앱 서비스가 종료되었다.&lt;/p&gt;
-&lt;p&gt;사실 &amp;quot;T전화&amp;quot;가 꽤 인기가 있다. 기본적인 스팸 관리 기능이 사용자들에게 좋은 평가를 얻고 있으면서, SKT외에도 다른 사용자들에게도 사용하게 해준게 꽤 좋은 평가를 얻고 있는게 아닌가 싶다. 그래서 여름앱을 만족스럽게 쓰면서 자연스레 &amp;quot;이거 SKT에서 통신사의 새로운 기준을 제시하겠구나&amp;quot;라는 생각이 들었었다. 바로, 통신사에서 제일 잘할 수 있는, &amp;quot;전화와 문자 서비스&amp;quot;를 제대로 짚었기 때문이었다.&lt;/p&gt;
+&lt;p&gt;사실 "T전화"가 꽤 인기가 있다. 기본적인 스팸 관리 기능이 사용자들에게 좋은 평가를 얻고 있으면서, SKT외에도 다른 사용자들에게도 사용하게 해준게 꽤 좋은 평가를 얻고 있는게 아닌가 싶다. 그래서 여름앱을 만족스럽게 쓰면서 자연스레 "이거 SKT에서 통신사의 새로운 기준을 제시하겠구나"라는 생각이 들었었다. 바로, 통신사에서 제일 잘할 수 있는, "전화와 문자 서비스"를 제대로 짚었기 때문이었다.&lt;/p&gt;
 &lt;p&gt;T전화와 여름앱은 SKT에서 만들었지만, 모든 통신사들에서 쓸 수 있었다. 삼성에서 만든 휴대폰이든, LG, 구글에서 만든 휴대폰이든 SKT, KT, LGT를 쓰든, 모든 안드로이드 폰이 이 앱을 사용할 수 있었다. 정말 제대로 잘 만든다면, 전세계 모든 안드로이드 앱의 전화와 문자앱을 SKT에서 먹어버릴 수 있는 상황이었다. 특히 T전화는 삼성에서도 T전화를 벤치마킹한다는 말이 나올 정도였다.&lt;/p&gt;
 &lt;p&gt;만약 이렇게 계속 영향력을 넓혀서 문자 시장에서도 최고자리를 차지한다면, 자연스럽게 다른 앱으로 영향력을 넓힐 수 있을 것이었다. 예를 들면, 구글의 inbox처럼 문자를 할 일 목록처럼 관리해서 개인비서나 노트앱 시장을 노려본다와 같은 시도를 해볼 수 있었을 것이다.&lt;/p&gt;
 &lt;p&gt;사실 딱히 돈이 안되고, 당장 눈에 보이는 성과가 없으니 서비스를 종료하지 않았나하는 생각이 든다. 특히 문자 시장은 저물어가는 시장으로 인식되어서 그런가 싶다. 하지만 이 상황에서도 통신사가 본의아니게 우위를 점하고 있는게 사실 전화와 문자이다. 역설적이지만, 카카오톡과 같은 메신저들이 득세를 해도 모든 휴대폰에는 문자앱이 설치되어 있다. 그리고 아직까지는 많은 서비스들(카드 결제 알림, 공과금 안내 등)이 문자를 통해서 이루어지고 있다. 앞에서 얘기한 것처럼 T전화가 전화 서비스를 제대로 제공하고 사용자들에게 다가가는데 성공했다면, 자연스레 문자앱 시장에서도 성공하는게 당연한 수순으로 보였다.&lt;/p&gt;
@@ -116,8 +127,8 @@
       <title>미니멀리즘 책을 읽고 실행하다</title>
       <link>http://blog.wimy.com/442</link>
       <description>&lt;p&gt;회사에서 eBook 대여를 해주기 시작하면서, 아내가 관심있어하고, 직장 동료도 관심을 가지고 실천해서, 미니멀리즘 관련 책을 3권쯤 읽어봤다.&lt;/p&gt;
-&lt;p&gt;&amp;quot;나는 단순하게 살기로 했다&amp;quot;, &amp;quot;버리면 버릴수록 행복해졌다&amp;quot;, &amp;quot;미니멀라이프 아이디어 55&amp;quot;&lt;/p&gt;
-&lt;p&gt;기본은 불필요한 물건을 버리기. 버리면 공간이 넓어진다. 버린 후 남겨진 물건들에 집중하게 된다. 모든 물건들은 메시지를 보낸다고 한다. &amp;quot;날 좀 봐줘!! 날 언제쓸꺼야! 난 잊어버린거야?&amp;quot; 이런 메시지들이 여기저기서 받게 되면, 우리는 은연 중에 스트레스를 받게 된다.&lt;/p&gt;
+&lt;p&gt;"나는 단순하게 살기로 했다", "버리면 버릴수록 행복해졌다", "미니멀라이프 아이디어 55"&lt;/p&gt;
+&lt;p&gt;기본은 불필요한 물건을 버리기. 버리면 공간이 넓어진다. 버린 후 남겨진 물건들에 집중하게 된다. 모든 물건들은 메시지를 보낸다고 한다. "날 좀 봐줘!! 날 언제쓸꺼야! 난 잊어버린거야?" 이런 메시지들이 여기저기서 받게 되면, 우리는 은연 중에 스트레스를 받게 된다.&lt;/p&gt;
 &lt;p&gt;나는 기본적으로 쇼핑을 즐기지 않고, 뭔가를 막 사모으는 사람은 아니지만, 뭔가를 정말 버리지 못하는 사람인 건 확실했다. 그런데 버리기 시작하니 기분이 좋다. 뭔가 마음의 짐을 버리는 느낌이다.&lt;/p&gt;
 &lt;p&gt;책을 읽고나서, 많은 물건들을 필요한 사람에게 주고, 팔고, 버렸다. 특히 읽지도 않고 쌓아두던 많은 책들을 버렸다;; 그랬더니, 남은 책들은 열심히 읽기 시작했다. 그리고 버려두었던 블로그에도 다시 글을 쓰기 시작했다.&lt;/p&gt;
 &lt;p&gt;버릴 것들을 정리하면서, 쓸 수 있는 것들을 다시 확인해보니, 넥서스7가 있었다. 이제 넥서스7을 들고다니면서 eBook을 퇴근길에 보기 시작했다. 하루에 조금이라도 더 책을 읽기 시작하니, 삶에 활력이 더해지는 느낌이다.&lt;/p&gt;</description>
@@ -129,7 +140,7 @@
       <link>http://blog.wimy.com/441</link>
       <description>&lt;p&gt;&lt;img src="CleanCode.jpg" alt="CleanCode" /&gt;&lt;/p&gt;
 &lt;p&gt;Clean Code를 읽었다. 육아에 지치고, 컴퓨터에 앉으면 코딩을 우선시하느라 당분간 책을 못 읽었었는데, 마음잡고 하루에 1챕터씩 읽어내려갔다. 하루에 1챕터라는 목표를 정하고, 애들 재우고 나와서 무조건 책을 읽고 다른 일을 시작한다고 정하니 확실히 목표를 달성할 수 있었다.&lt;/p&gt;
-&lt;p&gt;책 내용은 코딩의 전반적인 권장 사항에 관해서이다. 결론을 요약하자면, &amp;quot;읽기 좋게 코드를 짜라. 테스트 코드를 짜라. 시간을 들여서 코드를 재검토해라&amp;quot;로 요약해볼 수 있겠다. 알면서도 지키지 못했던 부분들을 꼬집는 내용을 읽을 때마다 뜨끔뜨끔했다;; 그리고 어렴풋이 그러리라 생각했던 부분들을, 왜 그런지, 어떻게 해야하는지를 명확히 적어놓은 부분들이 많았다. 꼭 몸에 익히도록 해야겠다.&lt;/p&gt;
+&lt;p&gt;책 내용은 코딩의 전반적인 권장 사항에 관해서이다. 결론을 요약하자면, "읽기 좋게 코드를 짜라. 테스트 코드를 짜라. 시간을 들여서 코드를 재검토해라"로 요약해볼 수 있겠다. 알면서도 지키지 못했던 부분들을 꼬집는 내용을 읽을 때마다 뜨끔뜨끔했다;; 그리고 어렴풋이 그러리라 생각했던 부분들을, 왜 그런지, 어떻게 해야하는지를 명확히 적어놓은 부분들이 많았다. 꼭 몸에 익히도록 해야겠다.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://docs.google.com/document/d/1jLGEkWy5V7CCus5gWjioVJNMoAk3aBgRJHVISuA_hnE/pub"&gt;구글 문서에 정리한 내용 링크&lt;/a&gt;&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/441</guid>
       <pubDate>Tue, 04 Apr 2017 14:07:16 GMT</pubDate>
@@ -169,7 +180,7 @@
     <item>
       <title>대체 누가 내 스택에 숫자 2를 적었나</title>
       <link>http://blog.wimy.com/435</link>
-      <description>&lt;p&gt;&lt;a href="http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/" class="uri"&gt;http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/"&gt;http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;갑자기 스택에 이상한 값이 쓰여지는 현상을 디버깅하는 과정을 정리한 글. 과정을 따라가는 것이 흥미롭다.&lt;/p&gt;
 &lt;p&gt;결론은 시스템 콜 안에서 예외가 발생해서 unwinding 되었고, 콜 안에서 사용된 스택 변수의 값이 뒤늦게 세팅되어서 발생되었다.&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/435</guid>
@@ -204,11 +215,11 @@
     <item>
       <title>한국에서 appengine 응답이 느린 이유는 위치 때문이다</title>
       <link>http://blog.wimy.com/431</link>
-      <description>&lt;p&gt;뭐 당연한 얘기일 수도 있는데, go언어를 appengine 으로 개발하면서 로컬에서 띄운 서버인데도 1초 정도 걸렸다. 너무 느려서 stackoverflow 에 질문했더니... &lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/" class="uri" class="tx-link"&gt;&lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/" class="uri"&gt;http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/&lt;/a&gt;&lt;/a&gt; 실서버에서는 괜찮을거라고...&lt;/p&gt;
+      <description>&lt;p&gt;뭐 당연한 얘기일 수도 있는데, go언어를 appengine 으로 개발하면서 로컬에서 띄운 서버인데도 1초 정도 걸렸다. 너무 느려서 stackoverflow 에 질문했더니... &lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/" class="uri" class="tx-link"&gt;&lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/"&gt;http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/&lt;/a&gt;&lt;/a&gt; 실서버에서는 괜찮을거라고...&lt;/p&gt;
 &lt;p&gt;근데 나는 실서버에 올려도 느려서 혹시나 하고 developer console 에서 확인해보니 appengine 의 위치가 us-central 이다. 그래서 azure 를 통해서 가상 컴퓨터를 미국 중부에 만들어서 접속해보니 37ms 안에 응답이 시작되었다. 역시...&lt;/p&gt;
 &lt;p&gt;appengine 을 쓸 때는 빠른 응답을 기대하고 쓰면 안되겠군.&lt;/p&gt;
-&lt;p&gt;테스트 사이트 : &lt;a href="http://test-try-go.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://test-try-go.appspot.com/" class="uri"&gt;http://test-try-go.appspot.com/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;소스 코드 : &lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go" class="uri"&gt;https://github.com/GoogleCloudPlatform/appengine-try-go&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;테스트 사이트 : &lt;a href="http://test-try-go.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://test-try-go.appspot.com/"&gt;http://test-try-go.appspot.com/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;소스 코드 : &lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go"&gt;https://github.com/GoogleCloudPlatform/appengine-try-go&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/431</guid>
       <pubDate>Sat, 28 Nov 2015 02:53:14 GMT</pubDate>
     </item>
@@ -226,9 +237,9 @@
 &lt;p&gt;* 5초/10초 앞으로 가기&lt;/p&gt;
 &lt;p&gt;* 자막 켜고 끄기&lt;/p&gt;
 &lt;p&gt;* 사전 연동&lt;/p&gt;
-&lt;p&gt;소개 동영상 주소는 &lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE" class="uri" class="tx-link"&gt;&lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE" class="uri"&gt;https://www.youtube.com/watch?v=_UVfek-zRqE&lt;/a&gt;&lt;/a&gt; 이다.&lt;/p&gt;
-&lt;p&gt;홈페이지 주소는 &lt;a href="http://tube-english.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://tube-english.appspot.com/" class="uri"&gt;http://tube-english.appspot.com/&lt;/a&gt;&lt;/a&gt; 이다. 여기서 검색 창에 YouTube 주소를 붙여넣고 검색하면 위의 화면처럼 로딩되면서 앞의 기능들을 사용할 수 있다. 크롬 웹브라우저에서는 &lt;a href="https://chrome.google.com/webstore/detail/bcojlbpjgjmaniipjelppbehhfhankcb/publish-accepted?hl=ko&amp;amp;utm_source=chrome-ntp-launcher" class="tx-link"&gt;[플러그인]&lt;/a&gt; 을 설치하면 YouTube 에서 동영상을 보다가 원클릭에 갈 수 있다.&lt;/p&gt;
-&lt;p&gt;오픈소스이며 주소는 &lt;a href="https://github.com/zelon/youtube-english" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/zelon/youtube-english" class="uri"&gt;https://github.com/zelon/youtube-english&lt;/a&gt;&lt;/a&gt; 이다. 개발 환경은 golang + appengine, javascript, bootstrap, chrome extension 이다.&lt;/p&gt;
+&lt;p&gt;소개 동영상 주소는 &lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE" class="uri" class="tx-link"&gt;&lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE"&gt;https://www.youtube.com/watch?v=_UVfek-zRqE&lt;/a&gt;&lt;/a&gt; 이다.&lt;/p&gt;
+&lt;p&gt;홈페이지 주소는 &lt;a href="http://tube-english.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://tube-english.appspot.com/"&gt;http://tube-english.appspot.com/&lt;/a&gt;&lt;/a&gt; 이다. 여기서 검색 창에 YouTube 주소를 붙여넣고 검색하면 위의 화면처럼 로딩되면서 앞의 기능들을 사용할 수 있다. 크롬 웹브라우저에서는 &lt;a href="https://chrome.google.com/webstore/detail/bcojlbpjgjmaniipjelppbehhfhankcb/publish-accepted?hl=ko&amp;amp;utm_source=chrome-ntp-launcher" class="tx-link"&gt;[플러그인]&lt;/a&gt; 을 설치하면 YouTube 에서 동영상을 보다가 원클릭에 갈 수 있다.&lt;/p&gt;
+&lt;p&gt;오픈소스이며 주소는 &lt;a href="https://github.com/zelon/youtube-english" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/zelon/youtube-english"&gt;https://github.com/zelon/youtube-english&lt;/a&gt;&lt;/a&gt; 이다. 개발 환경은 golang + appengine, javascript, bootstrap, chrome extension 이다.&lt;/p&gt;
 &lt;p&gt;나름 열심히 준비했는데, 아이디어가 조금 부족했던 것 같다. 나름 요긴하게 쓰는 사이트가 되겠지만 말이다. 아쉽지만, 다음을 기약하며 관련 지식을 좀 더 습득했는 걸로 만족하자.&lt;/p&gt;
 &lt;p&gt;끝.&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/430</guid>
@@ -239,9 +250,9 @@
       <link>http://blog.wimy.com/429</link>
       <description>&lt;p&gt;google hackfair 2015 를 준비하면서 겪었던 것들을 잊기 전에 정리해본다. 아쉽게도 전시회 명단에는 들지 못했지만 ㅠㅜ&lt;/p&gt;
 &lt;p&gt;go 로 만든다고 매우 큰 속도 향상은 없었다. 연산을 많이 하는 작업은 빨라질 거라 예상하는데, 단순한 request~response 의 경우 속도가 그렇게 빠르다는 느낌은 없다. (내가 아직 잘 몰라서겠지만)오히려 단순한 작업의 경우 1,2초의 응답 속도를 보일 때가 있다. 왜 그런지는 좀 더 파악해봐야 할듯.&lt;/p&gt;
-&lt;p&gt;appengine 에서 datastore 를 사용할 때 로컬에서는 문제가 없었는데 실제 서버에서 &amp;quot;&amp;quot; 이런 오류가 날 경우가 있다. 해당 쿼리문의 조합을 지원하는 복합 인덱스가 있어야 한다는 것인데, 로컬 서버에서는 문제가 없었기 때문에 좀 난감했다. 로컬 서버를 띄울 때 'devappserver.py --require_indexes yes .' 형태로 띄우면 로컬 서버에서도 해당 문제가 재현이 된다. 원인은 index.yaml 에 복합 인덱스를 실수로 수동으로 지웠기 때문이었다. require indexes 옵션없이 로컬에서 서버를 동작시키면 index.yaml 파일을 갱신해주는데 이 파일을 수동으로 편집하고 서버에 올렸기 때문에 발생한 문제였다. 이것도 나중에 자세히 살펴봐야할듯. 여튼 중요한 건, 쿼리문에서 2개 이상의 필드를 함께 사용하면 그 필드들이 묶인 복합 인덱스가 필요하다. filter(&amp;quot;A&amp;quot;).order(&amp;quot;B&amp;quot;) 이면 A+B 의 복합 인덱스가 필요.&lt;/p&gt;
-&lt;p&gt;datastore 에서 1500자 넘는 문자열은 string 으로 저장이 안되는 것으로 나오는데, 좀 더 살펴보니 index 를 걸지 않으면 사용할 수 있다. 자동으로 index 가 걸려서 사용 못하나 싶었지만, `datastore:&amp;quot;,noindex&amp;quot;` 를 구조체 필드에 붙여주면 index 를 걸지 않게 된다.&lt;/p&gt;
-&lt;p&gt;일반 go 언어에서는 http.Get 으로 다른 웹페이지를 가져오지만, appengine 에서는 &amp;quot;appengine/urlfetch&amp;quot; 를 사용해야 한다&lt;/p&gt;
+&lt;p&gt;appengine 에서 datastore 를 사용할 때 로컬에서는 문제가 없었는데 실제 서버에서 "" 이런 오류가 날 경우가 있다. 해당 쿼리문의 조합을 지원하는 복합 인덱스가 있어야 한다는 것인데, 로컬 서버에서는 문제가 없었기 때문에 좀 난감했다. 로컬 서버를 띄울 때 'devappserver.py --require_indexes yes .' 형태로 띄우면 로컬 서버에서도 해당 문제가 재현이 된다. 원인은 index.yaml 에 복합 인덱스를 실수로 수동으로 지웠기 때문이었다. require indexes 옵션없이 로컬에서 서버를 동작시키면 index.yaml 파일을 갱신해주는데 이 파일을 수동으로 편집하고 서버에 올렸기 때문에 발생한 문제였다. 이것도 나중에 자세히 살펴봐야할듯. 여튼 중요한 건, 쿼리문에서 2개 이상의 필드를 함께 사용하면 그 필드들이 묶인 복합 인덱스가 필요하다. filter("A").order("B") 이면 A+B 의 복합 인덱스가 필요.&lt;/p&gt;
+&lt;p&gt;datastore 에서 1500자 넘는 문자열은 string 으로 저장이 안되는 것으로 나오는데, 좀 더 살펴보니 index 를 걸지 않으면 사용할 수 있다. 자동으로 index 가 걸려서 사용 못하나 싶었지만, `datastore:",noindex"` 를 구조체 필드에 붙여주면 index 를 걸지 않게 된다.&lt;/p&gt;
+&lt;p&gt;일반 go 언어에서는 http.Get 으로 다른 웹페이지를 가져오지만, appengine 에서는 "appengine/urlfetch" 를 사용해야 한다&lt;/p&gt;
 &lt;p&gt;index.yaml 에서 특정 디렉토리 전체를 업로드/노출시킬 수 있다. static_dir 구문을 사용하면 쉽게 가능하다.&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/429</guid>
       <pubDate>Tue, 24 Nov 2015 14:48:20 GMT</pubDate>
@@ -344,7 +355,7 @@
     <item>
       <title>[책] 프로그래머가 몰랐던 멀티코어 CPU 이야기</title>
       <link>http://blog.wimy.com/420</link>
-      <description>&lt;p&gt;서버 프로그래머라면 확 땡기는 제목을 가진 &amp;quot;멀티코어 CPU 이야기&amp;quot; 책을 사둔지는 꽤 된 것 같은데 이상하게 어려울 것이라는 생각에 책을 펼쳐보지 않았던 것 같다 -_-;;; 일단 읽어보니 쉽고 재미있게 적혀있고, 내가 컴퓨터과학을 전공하여 그나마 한번쯤은 들어본 단어들도 많이 나왔다. 항상 책을 읽고나서 좋은 책이었으면 하는 생각이 &amp;quot;왜 좀 더 빨리 이 책을 읽지 않았을까... ㅠㅜ&amp;quot; 이 책도 그런 책 중의 하나가 될 것 같다.&lt;/p&gt;
+      <description>&lt;p&gt;서버 프로그래머라면 확 땡기는 제목을 가진 "멀티코어 CPU 이야기" 책을 사둔지는 꽤 된 것 같은데 이상하게 어려울 것이라는 생각에 책을 펼쳐보지 않았던 것 같다 -_-;;; 일단 읽어보니 쉽고 재미있게 적혀있고, 내가 컴퓨터과학을 전공하여 그나마 한번쯤은 들어본 단어들도 많이 나왔다. 항상 책을 읽고나서 좋은 책이었으면 하는 생각이 "왜 좀 더 빨리 이 책을 읽지 않았을까... ㅠㅜ" 이 책도 그런 책 중의 하나가 될 것 같다.&lt;/p&gt;
 &lt;p&gt; 멀티코어 CPU 의 동작 방식을 차근차근 풀어나가면서 이런저런 기법들로 CPU 가 돌아가고, 우리는 프로그래밍을 할 때 이런 것들을 고려하면 좋겠다 정도로 이 책을 요약....(너무 짧은가...)할 수 있을 것 같다.&lt;/p&gt;
 &lt;p&gt; 이 책을 보고 뽐뿌를 받아서, 미루고 있던 멀티스레드 적용을 ZViewer 의 디코딩 쓰레드를 FileIO 와 Decode 스레드로 분리해서 적용을 해봤는데 대략 2개의 이미지를 읽는데 기존의 60%의 시간만 걸렸다. 만족 중~&lt;/p&gt;
 &lt;p&gt; 책의 밑줄 친 내용은 &lt;a href="https://docs.google.com/document/d/105D0-K746Mgk-scuDWUVmuKxcs_a3De4n9r0j_ysJYw/edit?usp=sharing" class="tx-link"&gt;구글 문서[링크]&lt;/a&gt;로 정리했다.&lt;/p&gt;
@@ -365,8 +376,8 @@
       <link>http://blog.wimy.com/418</link>
       <description>&lt;p&gt; 갑자기 boost 라이브러리의 asio 를 써보고 싶어져서 boost 를 다운받아서 잠깐 매뉴얼을 읽어본 후에 하라는 대로 bootstrap 과 b2 를 실행해서 라이브러리 빌드를 한 다음에 Visual Studio 2013 에서 asioTest 프로젝트를 만든 후 include/lib 디렉토리를 제대로 설정 후 빌드를 걸었더니 다음과 같은 링크 에러가 났다.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Error    1    error LNK2019: unresolved external symbol &amp;quot;class boost::system::error_category const &amp;amp; __cdecl boost::system::system_category(void)&amp;quot; (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function &amp;quot;public: __cdecl boost::system::error_code::error_code(void)&amp;quot; (??0error_code@system@boost@@QEAA@XZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
-&lt;p&gt;Error    2    error LNK2019: unresolved external symbol &amp;quot;class boost::system::error_category const &amp;amp; __cdecl boost::system::generic_category(void)&amp;quot; (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function &amp;quot;void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)&amp;quot; (??__Eerrno_ecat@system@boost@@YAXXZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
+&lt;p&gt;Error    1    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "public: __cdecl boost::system::error_code::error_code(void)" (??0error_code@system@boost@@QEAA@XZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
+&lt;p&gt;Error    2    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)" (??__Eerrno_ecat@system@boost@@YAXXZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt; 대충 해석해보면, boost::system::system_category 를 찾을 수 없다는건데, 강제적으로 라이브러리 파일 링크를 걸어봐도 안되고, 도통 알 수가 없었다. 그러다가 asio 를 사용 중인 지인의 도움을 받아서 이리저리 비교해보다가 그 분도 링크 에러가 난 적이 있다면서, Win32 build 에서는 같은 에러가 나는 것을 보게 되었다...&lt;/p&gt;
 &lt;p&gt; 그랬다. 나는 요즘 계속 x64 프로그래밍만 하고 있어서 무의식적으로 x64 로 프로젝트를 설정했는데, boost 라이브러리는 win32 로 빌드가 기본이었다.&lt;/p&gt;
@@ -379,7 +390,7 @@
       <title>Google Inbox 에 대한 생각</title>
       <link>http://blog.wimy.com/417</link>
       <description>&lt;p&gt;난 스마트폰을 자주 쓴다. 버스를 타고 갈 때도, 자기 전에도, 컴퓨터 앞에서도 종종 쓴다. 그리고 트위터도 한다(주로 읽기만 하지만), 페이스북도 한다. 하지만 이런 것들은 짧은 시간동안 하는 것들이다. 예를 들어, 트위터에서 꽤 괜찮은 글을 발견했다. 하지만 난 버스에서 내려야 한다. 그러면 난 SendMe 를 이용해서 해당 링크를 나의 지메일로 보내놓고, 시간이 될 때, 스마트폰의 메일함이나, 데스크탑의 메일함에서 해당 메일을 열어서 천천히 해당 글을 읽어본다.&lt;/p&gt;
-&lt;p&gt; SendMe - (&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme" class="uri" class="tx-link"&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme" class="uri"&gt;https://play.google.com/store/apps/details?id=com.wimy.android.sendme&lt;/a&gt;&lt;/a&gt;) 는 한창 안드로이드를 공부할 때 취미로 만들어본 프로그램인데, 안드로이드의 '공유' 를 눌렀을 때 항상 내 메일주소로 해당 내용을 공유하는 간단한 프로그램이다. 쉽게 얘기하자면 지메일을 띄우고, 내 메일 주소, 제목, 본문을 자동으로 넣어주는 셈이다. 안드로이드 앱의 많은 앱들이 '공유' 기능을 지원하기 때문에 많은 앱들의 내용을 나에게 메일로 쉽게 내용을 보낼 수 있다.&lt;/p&gt;
+&lt;p&gt; SendMe - (&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme" class="uri" class="tx-link"&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme"&gt;https://play.google.com/store/apps/details?id=com.wimy.android.sendme&lt;/a&gt;&lt;/a&gt;) 는 한창 안드로이드를 공부할 때 취미로 만들어본 프로그램인데, 안드로이드의 '공유' 를 눌렀을 때 항상 내 메일주소로 해당 내용을 공유하는 간단한 프로그램이다. 쉽게 얘기하자면 지메일을 띄우고, 내 메일 주소, 제목, 본문을 자동으로 넣어주는 셈이다. 안드로이드 앱의 많은 앱들이 '공유' 기능을 지원하기 때문에 많은 앱들의 내용을 나에게 메일로 쉽게 내용을 보낼 수 있다.&lt;/p&gt;
 &lt;p&gt; 여튼 나는 이렇게 스마트폰을 활용하고 있었는데, 구글에서 Inbox 라는 것을 발표했다. 발표한지는 조금 되었는데 구글에 관심이 많은 나도 '이메일이 얼마나 다르겠어' 라면서 신경을 안 쓰고 있다가, 얼마전에 우연히 'inbox 는 지메일을 todo 처럼 관리한다' 는 문구를 보고 급히 초대 신청을 해서 써보게 되었다. 그래서 관련 글들도 조금 살펴봤는데, 구글에서는 많은 사람들이 지메일을 할일목록처럼 사용한다는 사실을 알게되었고 그래서 inbox 가 나왔다고 한다. 사실 나도 SendMe 를 통해서 지메일을 마치 할일목록처럼 사용하고 있었기 때문에, 많은 사람들이 나처럼 지메일을 사용하는구나 싶었다. &lt;span style="font-size: 9pt; line-height: 1.5;"&gt;사실 개인적인 이메일보다, 회사에서의 이메일 사용패턴을 생각해보면, 이메일은 정말 '할일목록' 이라는 생각이 많이 든다.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt; Inbox 를 잠깐 써본 소감은 간단히 얘기하자면 '지메일의 용어를 바꾸고, 알림을 추가했다' 정도이다. 기본 메일 목록을 할일 목록으로 생각하고, 보관함은 처리가 끝난 일로 생각한다. 이 방법은 사실 지메일을 할일목록처럼 쓰던 많은 사람들이 머릿속으로 생각하고 있던 방식일 것이다. 그리고 여기에 할일목록 앱의 기본 기능 중 하나인 알람을 넣었다.&lt;/p&gt;
 &lt;p&gt; 사람들의 사용 패턴을 분석하고, 그에 기반하여 새로운 관점을 만들어내었다. 이런 형태로 얼마나 많은 사람들이 사용할지는 모르겠지만 나에게는 정말 맞춤앱이라는 생각까지 든다. 구글에서 앞으로 내놓을 새로운 관점들도 기대한다.&lt;/p&gt;</description>
@@ -421,13 +432,13 @@
     <item>
       <title>Google Cloud Storage 를 백업으로 사용하기</title>
       <link>http://blog.wimy.com/414</link>
-      <description>&lt;p&gt;구글에서 클라우드(&lt;a href="https://cloud.google.com)라는" class="uri"&gt;https://cloud.google.com)라는&lt;/a&gt; 이름으로 여러 서비스들을 하고 있다. 대표적으로 Google App Engine, Compute Engine, Big Query 등이 있는데, 이 중에 Google Storage 라는 게 있다. AWS 의 S3 에 해당하는, 클라우드 파일 저장 공간쯤되는데, 어느날 구글에서 준 100만원쯤이었나 여튼 큰 쿠폰이 있어서 써보기 시작했었다.&lt;/p&gt;
+      <description>&lt;p&gt;구글에서 클라우드(&lt;a href="https://cloud.google.com)라는"&gt;https://cloud.google.com)라는&lt;/a&gt; 이름으로 여러 서비스들을 하고 있다. 대표적으로 Google App Engine, Compute Engine, Big Query 등이 있는데, 이 중에 Google Storage 라는 게 있다. AWS 의 S3 에 해당하는, 클라우드 파일 저장 공간쯤되는데, 어느날 구글에서 준 100만원쯤이었나 여튼 큰 쿠폰이 있어서 써보기 시작했었다.&lt;/p&gt;
 &lt;p&gt; 이런 저런 정리를 해보니 내 컴퓨터에서 가장 소중하다고 할만한 것들을 추려보니, 사진과 소스 코드가 남았고, 이들을 정리해서 올려보기로 했다. 대략 용량은 300기가 정도. 모두 올리고 요금을 보니 한달에 약 1만원쯤 나온다. 우리 집에 불이나도 나의 15년 간의 내용이 안전하게 보관된다고 생각하면 크게 나쁘지 않은 요금이라는 생각이었다.&lt;/p&gt;
 &lt;p&gt; 구글의 막강한 클라우드 환경을 사용하고, 최근에는 일본에 IDC 가 생겼기 때문에 속도도 나쁘지 않았다. 그리고 Google App Engine 을 꽤 오래 사용했기 때문에 안정성이나 확장성은 믿을 수 있었다.&lt;/p&gt;
 &lt;p&gt; 그런데 막상 쓰기 시작하니 이런저런 문제가 발견되었다.&lt;/p&gt;
 &lt;p&gt; 첫번째로 한글 사용에 문제가 있다. 정확하게는 파일 복사, 즉 업로드를 하는 gsutil 이라는 프로그램에서 윈도우에서(!) 한글 파일을 제대로 업로드하지 못하는 문제가 있다. 파이썬으로 만들어진 프로그램이라서 대충 패치를 해서 쓰고 있긴 하다(대충 우회만 하는 패치라서 구글에 보내봤더니 rejected ㅠㅜ).&lt;/p&gt;
 &lt;p&gt; 두번째도 gsutil 에 관한 것인데, 백업에 맞게(!), 편리하게(!) rsync 라는 명령이 제공된다. 특정 폴더를 클라우드의 특정 폴더에 말그대로 sync 해주는 기능인데, 이게 제대로 동작하지 않는다... rsync -n 으로 복사가 필요한 목록을 뽑은 다음에 rsync 를 실행시켜서 sync 가 되었겠지 했는데, 다시 rsync -n 으로 확인해보면 여전히 복사가 필요하다고 한다... 한글 때문일까...;; 이건 자세히 살펴보지는 않았음&lt;/p&gt;
-&lt;p&gt; 세번째로 웹 기반 회사인 구글이다보니 &lt;a href="https://console.developers.google.com" class="uri"&gt;https://console.developers.google.com&lt;/a&gt; 에서 웹으로 파일들을 관리할 수 있게 해준다. 그런데 이 웹이 구글의 이름에 걸맞지 않게 버그가 많다. 종종 화면이 멈춰버리고, 파일들을 삭제했는데 응답도 없고, 화면에 삭제한 파일들이 남아있어서 다른 페이지에 갔다가 와야 반영되기도 한다.&lt;/p&gt;
+&lt;p&gt; 세번째로 웹 기반 회사인 구글이다보니 &lt;a href="https://console.developers.google.com"&gt;https://console.developers.google.com&lt;/a&gt; 에서 웹으로 파일들을 관리할 수 있게 해준다. 그런데 이 웹이 구글의 이름에 걸맞지 않게 버그가 많다. 종종 화면이 멈춰버리고, 파일들을 삭제했는데 응답도 없고, 화면에 삭제한 파일들이 남아있어서 다른 페이지에 갔다가 와야 반영되기도 한다.&lt;/p&gt;
 &lt;p&gt; 결론은, Google Cloud Storage 는 윈도우에서 한글에 대한 배려가 부족하고, 웹콘솔은 아직 베타의 느낌이 남아있다. 그러니 이를 이용한 서비스를 개발할 때 이런 내용들을 고려해야 할 것 같다. 아마 구글에서도 인식하고 있으니 조만간 고쳐질 것 같긴한데, 서비스할 때는 한번쯤 체크~&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/414</guid>
       <pubDate>Wed, 15 Oct 2014 15:58:44 GMT</pubDate>
@@ -483,8 +494,8 @@
       <link>http://blog.wimy.com/408</link>
       <description>&lt;p&gt;이제 공식 다운로드가 생겨서 이 글에서의 링크는 내립니다.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt; 근래에 한참 프로그래머들의 화두가 되었던 Atom editor(&lt;a href="https://atom.io/" class="uri" class="tx-link"&gt;&lt;a href="https://atom.io/" class="uri"&gt;https://atom.io/&lt;/a&gt;&lt;/a&gt;). github 에서 만드는 프로그래머를 위한 편집기를 표방하고 있어서 관심있게 보고 있었는데, 얼마전에 누구나 다운로드 가능하도록 되었다. 그래서 써보려고 하는데, 맥용만 다운로드가 가능해서... 일단 맥에서 써봤지만... 아무래도 윈도우 프로그래머다보니 윈도우용을 써보고 싶었다. 그래서 집에서 가지고 놀던 Azure 에다가 가상머신을 하나 만들어서 빌드 환경을 구축해서 빌드시켰다.&lt;/p&gt;
-&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; &lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 빌드 과정은 &lt;/span&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md" class="uri"&gt;https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md&lt;/a&gt;&lt;/a&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 에 적힌대로하면 별 문제없었고, 다만 간과하기 쉬운게 Visual Studio 2010 Express 의 SP1 (Servicepack1) 을 꼭 설치해야한다는 것과 환경변수 path 경로에&lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; atom/repo/build/node_modules 를 추가해야한다는 정도.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; 근래에 한참 프로그래머들의 화두가 되었던 Atom editor(&lt;a href="https://atom.io/" class="uri" class="tx-link"&gt;&lt;a href="https://atom.io/"&gt;https://atom.io/&lt;/a&gt;&lt;/a&gt;). github 에서 만드는 프로그래머를 위한 편집기를 표방하고 있어서 관심있게 보고 있었는데, 얼마전에 누구나 다운로드 가능하도록 되었다. 그래서 써보려고 하는데, 맥용만 다운로드가 가능해서... 일단 맥에서 써봤지만... 아무래도 윈도우 프로그래머다보니 윈도우용을 써보고 싶었다. 그래서 집에서 가지고 놀던 Azure 에다가 가상머신을 하나 만들어서 빌드 환경을 구축해서 빌드시켰다.&lt;/p&gt;
+&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; &lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 빌드 과정은 &lt;/span&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md"&gt;https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md&lt;/a&gt;&lt;/a&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 에 적힌대로하면 별 문제없었고, 다만 간과하기 쉬운게 Visual Studio 2010 Express 의 SP1 (Servicepack1) 을 꼭 설치해야한다는 것과 환경변수 path 경로에&lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; atom/repo/build/node_modules 를 추가해야한다는 정도.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 다운로드 - 삭제함&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 위의 다운로드는 '윈도우 버젼'이 공식 릴리즈되거나, 드랍박스에 뭔가 문제가 생기거나, 여튼 임의로 내려갈 수 있으며, 현재 atom 에디터가 공식버젼도 불안정한 상태라는 것을 어느 정도는 감안하고 쓰세요~&lt;/span&gt;&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/408</guid>
@@ -493,8 +504,8 @@
     <item>
       <title>YouTube 임베드를 모바일 웹페이지에서 쓸 때 주의점</title>
       <link>http://blog.wimy.com/407</link>
-      <description>&lt;p&gt;&lt;a href="http://box.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://box.wimy.com/" class="uri"&gt;http://box.wimy.com/&lt;/a&gt;&lt;/a&gt; 을 만들어놓고 많은 시간이 지나서, 한번씩 이런저런 버그들을 고치고는 하지만, 모바일에서 재생이 제대로 안되는 건 정말 골치 아픈 일이다. 특히 작년까지만 해도 대부분의 스마트폰에서는 동영상을 full-frame 으로 보여주지도 못했으니... 이제는 그나마 성능은 어느 정도 받쳐주는 것 같다.&lt;/p&gt;
-&lt;p&gt; 그런데 최근에 다시 스마트 폰에서 해보니 재생이 안되는 것이다. 이래저래 디버깅을 해보다가 안되어서 구글 공식 문서를 뒤져보니, 이런 내용이 나왔다 : &lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations" class="uri"&gt;https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations&lt;/a&gt;&lt;/a&gt; 대충 읽어보면, &amp;quot;데이터망에서 원치않은 다운로드를 막기 위해서 임베드된 미디어는 자동으로 재생될 수 없다&amp;quot; 그래서, playVideo() 같은 함수들은 모바일 환경에서 재생이 제대로 되지 않는 것이었다. 그래서 필요한 것은?? 바로 &amp;quot;사용자의 인터랙션&amp;quot; 이다. 즉, 한번 터치해주면 잘 동작한다.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href="http://box.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://box.wimy.com/"&gt;http://box.wimy.com/&lt;/a&gt;&lt;/a&gt; 을 만들어놓고 많은 시간이 지나서, 한번씩 이런저런 버그들을 고치고는 하지만, 모바일에서 재생이 제대로 안되는 건 정말 골치 아픈 일이다. 특히 작년까지만 해도 대부분의 스마트폰에서는 동영상을 full-frame 으로 보여주지도 못했으니... 이제는 그나마 성능은 어느 정도 받쳐주는 것 같다.&lt;/p&gt;
+&lt;p&gt; 그런데 최근에 다시 스마트 폰에서 해보니 재생이 안되는 것이다. 이래저래 디버깅을 해보다가 안되어서 구글 공식 문서를 뒤져보니, 이런 내용이 나왔다 : &lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations"&gt;https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations&lt;/a&gt;&lt;/a&gt; 대충 읽어보면, "데이터망에서 원치않은 다운로드를 막기 위해서 임베드된 미디어는 자동으로 재생될 수 없다" 그래서, playVideo() 같은 함수들은 모바일 환경에서 재생이 제대로 되지 않는 것이었다. 그래서 필요한 것은?? 바로 "사용자의 인터랙션" 이다. 즉, 한번 터치해주면 잘 동작한다.&lt;/p&gt;
 &lt;p&gt; 그래서 html5 모드에서는 기본 재생을 일부러 막고, 사용자의 입력으로 재생이 시작되기를 기다린 후, 재생이 감지되면, 기존의 자동 플레이 모드처럼 동작하도록 수정했다. '한번만 터치되면', 그 다음부터는 playVideo() 등의 함수가 제대로 동작한다. 단 한번의 터치가 필요할 뿐...&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/407</guid>
       <pubDate>Tue, 15 Apr 2014 15:12:56 GMT</pubDate>
@@ -502,12 +513,12 @@
     <item>
       <title>Google Cloud DNS 설정하기 - How to set up google cloud dns</title>
       <link>http://blog.wimy.com/406</link>
-      <description>&lt;p&gt;Google에서 Cloud Platfrom 의 일원으로 Cloud DNS(&lt;a href="https://cloud.google.com/products/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://cloud.google.com/products/cloud-dns/" class="uri"&gt;https://cloud.google.com/products/cloud-dns/&lt;/a&gt;&lt;/a&gt;) 를 발표했다. DNSEver 의 유료화와 비슷한 시기에 발표되어서 관심을 가지고 설정을 해보았다. 난 이미 DNSEver 유료 결재를 해버린건 함정;;&lt;/p&gt;
+      <description>&lt;p&gt;Google에서 Cloud Platfrom 의 일원으로 Cloud DNS(&lt;a href="https://cloud.google.com/products/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://cloud.google.com/products/cloud-dns/"&gt;https://cloud.google.com/products/cloud-dns/&lt;/a&gt;&lt;/a&gt;) 를 발표했다. DNSEver 의 유료화와 비슷한 시기에 발표되어서 관심을 가지고 설정을 해보았다. 난 이미 DNSEver 유료 결재를 해버린건 함정;;&lt;/p&gt;
 &lt;p&gt; 가격은 현재(2014.04) 25개까지의 zone 을 유지하는데 한달에 zone 하나당 0.2달러. 100만 쿼리에 0.4달러. 나쁘지 않다. DNSEver 와 비교해도 나쁘지 않다 ㅋ 하지만 아직은 설정하기가 DNSEver 가 훨씬 편하다. 아마 google 에서 웹 인터페이스를 곧 제공하지 않을까 예상해본다(이미 API 도 있으니...)&lt;/p&gt;
-&lt;p&gt; 일단 &lt;a href="https://console.developers.google.com/project" class="uri" class="tx-link"&gt;&lt;a href="https://console.developers.google.com/project" class="uri"&gt;https://console.developers.google.com/project&lt;/a&gt;&lt;/a&gt; 에서 새로운 프로젝트를 만든 후, 아래의 그림처럼 API 를 열어주자. &amp;quot;Google Cloud DNS API&amp;quot; 를 ON 하려면 enable billing 을 해야한다. 카드 입력하면 1달러 우선 결재 +_+&lt;/p&gt;
+&lt;p&gt; 일단 &lt;a href="https://console.developers.google.com/project" class="uri" class="tx-link"&gt;&lt;a href="https://console.developers.google.com/project"&gt;https://console.developers.google.com/project&lt;/a&gt;&lt;/a&gt; 에서 새로운 프로젝트를 만든 후, 아래의 그림처럼 API 를 열어주자. "Google Cloud DNS API" 를 ON 하려면 enable billing 을 해야한다. 카드 입력하면 1달러 우선 결재 +_+&lt;/p&gt;
 &lt;img src="google_cloud_dns.png" width="620" height="190" /&gt;
 
-&lt;p&gt;이제 구글 Cloud DNS API 를 사용할 준비가 되었으면, &lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt;구글 클라우드 SDK 를 다운로드 하자.  &lt;/span&gt;&lt;span style="background-color: transparent;"&gt;&lt;a href="https://developers.google.com/cloud/sdk/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud/sdk/" class="uri"&gt;https://developers.google.com/cloud/sdk/&lt;/a&gt;&lt;/a&gt; 에서 다운로드 하면 된다. 다운로드 후 압축을 풀고, install.sh (리눅스나 맥)나 install.bat (윈도우)를 실행시키자. path 에 설치된 bin 경로를 추가하고 아래의 명령으로 dns 명령을 실행할 수 있게하자.(혹시나 아래의 명령이 기존의 SDK 를 업데이트만 하고 dns components 를 설치하지 않을 수도 있으니 이상하게 명령이 안먹히면 아래의 명령을 다시 한번 실행해보자)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이제 구글 Cloud DNS API 를 사용할 준비가 되었으면, &lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt;구글 클라우드 SDK 를 다운로드 하자.  &lt;/span&gt;&lt;span style="background-color: transparent;"&gt;&lt;a href="https://developers.google.com/cloud/sdk/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud/sdk/"&gt;https://developers.google.com/cloud/sdk/&lt;/a&gt;&lt;/a&gt; 에서 다운로드 하면 된다. 다운로드 후 압축을 풀고, install.sh (리눅스나 맥)나 install.bat (윈도우)를 실행시키자. path 에 설치된 bin 경로를 추가하고 아래의 명령으로 dns 명령을 실행할 수 있게하자.(혹시나 아래의 명령이 기존의 SDK 를 업데이트만 하고 dns components 를 설치하지 않을 수도 있으니 이상하게 명령이 안먹히면 아래의 명령을 다시 한번 실행해보자)&lt;/span&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span style="background-color: transparent;"&gt; &lt;/span&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud components update dns&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -517,7 +528,7 @@
 &lt;/blockquote&gt;
 &lt;p&gt; zone 을 생성해보자.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns managed&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;-&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone create &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;dns_name&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;&amp;quot;example.com.&amp;quot;&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;description&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;&amp;quot;A test zone&amp;quot;&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; examplezonename&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns managed&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;-&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone create &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;dns_name&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"example.com."&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;description&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"A test zone"&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; examplezonename&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt; 이제 만든 zone 을 edit 해보자.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -526,33 +537,33 @@
 &lt;p&gt; 윈도우에서는 메모장이 뜨고, 맥에서는 vi 로 아래와 비슷한 내용이 편집할 준비가 된다. 이제 여기의 내용을 고쳐서 dns API 에 명령을 보내게 된다. &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;{&lt;/p&gt;
-&lt;p&gt;    &amp;quot;additions&amp;quot;: [&lt;/p&gt;
+&lt;p&gt;    "additions": [&lt;/p&gt;
 &lt;p&gt;        {&lt;/p&gt;
-&lt;p&gt;            &amp;quot;kind&amp;quot;: &amp;quot;dns#resourceRecordSet&amp;quot;,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;name&amp;quot;: &amp;quot;wimy.com.&amp;quot;,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;rrdatas&amp;quot;: [&lt;/p&gt;
-&lt;p&gt;                &amp;quot;ns-cloud-e1.googledomains.com. dns-admin.google.com. 8 21600 3600 1209600 300&amp;quot;&lt;/p&gt;
+&lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
+&lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
+&lt;p&gt;            "rrdatas": [&lt;/p&gt;
+&lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 8 21600 3600 1209600 300"&lt;/p&gt;
 &lt;p&gt;            ],&lt;/p&gt;
-&lt;p&gt;            &amp;quot;ttl&amp;quot;: 21600,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;type&amp;quot;: &amp;quot;SOA&amp;quot;&lt;/p&gt;
+&lt;p&gt;            "ttl": 21600,&lt;/p&gt;
+&lt;p&gt;            "type": "SOA"&lt;/p&gt;
 &lt;p&gt;        }&lt;/p&gt;
 &lt;p&gt;    ],&lt;/p&gt;
-&lt;p&gt;    &amp;quot;deletions&amp;quot;: [&lt;/p&gt;
+&lt;p&gt;    "deletions": [&lt;/p&gt;
 &lt;p&gt;        {&lt;/p&gt;
-&lt;p&gt;            &amp;quot;kind&amp;quot;: &amp;quot;dns#resourceRecordSet&amp;quot;,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;name&amp;quot;: &amp;quot;wimy.com.&amp;quot;,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;rrdatas&amp;quot;: [&lt;/p&gt;
-&lt;p&gt;                &amp;quot;ns-cloud-e1.googledomains.com. dns-admin.google.com. 7 21600 3600 1209600 300&amp;quot;&lt;/p&gt;
+&lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
+&lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
+&lt;p&gt;            "rrdatas": [&lt;/p&gt;
+&lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 7 21600 3600 1209600 300"&lt;/p&gt;
 &lt;p&gt;            ],&lt;/p&gt;
-&lt;p&gt;            &amp;quot;ttl&amp;quot;: 21600,&lt;/p&gt;
-&lt;p&gt;            &amp;quot;type&amp;quot;: &amp;quot;SOA&amp;quot;&lt;/p&gt;
+&lt;p&gt;            "ttl": 21600,&lt;/p&gt;
+&lt;p&gt;            "type": "SOA"&lt;/p&gt;
 &lt;p&gt;        }&lt;/p&gt;
 &lt;p&gt;    ]&lt;/p&gt;
 &lt;p&gt;}&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt; 위의 내용을 대충 훑어보면, 간단한 형식의 JSON 이다. 일단 내가 이 도메인에 사용할 name server 의 이름이 보이고 additions 에 추가할 내용, deletions 에 삭제할 내용을 추가해서 저장하고 편집기를 닫으면 google dns API 가 저장된 파일을 보고 적절한 명령을 내려주게 된다. additions 에 어떤 형식으로 넣을지는 &lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line" class="uri"&gt;https://developers.google.com/cloud-dns/migrating-bind-zone-command-line&lt;/a&gt;&lt;/a&gt; 를 참고하자. 대부분의 형식을 알 수 있다.&lt;/p&gt;
+&lt;p&gt; 위의 내용을 대충 훑어보면, 간단한 형식의 JSON 이다. 일단 내가 이 도메인에 사용할 name server 의 이름이 보이고 additions 에 추가할 내용, deletions 에 삭제할 내용을 추가해서 저장하고 편집기를 닫으면 google dns API 가 저장된 파일을 보고 적절한 명령을 내려주게 된다. additions 에 어떤 형식으로 넣을지는 &lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line"&gt;https://developers.google.com/cloud-dns/migrating-bind-zone-command-line&lt;/a&gt;&lt;/a&gt; 를 참고하자. 대부분의 형식을 알 수 있다.&lt;/p&gt;
 &lt;p&gt; 참고로, JSON 형식을 잘못입력하면(, 를 빠트리면....) 처음부터 다시 입력해야 하므로, 많은 내용을 입력할 때는 다른 메모장을 열어서 사용하거나 vi 의 split 기능을 이용해서 미리 다른 파일에 저장해두자.&lt;/p&gt;
-&lt;p&gt; 이 포스팅의 내용은 &lt;a href="https://developers.google.com/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/" class="uri"&gt;https://developers.google.com/cloud-dns/&lt;/a&gt;&lt;/a&gt; 의 내용을 간략히 옮긴 것이므로, 추가 사항은 당연히 이 공식 홈페이지를 참고하세요~~ :)&lt;/p&gt;</description>
+&lt;p&gt; 이 포스팅의 내용은 &lt;a href="https://developers.google.com/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/"&gt;https://developers.google.com/cloud-dns/&lt;/a&gt;&lt;/a&gt; 의 내용을 간략히 옮긴 것이므로, 추가 사항은 당연히 이 공식 홈페이지를 참고하세요~~ :)&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/406</guid>
       <pubDate>Mon, 07 Apr 2014 13:26:02 GMT</pubDate>
     </item>
@@ -565,8 +576,8 @@
 &lt;p&gt; 다만 후반에 플라스미드에 제한을 걸어서 답답하지만 약간의 긴장을 더했고, 덕분에 하나의 플라스미드(나는 주로 얼음공격만 했음)만 쓰게 되는 경험에서 조금은 벗어나게 해주었다. 그리고 잠수복을 쓰면서 약간의 시야의 제한도 주어서 조금이나마 다른 경험을 하게 해주었다.&lt;/p&gt;
 &lt;p&gt; 중반에 조금 심심한 느낌이 좀 아쉽긴 하지만, 게임 전반적으로는 꽤 괜찮았고, 스토리에 많은 점수를 주고 싶다. 오랜만에 패키지 게임을 해서인지, 하고나서 이런저런 배경설정도 찾아보고, 주요 장면도 다시 보고, 즐거운 시간이었던듯~&lt;/p&gt;
 &lt;p&gt; 스토리 반전은 역시 최고. 오랫동안 기억에 남는다.&lt;/p&gt;
-&lt;p&gt;전체 분석 : &lt;a href="http://sarammugur.egloos.com/1588650" class="uri"&gt;http://sarammugur.egloos.com/1588650&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;주요 단어(영어) : &lt;a href="http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys" class="uri"&gt;http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;전체 분석 : &lt;a href="http://sarammugur.egloos.com/1588650"&gt;http://sarammugur.egloos.com/1588650&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;주요 단어(영어) : &lt;a href="http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys"&gt;http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys&lt;/a&gt;&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/405</guid>
       <pubDate>Mon, 07 Apr 2014 12:04:02 GMT</pubDate>
     </item>
@@ -676,7 +687,7 @@
     <item>
       <title>넥서스5, 넥서스7 이 윈도우에서 MTP 연결이 제대로 되지 않을때</title>
       <link>http://blog.wimy.com/403</link>
-      <description>&lt;p&gt;장치 관리자를 열어놓고, 넥서스5/7 를 연결하면 &amp;quot;새롭게 추가되는 장치 - 이름이 아마 AD inteface 이런거임&amp;quot;에서 오른쪽 클릭해서 '제거' -&amp;gt; '드라이버도 함께 제거' 한 후, 케이블을 분리 후 다시 연결하면 제대로 MTP 로 잡힌다.&lt;/p&gt;
+      <description>&lt;p&gt;장치 관리자를 열어놓고, 넥서스5/7 를 연결하면 "새롭게 추가되는 장치 - 이름이 아마 AD inteface 이런거임"에서 오른쪽 클릭해서 '제거' -&amp;gt; '드라이버도 함께 제거' 한 후, 케이블을 분리 후 다시 연결하면 제대로 MTP 로 잡힌다.&lt;/p&gt;
 &lt;p&gt; 아마 Android SDK 를 업데이트하면서 이런 문제가 생긴 것으로 '짐작'만 하고 있음;;&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/403</guid>
       <pubDate>Mon, 25 Nov 2013 12:52:07 GMT</pubDate>
@@ -685,7 +696,7 @@
       <title>eclipse 마켓을 통해 쉽게 안드로이드 개발 환경 구축하기</title>
       <link>http://blog.wimy.com/402</link>
       <description>&lt;p&gt;넥서스7이 생긴 바람에 오랜만에 안드로이드 개발환경을 구축할 일이 생겨서 eclipse 에서 설치를 하려고 생각했는데, 가만히 생각해보니 ADT 만 설치하면 ADT 가 sdk 를 설치해준 기억이 나서, ADT 가 왠지 eclipse marketplace 에 있을거 같아서 한번 찾아보니 왠걸(!!!) 있었다. 그래서 설치해보니 매우 잘되어서 포스팅 시작~&lt;/p&gt;
-&lt;p&gt; *** 알고보니 지금은 &lt;a href="http://d.android.com/" class="uri"&gt;http://d.android.com/&lt;/a&gt; 에서 eclipse + ADT + SDK 까지 한번에 통합된 것을 받을 수 있네요 ㅠㅜ 아래 포스팅은 그냥 eclipse 가 이미 있을 때 안드로이드 개발환경 쉽게 붙이는 방법 정도로만....(아... 세상 빨리 변하네요 ㅋ) ***&lt;/p&gt;
+&lt;p&gt; *** 알고보니 지금은 &lt;a href="http://d.android.com/"&gt;http://d.android.com/&lt;/a&gt; 에서 eclipse + ADT + SDK 까지 한번에 통합된 것을 받을 수 있네요 ㅠㅜ 아래 포스팅은 그냥 eclipse 가 이미 있을 때 안드로이드 개발환경 쉽게 붙이는 방법 정도로만....(아... 세상 빨리 변하네요 ㅋ) ***&lt;/p&gt;
 &lt;p&gt; 일단은 JDK 깔고, eclipse 는 깐다. 이제 ADT 를 주소를 넣고 깔고, SDK 를 다운받아서 설정하고 이런것을 해야하겠지만, ADT 와 SDK 는 아래와 같이 쉽게 설치할 수 있다.&lt;/p&gt;
 &lt;p&gt; eclipse 를 띄운 후, 아래처럼 Eclipse Marketplace 클릭&lt;/p&gt;
 &lt;img src="eclipse_marketplace.png" width="365" height="363" /&gt;
@@ -708,8 +719,8 @@
     <item>
       <title>구글 핵페어 참가 후기</title>
       <link>http://blog.wimy.com/401</link>
-      <description>&lt;p&gt; 얼마전 구글 코리아 주최의 핵페어가 있었다.(&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html" class="uri" class="tx-link"&gt;&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html" class="uri"&gt;http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html&lt;/a&gt;&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt; 난 평소에 wimybox 를 만들면서 생각했던 아이디어로 WimyLime(&lt;a href="http://lime.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://lime.wimy.com/" class="uri"&gt;http://lime.wimy.com/&lt;/a&gt;&lt;/a&gt;)이라는 프로젝트로 참여를 했다. 바로 YouTube 에 있는 뮤직 비디오들에 리듬 액션 게임 요소를 넣어서 게임을 만들면 어떨까라는 생각! 리듬 액션 게임을 한번 만들어볼 생각은 전에도 했었지만, 음악과 리듬을 구하는게 쉽지 않아서, 음악은 YouTube 에 있는 공식 뮤직비디오들을 가져오고, 리듬은 직접 쉽게 입력할 수 있으면 어떨까해서... 시작했다.&lt;/p&gt;
+      <description>&lt;p&gt; 얼마전 구글 코리아 주최의 핵페어가 있었다.(&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html" class="uri" class="tx-link"&gt;&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html"&gt;http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html&lt;/a&gt;&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt; 난 평소에 wimybox 를 만들면서 생각했던 아이디어로 WimyLime(&lt;a href="http://lime.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://lime.wimy.com/"&gt;http://lime.wimy.com/&lt;/a&gt;&lt;/a&gt;)이라는 프로젝트로 참여를 했다. 바로 YouTube 에 있는 뮤직 비디오들에 리듬 액션 게임 요소를 넣어서 게임을 만들면 어떨까라는 생각! 리듬 액션 게임을 한번 만들어볼 생각은 전에도 했었지만, 음악과 리듬을 구하는게 쉽지 않아서, 음악은 YouTube 에 있는 공식 뮤직비디오들을 가져오고, 리듬은 직접 쉽게 입력할 수 있으면 어떨까해서... 시작했다.&lt;/p&gt;
 &lt;p&gt; 평소에 매우 조금씩 만들어오던 것을 시간을 조금 더 투자해서 제출해보았고, 다행히도 전시작품으로 선정되었다.&lt;/p&gt;
 &lt;p&gt; 경북 구미에서 직장 생활을 할 때는, 개발자로써의 공식 활동(?)이라는 것을 블로그에 글을 쓰는 것 정도였는데, 수도권으로 직장과 집을 옮기면서, 지난 Google DevFest 후 다음 행사인 듯한 Google Hackfair 에 참가할 수 있었다. (역시 사람은 서울로...;; )&lt;/p&gt;
 &lt;p&gt; 17일~18일 동안 내 작품의 부스를 지키면서 약 200명 정도한테 설명을 했던 것 같다. 장점은 뭐고, 타블렛에서도 되고 등등... 좀더 관심을 가지는 분들은 직접 플레이도 해보시고, 리듬도 만들어 보시고, 어떤 분은 라운지의 PC 에서 리듬을 만들었다고 오신 분도 계시고, 명함을 주시는 분, 사업화에 대한 질문을 하시는 분, 정말 즐기시는 분(!), 개선방향을 제시하시는 분 등 다양한 분들이 오셨었다.&lt;/p&gt;
@@ -737,7 +748,7 @@
       <description>&lt;p&gt; 평소에 늘 가지고 있던 생각이지만 트위터에 한번 올렸더니 다들 많이 공감해서 정리삼아 블로그에 포스팅~&lt;/p&gt;
 &lt;img src="PersonalProject.png" width="536" height="306" /&gt;
 
-&lt;p&gt; 나는 개인적으로 꽤 여러 개의 개인 프로젝트를 하고 있다. ZViewer(Win32 이미지 뷰어, C++), WimyBox(최신가요 듣기, JavaScript + Python), ZAssist(Visual Studio Addin, C#), ClipDic(Chrome 확장 사전, JavaScript) 정도가 그나마 내세울만한 것이고, 이외에도 작은 다양한 것들을 만들고 있다 - &lt;a href="https://github.com/zelon" class="uri"&gt;https://github.com/zelon&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; 나는 개인적으로 꽤 여러 개의 개인 프로젝트를 하고 있다. ZViewer(Win32 이미지 뷰어, C++), WimyBox(최신가요 듣기, JavaScript + Python), ZAssist(Visual Studio Addin, C#), ClipDic(Chrome 확장 사전, JavaScript) 정도가 그나마 내세울만한 것이고, 이외에도 작은 다양한 것들을 만들고 있다 - &lt;a href="https://github.com/zelon"&gt;https://github.com/zelon&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; 물론 이 프로젝트들이 언제나 원활히 진행되는 것은 아니다. ZViewer 같은 것은 2004년부터 소스 관리를 시작했지만 중간에 1년 넘게 commit 이 없던 적도 있다. 언제나 내가 코딩을 하고 싶을 때만 작업을 시작한다.&lt;/p&gt;
 &lt;p&gt; 언제 코딩을 하고 싶을까? 내 개인 프로젝트들은 대부분 내가 쓰는 프로그램이다. 프로젝트 시작도 대부분 내가 '이런 프로그램이 있었으면 좋은데 찾기가 힘드네' 혹은 '이렇게, 이 기술/언어 재미있겠는데 해볼까' 라는 생각에서 출발한다. 그래서 내가 원하는 기능이 구현될 때까지는 열혈 코딩을 한다. 그러다가 어느 정도까지 완성되면 그 때부터는 나의 욕구가 내 프로젝트의 스펙이 된다. 만약 내가 이런이런 기능이 있으면 좋겠는데 싶으면 그냥 구현하는 거다. 구현해보다가 힘들면 그냥 놓아두기도 한다. 혹시나 누군가가 나에게 '이런 기능 있으면 좋겠어요~' 라고 한다면 또 구현해본다.&lt;/p&gt;
 &lt;p&gt; 반대로 내가 잘 쓰지 않게 되면 프로젝트의 진행이 멈추는 경우도 있다. ZViewer 같은 경우도, 얼마전에 노트북을 사면서 Windows 7 64bit 로 컴파일 시도도 해보고 했었고, 지금은 집에서 리눅스 데스크탑을 쓰고 있기 때문에 잘 안 쓰게 되었다. 그래서 프로젝트도 손 안대고 있고, 다만 어떻게 리눅스+윈도우 둘다 컴파일 되도록 해볼까 고려 중이다. wxwidget, qt 가 고려 중인데, 다른 우선순위에 밀려서 생각만 한번씩 해보는 중이다. 요렇게 64bit 로 프로젝트 운영도 해보고, 크로스 플랫폼 프로젝트 운영도 끄적여본다.&lt;/p&gt;
@@ -781,17 +792,6 @@
 &lt;p&gt;ps: 앞에도 적었지만, (저같은)프로그래머는 귀찮은거 싫어하기 때문에, git 관련해서 쉬운 GUI 사용법은.... 잉여력이 폭발할 때 적어볼까 생각 중 ㅋ&lt;/p&gt;</description>
       <guid>http://blog.wimy.com/397</guid>
       <pubDate>Sun, 24 Jun 2012 15:55:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>디아블로3 뜯어보니 짝퉁샤넬백</title>
-      <link>http://blog.wimy.com/396</link>
-      <description>&lt;p&gt; 나는 한 때 친구들과 열광적으로 디아블로2 를 게임방에서 거의 매일 밤을 새면서 즐겼던 유저이다. 그런데 나이가 좀 들어서인지(딸이 태어난지 6개월 밖에 안되어서인지) 디아블로3 는 그 때 함께 즐겼던 친구들에 비해서 늦게(3주 늦게) 시작했다.&lt;/p&gt;
-&lt;p&gt; 그런데... 서버가 제정신이 아니다 -_-; 이거 뭐 제대로 해봐야지 하고 맘먹었을 때 3번 중의 2번은 서버 점검 중... 근데 5만 5천원이 아까워서라도 얼른 서버가 제정신을 차리길 기다리고 있다. 최근에 5만 5천원 정도의 거금(!)을 들여서 산 게임은 '스타크래프트2' 정도였다. 그러고보니 둘다 블리자드 게임이네;; 블리자드라는 이름이, 디아블로라는 이름이 이렇게나 큰 위력을 가지고 있다니... 그런데, 아마 서버가 어느 순간 잠깐 정신이 돌아왔을 때 디아블로 한번 잡고, 한동안은 디아블로 접속을 안하게 될 것 같다. 마치 요근래 스타크래프트2를 한적이 없는 것처럼...&lt;/p&gt;
-&lt;p&gt; 게임 서버 프로그래머라는 직업을 가지고 있는 나로써는 이거참... 내가 저렇게 서비스되는 게임의 개발자라면 얼마나 욕을 먹었을까(아마 지금 블리자드의 어느 분께서도 욕먹고는 있겠지;;;) 어느분의 말처럼 직접가서 디버깅이라도 해주고 싶다. 여태까지 몇번의 서버 점검... 그 와중에 원인을 제대로 못 찾았다는 것이니... 블리자드의 기술력에 대해서 의심이 갈 수 밖에 없다. 항간에 떠도는 서버의 문제점을 추측한 것은 모르겠고, 왜 와우의 기술이나 이전의 다른 서비스들에서 얻은 노하우들이 제대로 전해지지 않은 것인지도 의문이다. 블리자드에서 공식적인 해명과 사과가 있어야할 정도이지 않나? 요즘 서버 시장에서는 어느 정도의 서버 중지 시간이 있으면 '이런저런 기술적인 문제가 있었으며, 요렇게저렇게해서 사고를 방지하겠으며, 정말 미안하다' 이런 내용이 많이 올라오고 기술자들의 귀감도 되고, 사용자들의 공감도 얻는데, 블리자드는 무슨 생각인지...&lt;/p&gt;
-&lt;p&gt; 디아블로3에 열광하는 남자들을 이해 못하는 여자들에게 '12년만에 발매된 샤넬백이라는 말' 이 있었는데, 이건 마치 '12년 만에 발매된 샤넬백이 뜯어보니 샤넬짝퉁백이었다' 인 것 같다.&lt;/p&gt;
-&lt;p&gt; 다만, 서버는 완전 짝퉁이지만, 게임 자체 컨텐츠는 꽤 훌륭하므로, '샤넬 마크는 진퉁인 짝퉁' 이랄까? -_-;&lt;/p&gt;</description>
-      <guid>http://blog.wimy.com/396</guid>
-      <pubDate>Sun, 10 Jun 2012 15:16:44 GMT</pubDate>
     </item>
   </channel>
 </rss>

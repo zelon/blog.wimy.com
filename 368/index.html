@@ -26,7 +26,7 @@
 <blockquote>
 <p>sudo apt-get install xulrunner-1.9.2<br />
 export MOZILLA_FIVE_HOME=/usr/lib/xulrunner-1.9.2.17/ <br />
-export LD_LIBRARY_PATH=&quot;$MOZILLA_FIVE_HOME&quot;:&quot;$LD_LIBRARY_PATH&quot;<br />
+export LD_LIBRARY_PATH="$MOZILLA_FIVE_HOME":"$LD_LIBRARY_PATH"<br />
 java -jar ClipDic.jar</p>
 </blockquote>
 <p> 웹 검색을 해보면, MOZILLA_FIVE_HOME 을 /usr/lib/firefox 등으로 설정하라고 나오는데, 위와 같이 xulrunner 를 설치하여(sudo apt-get install xulrunner-1.9.2) 그 경로를 정해주는 것이 해결책이 될 수 있다(ubuntu 11.04기준). 검색해보면 xulrunner 2.0 도 있는데 이 버젼은 library 가 맞지 않는듯...<br />

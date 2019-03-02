@@ -22,7 +22,7 @@
 
         <div id="post_content">
           <p> 오늘도 역시나 pop.wimy.com 를 다듬다가 정리하게 된 내용이다.<br />
-IE6 에서는 파이어폭스나 크롬과 다른게 &quot;new XMLHttpRequest()&quot; 로 객체를 만들 수 없다. 그래서 이래저래 검색을 하고, pop.wimy.com 에 적용해 가면서 확인한 내용이다.<br />
+IE6 에서는 파이어폭스나 크롬과 다른게 "new XMLHttpRequest()" 로 객체를 만들 수 없다. 그래서 이래저래 검색을 하고, pop.wimy.com 에 적용해 가면서 확인한 내용이다.<br />
 일단 XMLHttpRequest 는 다음과 같이 객체를 만들면 IE6 를 체크 안하고 사용할 수 있다.</p>
 <blockquote>
 <p>function newXMLHttpRequest()<br />
@@ -37,11 +37,11 @@ IE6 에서는 파이어폭스나 크롬과 다른게 &quot;new XMLHttpRequest()&
     {<br />
         try<br />
         {<br />
-            ret = new ActiveXObject(&quot;Microsoft.XMLHTTP&quot;);<br />
+            ret = new ActiveXObject("Microsoft.XMLHTTP");<br />
         }<br />
         catch ( e2 )<br />
         {<br />
-            alert(&quot;지원되지 않는 브라우저입니다.&quot;);<br />
+            alert("지원되지 않는 브라우저입니다.");<br />
         }<br />
     }<br />
     return ret;<br />
@@ -91,7 +91,7 @@ function requestMusicChart(listValue)<br />
    <br />
     musicChartRequest.onreadystatechange = musicChartRequestHandler;<br />
    <br />
-    musicChartRequest.open(&quot;GET&quot;, &quot;a.xml&quot;);<br />
+    musicChartRequest.open("GET", "a.xml");<br />
     musicChartRequest.send(null);<br />
 }</p>
 </blockquote>

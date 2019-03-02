@@ -32,19 +32,19 @@
 <p>import urllib<br />
 import re<br />
 def testmain():<br />
-    videoid = &quot;KIvwdpYII7s&quot;<br />
-    url = u&quot;<a href="http://www.youtube.com/get\_video\_info?video\_id=%s&amp;el=embedded&amp;ps=default&amp;eurl=" class="uri">http://www.youtube.com/get\_video\_info?video\_id=%s&amp;el=embedded&amp;ps=default&amp;eurl=</a>&quot; % videoid<br />
+    videoid = "KIvwdpYII7s"<br />
+    url = u"<a href="http://www.youtube.com/get\_video\_info?video\_id=%s&amp;el=embedded&amp;ps=default&amp;eurl=">http://www.youtube.com/get\_video\_info?video\_id=%s&amp;el=embedded&amp;ps=default&amp;eurl=</a>" % videoid<br />
     f = urllib.urlopen(url)<br />
     info = urllib.unquote(f.read())<br />
-    r = &quot;token=(.*?)&amp;&quot;<br />
+    r = "token=(.*?)&amp;"<br />
     token = re.findall(r, info)[1]<br />
-    downloadurl = u&quot;<a href="http://www.youtube.com/get\_video?video\_id=%s&amp;t=%s&amp;eurl=&amp;el=embedded&amp;ps=default" class="uri">http://www.youtube.com/get\_video?video\_id=%s&amp;t=%s&amp;eurl=&amp;el=embedded&amp;ps=default</a>&quot; % (videoid, token)<br />
+    downloadurl = u"<a href="http://www.youtube.com/get\_video?video\_id=%s&amp;t=%s&amp;eurl=&amp;el=embedded&amp;ps=default">http://www.youtube.com/get\_video?video\_id=%s&amp;t=%s&amp;eurl=&amp;el=embedded&amp;ps=default</a>" % (videoid, token)<br />
     downloadWebRequest = urllib.urlopen(downloadurl)<br />
-    outfile = open(&quot;a.flv&quot;, &quot;wb&quot;)<br />
+    outfile = open("a.flv", "wb")<br />
     outfile.write(downloadWebRequest.read())<br />
     outfile.close()<br />
    <br />
-if __name__ == &quot;__main__&quot;:<br />
+if __name__ == "__main__":<br />
     testmain()</p>
 </blockquote>
 <p> pop.wimy.com 와 연계하면 재미있는 프로그램이 나올수도 있을것같다 ^^</p>

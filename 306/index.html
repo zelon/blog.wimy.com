@@ -34,27 +34,27 @@
 <p>import os<br />
 def testmain():<br />
    <br />
-    for root, dirs, files in os.walk(&quot;.&quot;):<br />
+    for root, dirs, files in os.walk("."):<br />
         print(root)<br />
        <br />
-        if root != &quot;.&quot;:<br />
+        if root != ".":<br />
             for file in files:<br />
                <br />
-                if file == &quot;index.html&quot;:<br />
+                if file == "index.html":<br />
                     originalFilename = root + os.path.sep + file<br />
-                    newFilename = &quot;.&quot; + root[root.rindex(&quot;\\&quot;):] + &quot;.html&quot;<br />
-                    newFilename = newFilename.replace(&quot;_&quot;, &quot; &quot;)<br />
+                    newFilename = "." + root[root.rindex("\\"):] + ".html"<br />
+                    newFilename = newFilename.replace("_", " ")<br />
                    <br />
-                    print(&quot;Move from %s to %s&quot; % (originalFilename, newFilename))<br />
+                    print("Move from %s to %s" % (originalFilename, newFilename))<br />
                    <br />
                     os.rename(originalFilename, newFilename)<br />
 def deleteEmptyDir():<br />
-    print(&quot;Delete empty dirs&quot;)<br />
+    print("Delete empty dirs")<br />
     while True:<br />
         deleteCount = 0<br />
-        for root, dirs, files in os.walk(&quot;.&quot;):<br />
+        for root, dirs, files in os.walk("."):<br />
             if len(files) == 0 and len(dirs) == 0:<br />
-                print(&quot;To delete dir : &quot; + root)<br />
+                print("To delete dir : " + root)<br />
                <br />
                 try:<br />
                     os.rmdir(root)<br />
@@ -66,9 +66,9 @@ def deleteEmptyDir():<br />
         if deleteCount == 0:<br />
             break<br />
        <br />
-    print(&quot;End of deleting empty dirs&quot;)<br />
+    print("End of deleting empty dirs")<br />
  <br />
-if __name__ == &quot;__main__&quot;:<br />
+if __name__ == "__main__":<br />
     testmain()<br />
    <br />
     deleteEmptyDir()</p>

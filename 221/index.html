@@ -42,17 +42,17 @@
 Function onDirectoryShow<br />
   push $R0<br />
   push $R1<br />
-  ReadRegStr $0 HKLM &quot;SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ZViewer&quot; &quot;UninstallString&quot;<br />
+  ReadRegStr $0 HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\ZViewer" "UninstallString"<br />
   IfErrors onDirectoryShowEnd onDirectoryShowDisableBrowse<br />
 onDirectoryShowDisableBrowse:<br />
-  FindWindow $R0 &quot;#32770&quot; &quot;&quot; $HWNDPARENT<br />
+  FindWindow $R0 "#32770" "" $HWNDPARENT<br />
   GetDlgItem $R1 $R0 1019<br />
   EnableWindow $R1 0<br />
   GetDlgItem $R1 $R0 1001<br />
   EnableWindow $R1 0<br />
 ; '기존의 설치될 디렉토리를 고르세요' 라는 메시지를 '다시 설치합니다' 라는 내용으로 바꿈<br />
   GetDlgItem $R1 $R0 1006<br />
-  SendMessage $R1 ${WM_SETTEXT} 0 &quot;STR:$(TEXT_REINSTALL)&quot;<br />
+  SendMessage $R1 ${WM_SETTEXT} 0 "STR:$(TEXT_REINSTALL)"<br />
 onDirectoryShowEnd:<br />
   pop $R1<br />
   pop $R0<br />

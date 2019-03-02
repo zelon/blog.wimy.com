@@ -35,17 +35,17 @@ iconv inFile -f euc-kr -t utf-8 -o outFile<br />
 <p>import os<br />
 import glob<br />
 def main():<br />
-        files = glob.glob(&quot;*&quot;)<br />
+        files = glob.glob("*")<br />
         for file in files:<br />
                 if os.path.isfile(file):<br />
-                        cmd = &quot;iconv &quot; + file + &quot; -f euc-kr -t utf-8 -o __tmp&quot;<br />
+                        cmd = "iconv " + file + " -f euc-kr -t utf-8 -o __tmp"<br />
                         os.system(cmd)<br />
                         print(cmd)<br />
-                        cmd = &quot;cp __tmp &quot; + file<br />
+                        cmd = "cp __tmp " + file<br />
                         os.system(cmd)<br />
                         print(cmd)<br />
-                        os.system(&quot;rm __tmp&quot;)<br />
-if __name__ == &quot;__main__&quot;:<br />
+                        os.system("rm __tmp")<br />
+if __name__ == "__main__":<br />
         main()</p>
 </blockquote>
 <p> 4. 위키 디렉토리의 설정 파일인 config.php 를 열어서 $charset='euc-kr'; 로 되어 있던 것을  $charset='utf-8'; 로 변경<br />
