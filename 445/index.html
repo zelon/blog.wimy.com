@@ -22,24 +22,43 @@
 
         <div id="post_content">
           <p>블로그를 이사했다. 티스토리가 백업을 중지한 후부터 언젠가는 티스토리를 떠나야겠다라고 생각하고 있었는데, 이런저런 생각을 해보다가 github로 가자는 결론을 내렸고 정적 페이지로 블로그를 만들어야겠다고 생각하고 있었다. 하나 걸리는 것이 github의 공식적인 블로그툴이 Jekyll 이라는 툴인데, 루비 언어로 만들어져있었고, 조금 들여다보니 '정적인 페이지들인데 간단히 만들 수 있지 않을까' 라는 생각에 직접 만들기 시작했다.</p>
-<h1 id="wimyblog">WimyBlog</h1>
+
+<h1>WimyBlog</h1>
+
 <p><a href="https://github.com/zelon/WimyBlog">WimyBlog on github</a>에 C#, .NET Core 2.0에서 동작하는 소스를 올려두었다. 참고로 이 블로그는 <a href="https://github.com/zelon/blog.wimy.com">blog.wimy.com on github</a>에 소스가 있다. 즉, <a href="https://github.com/zelon/blog.wimy.com">blog.wimy.com on gihub</a>에 markdown 형식으로 글을 쓰고, <a href="https://github.com/zelon/blog.wimy.com">WimyBlog on gihub</a>를 실행해서 html들을 뽑아내게 된다</p>
+
 <p>그냥 기존처럼 파이썬이나 Go를 쓰지 않고, 정적인 페이지들을 만들면 되니까 어떤 언어를 써도 상관은 없었는데, C++ 다음으로 관심이 많은 C#을 좀 더 써보기로 하고, 최신(!) 트렌드인 .NET Core로 만들어보기로 했다. 1.1에서 만들었는데, 도중에 2.0이 나와서 업데이트. Microsoft에서 한창 밀고 있는 .NET Core가 어떤지 궁금하기도 했다.</p>
-<h1 id="장점-github에서-직접-markdown으로-글-작성-가능">장점: github에서 직접 markdown으로 글 작성 가능</h1>
+
+<h1>장점: github에서 직접 markdown으로 글 작성 가능</h1>
+
 <p>Markdown이 글의 원본이다. github.com에서 원래 웹 브라우저에서 Repository에 파일을 생성할 수 있고, Markdown파일의 경우 꽤 편리하게 편집할 수 있기 때문에, 웹에서 글을 편집할 수 있고, 글 배포를 위해서 정적 페이지를 만들 때만 git pull을 한 후 정적 파일들을 만들어내게 되었다. 꽤 좋은 장점이 될듯. 물론 로컬에서 직접 Atom Editor에서 preview를 보면서 편집하는 것도 편하다</p>
-<h1 id="장점-local-web-server">장점: Local Web Server</h1>
+
+<h1>장점: Local Web Server</h1>
+
 <p>사용성 입장에서 생각해보면 index.md는 Atom Editor에서 preview를 보면서 편집할 수 있지만, 정적 페이지는 실제로 github에 push를 해야만 볼 수 있다. 그냥 웹 브라우저에 html을 드래그하면 상대 경로나 절대 경로 때문에 css를 제대로 못 가져오거나, 링크가 제대로 연결되지 않는다. 그래서 간단한 웹 서버를 내장하면 layout이나 css편집이 쉬워질 것 같아서 웹 서버를 추가했다. .NET Core에서는 기존의 간단한 방식의 C# Console로는 작성이 안되고(HttpListener클래스가 없어졌음;;) ASP.NET Core로 프로젝트를 만들어야 된다. 실제로 만들어보니 꽤 간단한 코드로 동작이 되어서 만족스러움. 이 로컬 웹 서버 덕분에 github에 push하지 않아도 css, html 편집을 쉽게 할 수 있다</p>
-<h1 id="참고-github의-정적-페이지-서비스-방식">참고: github의 정적 페이지 서비스 방식</h1>
+
+<h1>참고: github의 정적 페이지 서비스 방식</h1>
+
 <p>특정 디렉토리에 index.md, index.html이 있으면 해당 디렉토리의 url을 요청했을 때, index.html을 먼저 보여주고, index.xml도 바로 서비스 해준다. 즉, blog.wimy.com/5 라는 디렉토리에 index.md와 index.html 파일이 있으면 항상 index.html 파일을 보여준다. 그래서, index.md는 원본이 되고, 서비스하는 파일은 index.html 파일이 되도록 구성했다. 그래서 하나의 글은 하나의 디렉토리 아래에 모을 수 있었다. 글에 embed된 이미지 파일이나 metadata 파일도 하나의 디렉토리에 모이도록 구성했다.</p>
+
 <p>그리고 rss를 위해서 조사해보니, index.xml도 바로 서비스를 해줬다. 글들을 모은 후에 rss 형식으로 rss 디렉토리 아래에 index.xml 파일을 만들어주면 blog.wimy.com/rss 서비스를 할 수 있었다.</p>
-<h1 id="참고-indexmd-에서-github-형태로-indexhtml로-변환">참고: index.md 에서 github 형태로 index.html로 변환</h1>
+
+<h1>참고: index.md 에서 github 형태로 index.html로 변환</h1>
+
 <p>pandoc을 이용하면 github 문법으로 index.html로 변환해준다</p>
-<h1 id="참고-rss">참고: RSS</h1>
+
+<h1>참고: RSS</h1>
+
 <p>아무래도 나도 다른 블로그의 글을 항상 feedly로 rss를 통해서 보기 때문에 rss를 달지 않을 수 없었다. 티스토리의 rss와 공식 스펙을 보면서 그대로 구현했다. 딱히 어려운 점은 없었고, GMT 시각으로 변환하는 점만 주의하면 끝</p>
-<h1 id="참고-기존-데이터의-이전">참고: 기존 데이터의 이전</h1>
+
+<h1>참고: 기존 데이터의 이전</h1>
+
 <p>전체 들인 시간 중에 가장 많은 공을 들인 부분. 기존 티스토리 백업 파일(xml)에서 index.md 파일들을 뽑아내는 것이었다. 검색을 해보면, 3~4가지의 포스팅과 소스 파일이 나오는데, 내가 원하는 형태가 없었다. php라든지, 첨부 파일을 고려하지 않았다든지.. 그래서 직접 만들어봤다. <a href="https://github.com/zelon/TistoryConvertor">TistoryConvertor on Github </a>에 소스를 올려두었다. 사실 한번만 제대로 실행되고 버려질 프로젝트이지만 ㅠㅜ</p>
-<h1 id="에필로그">에필로그</h1>
+
+<h1>에필로그</h1>
+
 <p>티스토리의 데이터 복원 기능 종료가 2013년이었다고 하니, 거의 4년을 마음 속에만 간직한 작업을 이제야 끝냈다. 물론 기능은 너무 미미하지만, 대학교 때 처음 php로 내 전용 게시판을 만들 때처럼 감회가 새롭다. 덕분에 .NET Core를 좀 써볼 기회가 있었고, 유닛테스트를 제법 고려한 코딩을 해보기도 했다. 앞으로 WimyBlog에 얼마나 더 시간을 쓸 수 있을지는 모르겠지만, 대부분의 개인 프로젝트가 그렇듯이 즐거운 마음으로 시작했고, 재미있게 코딩해서 좋았던 것 같다.</p>
+
         </div>
 
         <div id="comment">

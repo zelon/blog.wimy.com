@@ -4,19 +4,55 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sat, 02 Mar 2019 15:33:51 GMT</pubDate>
+    <pubDate>Sun, 06 Oct 2019 13:36:09 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>[게임 플레이 후기] Limbo</title>
+      <link>http://blog.wimy.com/454</link>
+      <description>&lt;p&gt;2019-06-17 Limbo 플레이 후기&lt;/p&gt;
+
+&lt;p&gt;뭔가 있어보이는 분위기로 시작해서, 뜬금없이 퍼즐 게임인가 싶다가... 액션 퍼즐이 되는 게임... 나무위키의 '해설'을 보면 '그래... 그럴수도 있겠다' 싶긴 하지만, 퍼즐을 풀 때 너무 뜬금없는 것들이 있다. 중반까지는 꽤 재미있고 흥미진진하고, 분위기에 흠뻑 젖어드는데, 후반으로 갈수록 '너무 퍼즐인데...' 싶다. 분위기를 잘 이어나가면서 퍼즐에 힘을 조금 뺐으면 어땠을까 싶다&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/454</guid>
+      <pubDate>Sat, 05 Oct 2019 14:20:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>AMD CPU 컴퓨터에서 idle 상태에서 CPU가 사용되고 있을 때</title>
+      <link>http://blog.wimy.com/453</link>
+      <description>&lt;p&gt;최근에 AMD CPU를 가진 컴퓨터를 구입했는데, 이상하게도 idle 상태일 때 CPU가 계속 사용 중인 것처럼 나타났다. 이래저래 살펴보다 보니, 결국 CPU 꾸미는 소프트웨어가 문제였다.&lt;/p&gt;
+
+&lt;p&gt;LightingService.exe 가 점유율을 많이 차지한다면. Aura app을 실행 한 후에 Off시켜봐라. CPU 그래프 1개가 완전 꺽이는 현상을 볼 수 있다. 아마 '무지개'를 켰을 때 계속 계산하기 위해서 인듯 싶다.&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/453</guid>
+      <pubDate>Mon, 10 Jun 2019 14:20:35 GMT</pubDate>
+    </item>
+    <item>
+      <title>Office 365 설치 중 멈춰있을 때</title>
+      <link>http://blog.wimy.com/452</link>
+      <description>&lt;p&gt;&lt;img src="Screenshot.png" alt="Office 설치 중" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Office 365 설치 중 특정 진행 단계에서 멈추는 경우가 있다. 작업 표시줄의 아이콘을 클릭하면 "백그라운드에서 Office 설치 중 (26%)"와 같이 표시되면서 더이상 퍼센트가 올라가지 않는 현상이 있다. 구글링해보니 이런저런 방법들이 있는 것 같지만, 나는 특이하게도 무선 네트워크를 유선 네트워크로 전화시켜보니 진행이 다시 시작되었다. 즉, 그냥 유선랜선을 꽂았더니 해결되었다. 전에도 이런 현상이 있어서, 프로세스를 강제로 종료시키고 다시 설치를 진행하기도 했었는데, 그냥 랜선을 꽂으면 되는 거였다. 아마 다운로드 속도가 너무 느리면, 이런 현상이 발생하는 것으로 추측된다.&lt;/p&gt;
+
+&lt;p&gt;일단 노트북에서 멈춤 현상이 있는 분들은 먼저 랜선을 꽂아보시길...&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/452</guid>
+      <pubDate>Sun, 02 Jun 2019 14:20:35 GMT</pubDate>
+    </item>
     <item>
       <title>WPF MVVM 일주일 만에 배우기 - 책 소개</title>
       <link>http://blog.wimy.com/451</link>
       <description>&lt;p&gt;간만에 얇고 재미있게 본 책이 있어서 소개해 본다.&lt;/p&gt;
-&lt;p&gt;&lt;img src="mvvm.jpg" title="MVVM 일주일 만에 배우기" alt="MVVM 일주일 만에 배우기" /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="mvvm.jpg" alt="MVVM 일주일 만에 배우기" title="MVVM 일주일 만에 배우기" /&gt;&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;얇다. 212페이지다&lt;/li&gt;
 &lt;li&gt;C#이니, XML이니 이런거 알고 있다는 전제하에 WPF/MVVM이 뭐가 다른지 어떻게 쓰면 되는지를 핵심을 짚어서 설명해준다. 이게 정말 좋다&lt;/li&gt;
-&lt;li&gt;이런/저런 것들도 있긴 하지만 잘 쓰이지 않는다고 얘기해준다. 이런건 키워드가 기억해뒀다가 필요할 때 그 키워드로 구글링을 잘해서 쓰면 된다&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;이런/저런 것들도 있긴 하지만 잘 쓰이지 않는다고 얘기해준다. 이런건 키워드가 기억해뒀다가 필요할 때 그 키워드로 구글링을 잘해서 쓰면 된다&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/zelon/wimygit"&gt;https://github.com/zelon/wimygit&lt;/a&gt; 를 만들어보면서 너무 대충 코딩했는데 이제 코드 정리를 어떤 식으로 해야하는지, WPF를 어떤 식으로 써야하는지 감이 잡혔다. 물론 좀 더 전문적인 책을 보면 좋겠지만, WPF의 핵심을 파악하는데는 무척 유용한 책이었다&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/zelon/wimygit"&gt;https://github.com/zelon/wimygit&lt;/a&gt; 를 만들어보면서 너무 대충 코딩했는데 이제 코드 정리를 어떤 식으로 해야하는지, WPF를 어떤 식으로 써야하는지 감이 잡혔다. 물론 좀 더 전문적인 책을 보면 좋겠지만, WPF의 핵심을 파악하는데는 무척 유용한 책이었다&lt;/p&gt;</description>
+</description>
       <guid>http://blog.wimy.com/451</guid>
       <pubDate>Sat, 02 Mar 2019 15:21:08 GMT</pubDate>
     </item>
@@ -24,10 +60,15 @@
       <title>CD ROM에서 Audio CD를 인식하지 못해서 고생함</title>
       <link>http://blog.wimy.com/450</link>
       <description>&lt;p&gt;그냥 몇 일간 고생한 게 억울해서 글로 남겨본다.&lt;/p&gt;
+
 &lt;p&gt;책을 사면, 오디오 시디를 주는 책들이 있고, 당연히 휴대폰이나 차에서 들으려고 mp3로 만들어서 듣는다. 요즘은 데스크탑PC에는 CD-ROM/DVD-ROM을 보통 장착하지 않고, 나같이 꼭 필요한 사람들은 휴대용(Portable) CD-ROM/DVD-ROM을 사서 필요할 때만 USB로 연결해서 쓴다. 그런데!!!&lt;/p&gt;
+
 &lt;p&gt;이상하게 윈도우를 재설치한 이 후로 오디오 시디를 컴퓨터가 인식하지 못했다. 혹시나 해서 노트북에 휴대용 CD-ROM/DVD-ROM을 연결해도 오디오 시디를 인식하지 못했다. 사용하지 않던 데스크탑용 CD-ROM/DVD-ROM도 있었는데 이걸 연결해도 인식하지 못했다. 웃긴건 오디오 시디는 인식하지 못하는데 DVD는 인식해서 플레이도 잘 되었다. 당연히 다른 오디오 시디를 넣어도 안되고...&lt;/p&gt;
+
 &lt;p&gt;혹~~~시나 해서 휴대용 CD-ROM/DVD-ROM을 하나 새로 사서 연결하니 잘 되었음 ㅠㅜ 결론은 휴대용 CD-ROM/DVD-ROM과 데스크탑용 CD-ROM/DVD-ROM 둘다 오디오 시디만 인식 못하는 문제가 있는 걸로 결론남.&lt;/p&gt;
-&lt;p&gt;핵심: CD-ROM 기능과 DVD-ROM기능은 별개의 기능으로 별도로 고장날 수 있음. 물론 나의 PS3처럼 둘다 한번에 고장날 수도 있음&lt;/p&gt;</description>
+
+&lt;p&gt;핵심: CD-ROM 기능과 DVD-ROM기능은 별개의 기능으로 별도로 고장날 수 있음. 물론 나의 PS3처럼 둘다 한번에 고장날 수도 있음&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/450</guid>
       <pubDate>Fri, 01 Mar 2019 14:10:08 GMT</pubDate>
     </item>
@@ -35,9 +76,13 @@
       <title>윈도우10에서 미러링 중 &amp;#39;다시 동기화하는 중&amp;#39; 퍼센트가 나오지 않는 현상</title>
       <link>http://blog.wimy.com/449</link>
       <description>&lt;p&gt;윈도우10에서 RAID-1(Mirroring)으로 HDD를 사용 중인데, 어쩌다 디스크 관리에 들어가면 아래처럼 '다시 동기화하는 중(Resynching)'으로 나온다. 그런데 얼마나 동기화가 진행되었는지 그 퍼센트(아래에서 빨간 네모 안의 숫자)가 나오지 않는 경우가 있다.&lt;/p&gt;
+
 &lt;p&gt;&lt;img src="resynching.png" alt="다시 동기화하는 중" /&gt;&lt;/p&gt;
+
 &lt;p&gt;한동안 그냥 지켜보다가 꽤 오래 컴퓨터를 사용해도 퍼센트가 나오지 않길래 답답한 마음에 구글링을 해보니 꽤 옛날 자료가 많고해서 좀 뒤져본 결과, 윈도우10에서는 저 상황이 벌어지면 F5를 눌러주면 된다. 몇 십초쯤 뒤에 잘 나온다... 뭔가 억울하지만 여튼 퍼센트 잘 나온다.&lt;/p&gt;
-&lt;p&gt;#다시동기화하는중 #Resynching #F5&lt;/p&gt;</description>
+
+&lt;p&gt;#다시동기화하는중 #Resynching #F5&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/449</guid>
       <pubDate>Thu, 20 Dec 2018 15:27:08 GMT</pubDate>
     </item>
@@ -45,13 +90,16 @@
       <title>갤럭시 노트8 사용기</title>
       <link>http://blog.wimy.com/448</link>
       <description>&lt;p&gt;갤럭시 노트8을 작년(2017년) 12월쯤 샀던 것 같다. 아내가 그 한달 전에 샀고, 나도 아이들의 사진과 동영상을 좀 더 좋은 품질로 찍어주고 싶어서 샀던 것 같다. 그 전에 쓰던 휴대폰은 구글의 레퍼런스 폰인 넥서스5(Nexus5)이다&lt;/p&gt;
+
 &lt;p&gt;일단 좋은 점들이다.&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;카메라는 좋다. 정확히 말하면 카메라로 찍은 사진의 품질과 해상도 그리고 버튼을 눌렀을 때 빠른 반응으로 찍힌다는 점이다. 그리고 어두운 곳에서도 그전 폰에 비해서 확실히 잘 나온다.&lt;/li&gt;
 &lt;li&gt;펜은 꽤 좋은데, 지원해주는 앱들이 거의 없다. 삼성에서 만든 앱만 제대로 '펜'과 '터치'를 지원해준다. 하지만 삼성앱이 꽤 잘 만들긴했다&lt;/li&gt;
-&lt;li&gt;방수 기능. 노파심에 방수 커버를 씌워서 물놀이를 하긴 하지만, 확실히 안심된다&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;&lt;p&gt;방수 기능. 노파심에 방수 커버를 씌워서 물놀이를 하긴 하지만, 확실히 안심된다&lt;/p&gt;
+
 &lt;p&gt;이제부터 단점들이다.&lt;/p&gt;
+
 &lt;ul&gt;
 &lt;li&gt;무겁다. 커서 무겁다는 느낌보다도 더 묵직했다. 다행히 이건 쓰면 쓸수록 적응되긴 했다.&lt;/li&gt;
 &lt;li&gt;엣지 스크린이라는, 좌우의 화면이 부드럽게 곡면이다. 이거 때문에 사기 싫을 정도였는데, 카메라 좋은 것을 찾다보니 어쩔 수 없이 선택했었다. 써보니 역시 싫다. 액정보호 필름도 잘 안 붙는다. 그냥 삼성이 기술력보이려고 했는데, 나는 엣지 스크린이 싫다. 주위에 물어보면 좋아하는 사람은 거의 없는듯... 한 2만원정도 더 주고서라도 빼고 싶은 기능&lt;/li&gt;
@@ -61,7 +109,10 @@
 &lt;li&gt;안면 인식. 잘 안된다. 나처럼 안경 쓰고 있으면 더 잘 안된다. 없다 치자.&lt;/li&gt;
 &lt;li&gt;참고로 보안툴이 깔려있어서 계속 감시를 하는데, 내가 만든 SMS 전달 앱을 악성 코드로 인식하더라. 관련 팀에 메일까지 보내서 풀기는 했는데, 대충 내용보니, 내가 앱 업데이트하면 또 악성 코드로 인식될 것 같다&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;삼성은 혁신하기 힘들면 위의 단점들만 커버해서 제대로 내 놓아도 좋을 것 같다&lt;/p&gt;</description>
+
+&lt;p&gt;삼성은 혁신하기 힘들면 위의 단점들만 커버해서 제대로 내 놓아도 좋을 것 같다&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
       <guid>http://blog.wimy.com/448</guid>
       <pubDate>Fri, 27 Jul 2018 14:25:08 GMT</pubDate>
     </item>
@@ -69,8 +120,11 @@
       <title>더이상 배우려 하지 않는 개발자 : Expert Beginner의 등장</title>
       <link>http://blog.wimy.com/447</link>
       <description>&lt;p&gt;좋은 글을 읽어서 공유한다.&lt;/p&gt;
+
 &lt;p&gt;&lt;a href="https://medium.com/@jwyeom63/%EB%8D%94-%EC%9D%B4%EC%83%81-%EB%B0%B0%EC%9A%B0%EB%A0%A4-%ED%95%98%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90-expert-beginner%EC%9D%98-%EB%93%B1%EC%9E%A5-dd40c40aeedf"&gt;더이상 배우려 하지 않는 개발자 : Expert Beginner의 등장&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;뭐, 결론은 계속 공부하자. 자신이 알고 있는 것을 돌아보자 정도로 요약할 수 있겠다. 경력상 어느 정도 중반에 들어선 나에게 좋은 자극이 되는 글이다.&lt;/p&gt;</description>
+
+&lt;p&gt;뭐, 결론은 계속 공부하자. 자신이 알고 있는 것을 돌아보자 정도로 요약할 수 있겠다. 경력상 어느 정도 중반에 들어선 나에게 좋은 자극이 되는 글이다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/447</guid>
       <pubDate>Fri, 10 Nov 2017 13:13:19 GMT</pubDate>
     </item>
@@ -78,13 +132,21 @@
       <title>여름 앱의 종료가 아쉽다</title>
       <link>http://blog.wimy.com/446</link>
       <description>&lt;p&gt;&lt;img src="Summer.png" alt="여름 서비스 종료" /&gt;&lt;/p&gt;
+
 &lt;p&gt;여름이라는 앱이 종료되었다. 그렇게 많이 알려진 앱은 아니지만, SK텔레콤에서 제공했던 문자 앱이다. 구글에 '여름 문자 대체'를 검색해보면 꽤 많은 사람들이 이 앱을 잘 쓰고 있었음을 알 수 있다. 물론 나도 그 중의 한 사람이다.&lt;/p&gt;
+
 &lt;p&gt;나는 넥서스5라는 기기를 사용하고 있는데, 구글에서 제공해주는 기본 문자앱이 영 마음에 들지 않아서 다른 문자앱을 찾아보고 있었는데, 다들 고만고만하기도 하고, 외국 앱이 우리나라의 MMS를 제대로 지원해주지 않을 것같고, T전화를 워낙 만족스럽게 쓰고 있었기 때문에 같은 회사에서 나온 '여름' 앱을 골랐었다. 그런데 앱 서비스가 종료되었다.&lt;/p&gt;
+
 &lt;p&gt;사실 "T전화"가 꽤 인기가 있다. 기본적인 스팸 관리 기능이 사용자들에게 좋은 평가를 얻고 있으면서, SKT외에도 다른 사용자들에게도 사용하게 해준게 꽤 좋은 평가를 얻고 있는게 아닌가 싶다. 그래서 여름앱을 만족스럽게 쓰면서 자연스레 "이거 SKT에서 통신사의 새로운 기준을 제시하겠구나"라는 생각이 들었었다. 바로, 통신사에서 제일 잘할 수 있는, "전화와 문자 서비스"를 제대로 짚었기 때문이었다.&lt;/p&gt;
+
 &lt;p&gt;T전화와 여름앱은 SKT에서 만들었지만, 모든 통신사들에서 쓸 수 있었다. 삼성에서 만든 휴대폰이든, LG, 구글에서 만든 휴대폰이든 SKT, KT, LGT를 쓰든, 모든 안드로이드 폰이 이 앱을 사용할 수 있었다. 정말 제대로 잘 만든다면, 전세계 모든 안드로이드 앱의 전화와 문자앱을 SKT에서 먹어버릴 수 있는 상황이었다. 특히 T전화는 삼성에서도 T전화를 벤치마킹한다는 말이 나올 정도였다.&lt;/p&gt;
+
 &lt;p&gt;만약 이렇게 계속 영향력을 넓혀서 문자 시장에서도 최고자리를 차지한다면, 자연스럽게 다른 앱으로 영향력을 넓힐 수 있을 것이었다. 예를 들면, 구글의 inbox처럼 문자를 할 일 목록처럼 관리해서 개인비서나 노트앱 시장을 노려본다와 같은 시도를 해볼 수 있었을 것이다.&lt;/p&gt;
+
 &lt;p&gt;사실 딱히 돈이 안되고, 당장 눈에 보이는 성과가 없으니 서비스를 종료하지 않았나하는 생각이 든다. 특히 문자 시장은 저물어가는 시장으로 인식되어서 그런가 싶다. 하지만 이 상황에서도 통신사가 본의아니게 우위를 점하고 있는게 사실 전화와 문자이다. 역설적이지만, 카카오톡과 같은 메신저들이 득세를 해도 모든 휴대폰에는 문자앱이 설치되어 있다. 그리고 아직까지는 많은 서비스들(카드 결제 알림, 공과금 안내 등)이 문자를 통해서 이루어지고 있다. 앞에서 얘기한 것처럼 T전화가 전화 서비스를 제대로 제공하고 사용자들에게 다가가는데 성공했다면, 자연스레 문자앱 시장에서도 성공하는게 당연한 수순으로 보였다.&lt;/p&gt;
-&lt;p&gt;한국 통신사에서 재미난 사업 방향을 제시한 것 같았는데 아니어서 아쉽고, 사용자 입장에서 괜찮은 앱 하나가 사라져서 아쉽다. 여름 앱의 종료는 정말 아쉽다.&lt;/p&gt;</description>
+
+&lt;p&gt;한국 통신사에서 재미난 사업 방향을 제시한 것 같았는데 아니어서 아쉽고, 사용자 입장에서 괜찮은 앱 하나가 사라져서 아쉽다. 여름 앱의 종료는 정말 아쉽다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/446</guid>
       <pubDate>Sat, 23 Sep 2017 14:28:59 GMT</pubDate>
     </item>
@@ -92,24 +154,43 @@
       <title>블로그 이전 및 WimyBlog 소개</title>
       <link>http://blog.wimy.com/445</link>
       <description>&lt;p&gt;블로그를 이사했다. 티스토리가 백업을 중지한 후부터 언젠가는 티스토리를 떠나야겠다라고 생각하고 있었는데, 이런저런 생각을 해보다가 github로 가자는 결론을 내렸고 정적 페이지로 블로그를 만들어야겠다고 생각하고 있었다. 하나 걸리는 것이 github의 공식적인 블로그툴이 Jekyll 이라는 툴인데, 루비 언어로 만들어져있었고, 조금 들여다보니 '정적인 페이지들인데 간단히 만들 수 있지 않을까' 라는 생각에 직접 만들기 시작했다.&lt;/p&gt;
-&lt;h1 id="wimyblog"&gt;WimyBlog&lt;/h1&gt;
+
+&lt;h1&gt;WimyBlog&lt;/h1&gt;
+
 &lt;p&gt;&lt;a href="https://github.com/zelon/WimyBlog"&gt;WimyBlog on github&lt;/a&gt;에 C#, .NET Core 2.0에서 동작하는 소스를 올려두었다. 참고로 이 블로그는 &lt;a href="https://github.com/zelon/blog.wimy.com"&gt;blog.wimy.com on github&lt;/a&gt;에 소스가 있다. 즉, &lt;a href="https://github.com/zelon/blog.wimy.com"&gt;blog.wimy.com on gihub&lt;/a&gt;에 markdown 형식으로 글을 쓰고, &lt;a href="https://github.com/zelon/blog.wimy.com"&gt;WimyBlog on gihub&lt;/a&gt;를 실행해서 html들을 뽑아내게 된다&lt;/p&gt;
+
 &lt;p&gt;그냥 기존처럼 파이썬이나 Go를 쓰지 않고, 정적인 페이지들을 만들면 되니까 어떤 언어를 써도 상관은 없었는데, C++ 다음으로 관심이 많은 C#을 좀 더 써보기로 하고, 최신(!) 트렌드인 .NET Core로 만들어보기로 했다. 1.1에서 만들었는데, 도중에 2.0이 나와서 업데이트. Microsoft에서 한창 밀고 있는 .NET Core가 어떤지 궁금하기도 했다.&lt;/p&gt;
-&lt;h1 id="장점-github에서-직접-markdown으로-글-작성-가능"&gt;장점: github에서 직접 markdown으로 글 작성 가능&lt;/h1&gt;
+
+&lt;h1&gt;장점: github에서 직접 markdown으로 글 작성 가능&lt;/h1&gt;
+
 &lt;p&gt;Markdown이 글의 원본이다. github.com에서 원래 웹 브라우저에서 Repository에 파일을 생성할 수 있고, Markdown파일의 경우 꽤 편리하게 편집할 수 있기 때문에, 웹에서 글을 편집할 수 있고, 글 배포를 위해서 정적 페이지를 만들 때만 git pull을 한 후 정적 파일들을 만들어내게 되었다. 꽤 좋은 장점이 될듯. 물론 로컬에서 직접 Atom Editor에서 preview를 보면서 편집하는 것도 편하다&lt;/p&gt;
-&lt;h1 id="장점-local-web-server"&gt;장점: Local Web Server&lt;/h1&gt;
+
+&lt;h1&gt;장점: Local Web Server&lt;/h1&gt;
+
 &lt;p&gt;사용성 입장에서 생각해보면 index.md는 Atom Editor에서 preview를 보면서 편집할 수 있지만, 정적 페이지는 실제로 github에 push를 해야만 볼 수 있다. 그냥 웹 브라우저에 html을 드래그하면 상대 경로나 절대 경로 때문에 css를 제대로 못 가져오거나, 링크가 제대로 연결되지 않는다. 그래서 간단한 웹 서버를 내장하면 layout이나 css편집이 쉬워질 것 같아서 웹 서버를 추가했다. .NET Core에서는 기존의 간단한 방식의 C# Console로는 작성이 안되고(HttpListener클래스가 없어졌음;;) ASP.NET Core로 프로젝트를 만들어야 된다. 실제로 만들어보니 꽤 간단한 코드로 동작이 되어서 만족스러움. 이 로컬 웹 서버 덕분에 github에 push하지 않아도 css, html 편집을 쉽게 할 수 있다&lt;/p&gt;
-&lt;h1 id="참고-github의-정적-페이지-서비스-방식"&gt;참고: github의 정적 페이지 서비스 방식&lt;/h1&gt;
+
+&lt;h1&gt;참고: github의 정적 페이지 서비스 방식&lt;/h1&gt;
+
 &lt;p&gt;특정 디렉토리에 index.md, index.html이 있으면 해당 디렉토리의 url을 요청했을 때, index.html을 먼저 보여주고, index.xml도 바로 서비스 해준다. 즉, blog.wimy.com/5 라는 디렉토리에 index.md와 index.html 파일이 있으면 항상 index.html 파일을 보여준다. 그래서, index.md는 원본이 되고, 서비스하는 파일은 index.html 파일이 되도록 구성했다. 그래서 하나의 글은 하나의 디렉토리 아래에 모을 수 있었다. 글에 embed된 이미지 파일이나 metadata 파일도 하나의 디렉토리에 모이도록 구성했다.&lt;/p&gt;
+
 &lt;p&gt;그리고 rss를 위해서 조사해보니, index.xml도 바로 서비스를 해줬다. 글들을 모은 후에 rss 형식으로 rss 디렉토리 아래에 index.xml 파일을 만들어주면 blog.wimy.com/rss 서비스를 할 수 있었다.&lt;/p&gt;
-&lt;h1 id="참고-indexmd-에서-github-형태로-indexhtml로-변환"&gt;참고: index.md 에서 github 형태로 index.html로 변환&lt;/h1&gt;
+
+&lt;h1&gt;참고: index.md 에서 github 형태로 index.html로 변환&lt;/h1&gt;
+
 &lt;p&gt;pandoc을 이용하면 github 문법으로 index.html로 변환해준다&lt;/p&gt;
-&lt;h1 id="참고-rss"&gt;참고: RSS&lt;/h1&gt;
+
+&lt;h1&gt;참고: RSS&lt;/h1&gt;
+
 &lt;p&gt;아무래도 나도 다른 블로그의 글을 항상 feedly로 rss를 통해서 보기 때문에 rss를 달지 않을 수 없었다. 티스토리의 rss와 공식 스펙을 보면서 그대로 구현했다. 딱히 어려운 점은 없었고, GMT 시각으로 변환하는 점만 주의하면 끝&lt;/p&gt;
-&lt;h1 id="참고-기존-데이터의-이전"&gt;참고: 기존 데이터의 이전&lt;/h1&gt;
+
+&lt;h1&gt;참고: 기존 데이터의 이전&lt;/h1&gt;
+
 &lt;p&gt;전체 들인 시간 중에 가장 많은 공을 들인 부분. 기존 티스토리 백업 파일(xml)에서 index.md 파일들을 뽑아내는 것이었다. 검색을 해보면, 3~4가지의 포스팅과 소스 파일이 나오는데, 내가 원하는 형태가 없었다. php라든지, 첨부 파일을 고려하지 않았다든지.. 그래서 직접 만들어봤다. &lt;a href="https://github.com/zelon/TistoryConvertor"&gt;TistoryConvertor on Github &lt;/a&gt;에 소스를 올려두었다. 사실 한번만 제대로 실행되고 버려질 프로젝트이지만 ㅠㅜ&lt;/p&gt;
-&lt;h1 id="에필로그"&gt;에필로그&lt;/h1&gt;
-&lt;p&gt;티스토리의 데이터 복원 기능 종료가 2013년이었다고 하니, 거의 4년을 마음 속에만 간직한 작업을 이제야 끝냈다. 물론 기능은 너무 미미하지만, 대학교 때 처음 php로 내 전용 게시판을 만들 때처럼 감회가 새롭다. 덕분에 .NET Core를 좀 써볼 기회가 있었고, 유닛테스트를 제법 고려한 코딩을 해보기도 했다. 앞으로 WimyBlog에 얼마나 더 시간을 쓸 수 있을지는 모르겠지만, 대부분의 개인 프로젝트가 그렇듯이 즐거운 마음으로 시작했고, 재미있게 코딩해서 좋았던 것 같다.&lt;/p&gt;</description>
+
+&lt;h1&gt;에필로그&lt;/h1&gt;
+
+&lt;p&gt;티스토리의 데이터 복원 기능 종료가 2013년이었다고 하니, 거의 4년을 마음 속에만 간직한 작업을 이제야 끝냈다. 물론 기능은 너무 미미하지만, 대학교 때 처음 php로 내 전용 게시판을 만들 때처럼 감회가 새롭다. 덕분에 .NET Core를 좀 써볼 기회가 있었고, 유닛테스트를 제법 고려한 코딩을 해보기도 했다. 앞으로 WimyBlog에 얼마나 더 시간을 쓸 수 있을지는 모르겠지만, 대부분의 개인 프로젝트가 그렇듯이 즐거운 마음으로 시작했고, 재미있게 코딩해서 좋았던 것 같다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/445</guid>
       <pubDate>Sat, 26 Aug 2017 14:28:17 GMT</pubDate>
     </item>
@@ -117,11 +198,17 @@
       <title>[책후기] 게임 프로그래밍 패턴</title>
       <link>http://blog.wimy.com/444</link>
       <description>&lt;p&gt;&lt;img src="GameProgrammingPattern.jpg" alt="GameProgrammingPattern" /&gt;&lt;/p&gt;
+
 &lt;p&gt;한참 회사 일에 여유가 있을 때 읽기 시작했는데, 갑자기 엄청나게 바빠져서 미뤄두다가, 찝찝함을 견디지 못하고 다시 읽기 시작해서 끝까지 읽게 되었다.&lt;/p&gt;
+
 &lt;p&gt;일단 책의 내용은 너무 와닿는다. 전혀 추상적이지 않고, 짤막한 예제들로 이루어져 있어서 술술 읽힌다. 그리고 책도 두껍지 않다;; 게임 프로그래밍을 하고 있는 입장에서는 필독서라고 불릴만한 것 같다.&lt;/p&gt;
+
 &lt;p&gt;다른 책들은 읽으면서 요점들을 구글 문서에 정리했었는데, 이 책은 정리할 수가 없었다. 한번 읽은 후에는 제목만 봐도 무슨 얘기를 하는지 알 정도의 자세한 설명이 있기 때문이다. 정리를 꼭 해야 한다면 책을 베끼는 수준이 될지도...;&lt;/p&gt;
+
 &lt;p&gt;전반적으로 패턴들을 소개하면서, 해당 패턴의 장점뿐만 아니라 단점도 소개하면서 해당 패턴을 사용할 때 어떤점들을 고려해야 하는지에 대해서 자세히 설명되어 있는 부분이 특히 좋았다.&lt;/p&gt;
-&lt;p&gt;게임 프로그래밍을 한다면 다들 읽어보시길...&lt;/p&gt;</description>
+
+&lt;p&gt;게임 프로그래밍을 한다면 다들 읽어보시길...&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/444</guid>
       <pubDate>Sat, 29 Jul 2017 09:16:23 GMT</pubDate>
     </item>
@@ -129,11 +216,17 @@
       <title>[책후기] 훌륭한 프로그래머 되는 법</title>
       <link>http://blog.wimy.com/443</link>
       <description>&lt;p&gt;책 제목부터가 멋지다 '훌륭한 프로그래머 되는 법'. 나는 스스로 훌륭한 프로그래머라고 생각하지만 늘 그렇지 않다는 사실을 깨달으며 살고 있기 때문에, 대체 어떻게 하면 훌륭한 프로그래머가 될 수 있을까를 고민하며 책을 읽기 시작했다.&lt;/p&gt;
+
 &lt;p&gt;내가 가장 많이 느낀 건, 코드에 신경을 쓰라는 것이다. 오랜 코딩에 익숙해져 너무나 당연히 한줄한줄 쓰는 코드를 돌아보는 계기가 되었다. 어떤 일이 주어지면 주욱 코드를 적어내는데, 이제는 다시 한번 이렇게 코딩하는 것이 맞는 것인가, 아니면 더 좋은 방법이 있는가, 이 코드가 최선인가라는 생각을 한번쯤은 하면서 코딩을 하게 되었다.&lt;/p&gt;
+
 &lt;p&gt;책 내내 유닛테스트의 중요성에 대해서 강조한다. 이 책을 읽으면서 테스트 케이스를 가능하면 만들려고 노력하게 되었다. 그 덕분에 조금이나마 테스트 가능한 코드에 대한 고민을 더 하게 되었고, 그에 기반하여 조금 더 자신감있는 리팩토링을 할 수 있게 되었다. 사실 유닛 테스트는 다른 책들에서도 항상 강조하는 것이었는데, 이 책을 보면서 다시 한번 마음 잡고 습관화하려고 노력하고 있다.&lt;/p&gt;
+
 &lt;p&gt;책의 많은 부분이 마음가짐에 대한 것이다. 실수를 해도 용기를 내고, 이렇게 하는 것이 우울함에 빠져있는 것보다 더 나은 방법이라는 등, 프로그래머의 삶에서 중요한 마음가짐과 태도에 대한 얘기가 많다.&lt;/p&gt;
+
 &lt;p&gt;프로그래머라면 한번쯤 읽어볼만한 좋은 책인 것 같다. 그리고 꽤 얇다 :)&lt;/p&gt;
-&lt;p&gt;이 책을 읽으며 메모한 내용을 &lt;a href="https://docs.google.com/document/d/e/2PACX-1vQxjG3v1QNhYCUqpJEVlediT902t0-zcU4a0iMT7KDNIHmcT6Qty_2CYOI3cde1yogz62tzRbQyP6-_/pub"&gt;구글 문서&lt;/a&gt;에 공유한다&lt;/p&gt;</description>
+
+&lt;p&gt;이 책을 읽으며 메모한 내용을 &lt;a href="https://docs.google.com/document/d/e/2PACX-1vQxjG3v1QNhYCUqpJEVlediT902t0-zcU4a0iMT7KDNIHmcT6Qty_2CYOI3cde1yogz62tzRbQyP6-_/pub"&gt;구글 문서&lt;/a&gt;에 공유한다&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/443</guid>
       <pubDate>Tue, 18 Jul 2017 14:12:23 GMT</pubDate>
     </item>
@@ -141,11 +234,17 @@
       <title>미니멀리즘 책을 읽고 실행하다</title>
       <link>http://blog.wimy.com/442</link>
       <description>&lt;p&gt;회사에서 eBook 대여를 해주기 시작하면서, 아내가 관심있어하고, 직장 동료도 관심을 가지고 실천해서, 미니멀리즘 관련 책을 3권쯤 읽어봤다.&lt;/p&gt;
+
 &lt;p&gt;"나는 단순하게 살기로 했다", "버리면 버릴수록 행복해졌다", "미니멀라이프 아이디어 55"&lt;/p&gt;
+
 &lt;p&gt;기본은 불필요한 물건을 버리기. 버리면 공간이 넓어진다. 버린 후 남겨진 물건들에 집중하게 된다. 모든 물건들은 메시지를 보낸다고 한다. "날 좀 봐줘!! 날 언제쓸꺼야! 난 잊어버린거야?" 이런 메시지들이 여기저기서 받게 되면, 우리는 은연 중에 스트레스를 받게 된다.&lt;/p&gt;
+
 &lt;p&gt;나는 기본적으로 쇼핑을 즐기지 않고, 뭔가를 막 사모으는 사람은 아니지만, 뭔가를 정말 버리지 못하는 사람인 건 확실했다. 그런데 버리기 시작하니 기분이 좋다. 뭔가 마음의 짐을 버리는 느낌이다.&lt;/p&gt;
+
 &lt;p&gt;책을 읽고나서, 많은 물건들을 필요한 사람에게 주고, 팔고, 버렸다. 특히 읽지도 않고 쌓아두던 많은 책들을 버렸다;; 그랬더니, 남은 책들은 열심히 읽기 시작했다. 그리고 버려두었던 블로그에도 다시 글을 쓰기 시작했다.&lt;/p&gt;
-&lt;p&gt;버릴 것들을 정리하면서, 쓸 수 있는 것들을 다시 확인해보니, 넥서스7가 있었다. 이제 넥서스7을 들고다니면서 eBook을 퇴근길에 보기 시작했다. 하루에 조금이라도 더 책을 읽기 시작하니, 삶에 활력이 더해지는 느낌이다.&lt;/p&gt;</description>
+
+&lt;p&gt;버릴 것들을 정리하면서, 쓸 수 있는 것들을 다시 확인해보니, 넥서스7가 있었다. 이제 넥서스7을 들고다니면서 eBook을 퇴근길에 보기 시작했다. 하루에 조금이라도 더 책을 읽기 시작하니, 삶에 활력이 더해지는 느낌이다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/442</guid>
       <pubDate>Tue, 04 Apr 2017 14:23:23 GMT</pubDate>
     </item>
@@ -153,9 +252,13 @@
       <title>Clean Code를 읽다</title>
       <link>http://blog.wimy.com/441</link>
       <description>&lt;p&gt;&lt;img src="CleanCode.jpg" alt="CleanCode" /&gt;&lt;/p&gt;
+
 &lt;p&gt;Clean Code를 읽었다. 육아에 지치고, 컴퓨터에 앉으면 코딩을 우선시하느라 당분간 책을 못 읽었었는데, 마음잡고 하루에 1챕터씩 읽어내려갔다. 하루에 1챕터라는 목표를 정하고, 애들 재우고 나와서 무조건 책을 읽고 다른 일을 시작한다고 정하니 확실히 목표를 달성할 수 있었다.&lt;/p&gt;
+
 &lt;p&gt;책 내용은 코딩의 전반적인 권장 사항에 관해서이다. 결론을 요약하자면, "읽기 좋게 코드를 짜라. 테스트 코드를 짜라. 시간을 들여서 코드를 재검토해라"로 요약해볼 수 있겠다. 알면서도 지키지 못했던 부분들을 꼬집는 내용을 읽을 때마다 뜨끔뜨끔했다;; 그리고 어렴풋이 그러리라 생각했던 부분들을, 왜 그런지, 어떻게 해야하는지를 명확히 적어놓은 부분들이 많았다. 꼭 몸에 익히도록 해야겠다.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://docs.google.com/document/d/1jLGEkWy5V7CCus5gWjioVJNMoAk3aBgRJHVISuA_hnE/pub"&gt;구글 문서에 정리한 내용 링크&lt;/a&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;&lt;a href="https://docs.google.com/document/d/1jLGEkWy5V7CCus5gWjioVJNMoAk3aBgRJHVISuA_hnE/pub"&gt;구글 문서에 정리한 내용 링크&lt;/a&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/441</guid>
       <pubDate>Tue, 04 Apr 2017 14:07:16 GMT</pubDate>
     </item>
@@ -163,20 +266,35 @@
       <title>나의 프로그래밍 언어 선택 기준</title>
       <link>http://blog.wimy.com/437</link>
       <description>&lt;p&gt;언젠가 한번 글로 정리해봐야지 하던 것을 한번 적어본다.&lt;/p&gt;
+
 &lt;p&gt;내가 처음 hello world를 모니터에 띄워본지 꽤 되었기 때문에, 지금은 어느 정도 쓸 수 있다고 생각하는 언어가 몇 개 있다. C++, Python, C#, Java, Go, Javascript 정도가 있다. 물론 언어마다 숙련도가 꽤 차이가 난다.&lt;/p&gt;
+
 &lt;p&gt;어떤 새로운 프로그램을 만들 때 어떤 기준으로 언어를 고를까를 생각해보다가, 나에게는 2가지의 기준이 있다는 생각이 들었다.&lt;/p&gt;
-&lt;h1 id="garbage-collection"&gt;Garbage Collection&lt;/h1&gt;
+
+&lt;h1&gt;Garbage Collection&lt;/h1&gt;
+
 &lt;p&gt;먼저 Garbage Collection 이 있느냐 없느냐이다. 이 기준은 성능에 민감한, 특히 온라인 게임 서버 중 필드 던전(불특정 다수가 만나서 전투를 할 수 있는 공간)을 랙 없이 구현할 수 있는 언어이냐 아니냐를 판단하는 기준이 된다. 쉽게 생각해서 Garbage Collection이 동작하게 되었을 때, 전투가 벌어진다면, 버벅이게 될 것이기 때문이다. 그래서 Garbage Collection이 있는 언어는 이런 서버를 제작할 때는 배제되어야 한다. &lt;/p&gt;
+
 &lt;p&gt;그래서, 이런 서버를 만들 때는 C++을 쓸 수 밖에 없을 것 같다. Rust라는 언어가 최근에 나온 언어 중에는 Garbage Collection이 없다고 하는데, 아직 한번도 안 써봐서, 기회가 온다면 한번 살펴봐야 겠다.&lt;/p&gt;
-&lt;h1 id="동적-타입-vs-정적-타입"&gt;동적 타입 vs 정적 타입&lt;/h1&gt;
+
+&lt;h1&gt;동적 타입 vs 정적 타입&lt;/h1&gt;
+
 &lt;p&gt;그리고 또 하나의 기준은 동적 타입이냐, 정적 타입이냐이다. 동적 타입인 python+Javascript로 약 4천줄의 코드를 5년 정도 유지보수하면서 느낀 것은 컴파일을 하면 쉽게 잡히는 버그들을 실행시간에 만나게 된다는 것이다. 그냥 함수 이름을 하나 더 알아보기 쉽게 바꾸었는데, 혹시나 내가 검색하지 못한 곳에서 참조하고 있을까봐 전전긍긍하게 되거나, 변수 하나 삭제했는데, 테스트 못한 케이스가 있을까봐 조바심을 낸다. 혹시나 이런 경우는 유닛 테스트를 잘 짜지 못해서 그렇다고 할 수도 있지만, 글쎄, 많은 케이스들을 로직 검증을 위해서가 아닌, code coverage 테스트를 위해서 하나하나 유닛 테스트로 짜고 있는 자신을 보고 있으면, 내가 왜 이러고 있나라는 생각이 든다.&lt;/p&gt;
+
 &lt;p&gt;그래서, 동적 타입의 스크립트 언어(pytho, javascript등)는 실행시켰을 때, if/for/while 등의 조건 분기가 없는 코드를 짜는 것 정도는 납득할만하다. 어차피 한번 실행시키면 대부분의 코드가 테스트되기 때문이다. 그 외에 복잡한 로직이 들어가고 depth가 깊어지는 코드라면 동적 타입의 언어는 버리자. 사실 이렇게 생각하면, python을 쓸 수 없는데, 그자리를 go언어와 C#스크립트(Visual Studio 2015 Update3이상 설치)가 이제 그 대안이 될 수 있을 것 같다. 그리고 javascript의 경우에는 typescript를 통해서 컴파일해낸 javascript를 사용하게 될 것 같다.&lt;/p&gt;
-&lt;h1 id="나의-결론"&gt;나의 결론&lt;/h1&gt;
+
+&lt;h1&gt;나의 결론&lt;/h1&gt;
+
 &lt;p&gt;python 이제 봉인하자&lt;/p&gt;
+
 &lt;p&gt;javascript는 typescript로 컴파일해내서 쓴다&lt;/p&gt;
+
 &lt;p&gt;스크립트는 가능하면 C# script, cross platform은 go언어&lt;/p&gt;
+
 &lt;p&gt;랙없어야 하는 서버는 C++. 시간나면 rust 잠깐 봐두자&lt;/p&gt;
-&lt;p&gt;랙이 큰 문제없는 서버는 내가 만들 일이 거의 없긴 한데, C#을 기본으로 하고, java를 보는게 어떨까 고민 중...&lt;/p&gt;</description>
+
+&lt;p&gt;랙이 큰 문제없는 서버는 내가 만들 일이 거의 없긴 한데, C#을 기본으로 하고, java를 보는게 어떨까 고민 중...&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/437</guid>
       <pubDate>Wed, 28 Sep 2016 14:43:47 GMT</pubDate>
     </item>
@@ -184,10 +302,15 @@
       <title>[책소개] 코딩을 지탱하는 기술</title>
       <link>http://blog.wimy.com/436</link>
       <description>&lt;p&gt;예전에 재미있게 읽었던 책인데, 제목만 적어놓고 내용이 없었다...;&lt;/p&gt;
+
 &lt;p&gt;마치 프로그래머의 교양서 같은 느낌의 책으로, 짬짬이 공부는 하기 싫고(!) 뭔가 책 읽고는 싶을 때 읽어보면 재밌게 읽을 수 있을 것 같다. 게다가 책이 얇기(270페이지)까지 하다.&lt;/p&gt;
+
 &lt;p&gt;왜 프로그래밍 언어가 이렇게 발달해왔는지, 우리가 무심코 사용하는 프로그래밍 기법들이 어떻게 생겨났는지에 대한 얘기를 재미있게 해준다.&lt;/p&gt;
+
 &lt;p&gt;프로그래머라면 한번쯤 읽어볼만하다.&lt;/p&gt;
-&lt;p&gt;&lt;img src="book.jpg" alt="코딩을 지탱하는 기술" /&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;&lt;img src="book.jpg" alt="코딩을 지탱하는 기술" /&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/436</guid>
       <pubDate>Fri, 08 Jul 2016 00:53:31 GMT</pubDate>
     </item>
@@ -195,8 +318,11 @@
       <title>대체 누가 내 스택에 숫자 2를 적었나</title>
       <link>http://blog.wimy.com/435</link>
       <description>&lt;p&gt;&lt;a href="http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/"&gt;http://blogs.unity3d.com/kr/2016/04/25/debugging-memory-corruption-who-the-hell-writes-2-into-my-stack-2/&lt;/a&gt;&lt;/p&gt;
+
 &lt;p&gt;갑자기 스택에 이상한 값이 쓰여지는 현상을 디버깅하는 과정을 정리한 글. 과정을 따라가는 것이 흥미롭다.&lt;/p&gt;
-&lt;p&gt;결론은 시스템 콜 안에서 예외가 발생해서 unwinding 되었고, 콜 안에서 사용된 스택 변수의 값이 뒤늦게 세팅되어서 발생되었다.&lt;/p&gt;</description>
+
+&lt;p&gt;결론은 시스템 콜 안에서 예외가 발생해서 unwinding 되었고, 콜 안에서 사용된 스택 변수의 값이 뒤늦게 세팅되어서 발생되었다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/435</guid>
       <pubDate>Wed, 18 May 2016 09:36:17 GMT</pubDate>
     </item>
@@ -204,8 +330,11 @@
       <title>[영화감상] 하늘에서 음식이 내린다면</title>
       <link>http://blog.wimy.com/434</link>
       <description>&lt;p&gt; 하늘에서 음식이 내린다면2가 있길래, 우와 1편이 꽤 재미있었나보다. 애들이랑 같이 봐야지하고 빌렸는데, 애들이랑 같이보면서, 정작 내가 엄청 신나게 봤다.&lt;/p&gt;
+
 &lt;p&gt; 하늘에서 비가 아닌 음식이 내리면 어떻게 될까라는 생각에서 시작된 영화인데, 정말 재미있는 상황들이 벌어진다. 가족애, 멜로, 액션, (말도 안되는)과학, 자기 개발(?) 등 다양한 재미를 준다. 후반부를 볼 때, 애들이랑 저녁 먹으면서 봐서, 윈도우10에 DVD Player App 을 설치하면서 까지 다시 뒷장면을 제대로 봤다. 애들이 있다면 강추~&lt;/p&gt;
-&lt;p&gt; 내가 봤을 때는 포탈, 스타워즈, 모탈컴뱃, 반지의 제왕 정도의 오마주가 있었다.&lt;/p&gt;</description>
+
+&lt;p&gt; 내가 봤을 때는 포탈, 스타워즈, 모탈컴뱃, 반지의 제왕 정도의 오마주가 있었다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/434</guid>
       <pubDate>Sun, 08 May 2016 12:31:05 GMT</pubDate>
     </item>
@@ -213,8 +342,11 @@
       <title>유니티 클라우드 빌드에서 만든 app 이 유니티 로그 화면에서 멈출 때</title>
       <link>http://blog.wimy.com/433</link>
       <description>&lt;p&gt; 집에서 종종 unity 만지면서 놀다가, 유니티 클라우드 빌드를 써보기로 하고 간단히 설정해서 써봤는데, 로컬에서 빌드하면 잘 시작되는데, 유니티 클라우드 빌드에서 빌드한 apk 를 받아서 실행하면 유니티 로그 화면에서 멈추는 것이다. 이 문제로 고생하다가 해결하려고 마음 먹고 adb 로 로그를 찍어봐도 별 이상없고 해서 유니티 클라우드 빌드 웹페이지의 설정 화면을 살펴보니, 해결할 수 있었다.&lt;/p&gt;
+
 &lt;p&gt; Config -&amp;gt; Show Advanced Options -&amp;gt; Edit Advanced Options 클릭 -&amp;gt; Scene List 에 본인의 Scene 파일 이름(예를 들면 Default)를 적고 Add 버튼을 누른 후 저장하자. 아마 제대로 된 경로(Assets/Default.unity)를 보여줄 것이다. &lt;/p&gt;
-&lt;p&gt; 즉, 클라우드 빌드 시에 기본으로 시작할 scene 을 지정해주지 않아서 발생한 문제였다(사실 이걸 왜 굳이 설정해줘야 하는지는 의아하지만;;). 여튼 이제 다시 빌드를 후 apk 를 설치해보자. 잘 시작된다.&lt;/p&gt;</description>
+
+&lt;p&gt; 즉, 클라우드 빌드 시에 기본으로 시작할 scene 을 지정해주지 않아서 발생한 문제였다(사실 이걸 왜 굳이 설정해줘야 하는지는 의아하지만;;). 여튼 이제 다시 빌드를 후 apk 를 설치해보자. 잘 시작된다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/433</guid>
       <pubDate>Mon, 25 Apr 2016 15:30:33 GMT</pubDate>
     </item>
@@ -222,7 +354,9 @@
       <title>동방불패를 보다</title>
       <link>http://blog.wimy.com/432</link>
       <description>&lt;p&gt;이제야 영화 '동방불패' 를 봤다. 1992년 작품이다. 아는 형이 '동방불패'를 외치며 뛰어다닐 때도 그러려니 하고 있었는데, 난 명작 영화를 놓친 게 너무 많다. 돌이켜보면 사실 저 시대에는 난 국민학교 6학년이었고, 그 나이가 볼 영화도 그 당시에 볼 환경도 아니었던 것 같다.&lt;/p&gt;
-&lt;p&gt; '양들의 침묵' 을 봤을 때 느꼈던, 그 이후에 나온 많은 영화들이 그 모티브를 가져와서 너무 식상해진 명작 영화를 보는 느낌이었지만, 동방불패는 지금봐도 꽤 볼만하다는 느낌이었다. 동성애와 원수와의 사랑이 적절하게 녹아있고, 오랜 만에 봐서인지 중국식 칼싸움 액션(!)이 꽤 멋있다.&lt;/p&gt;</description>
+
+&lt;p&gt; '양들의 침묵' 을 봤을 때 느꼈던, 그 이후에 나온 많은 영화들이 그 모티브를 가져와서 너무 식상해진 명작 영화를 보는 느낌이었지만, 동방불패는 지금봐도 꽤 볼만하다는 느낌이었다. 동성애와 원수와의 사랑이 적절하게 녹아있고, 오랜 만에 봐서인지 중국식 칼싸움 액션(!)이 꽤 멋있다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/432</guid>
       <pubDate>Mon, 07 Mar 2016 13:14:00 GMT</pubDate>
     </item>
@@ -230,10 +364,15 @@
       <title>한국에서 appengine 응답이 느린 이유는 위치 때문이다</title>
       <link>http://blog.wimy.com/431</link>
       <description>&lt;p&gt;뭐 당연한 얘기일 수도 있는데, go언어를 appengine 으로 개발하면서 로컬에서 띄운 서버인데도 1초 정도 걸렸다. 너무 느려서 stackoverflow 에 질문했더니... &lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/" class="uri" class="tx-link"&gt;&lt;a href="http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/"&gt;http://stackoverflow.com/questions/33942583/too-slow-ttfblatency-with-go-language-in-appengine/&lt;/a&gt;&lt;/a&gt; 실서버에서는 괜찮을거라고...&lt;/p&gt;
+
 &lt;p&gt;근데 나는 실서버에 올려도 느려서 혹시나 하고 developer console 에서 확인해보니 appengine 의 위치가 us-central 이다. 그래서 azure 를 통해서 가상 컴퓨터를 미국 중부에 만들어서 접속해보니 37ms 안에 응답이 시작되었다. 역시...&lt;/p&gt;
+
 &lt;p&gt;appengine 을 쓸 때는 빠른 응답을 기대하고 쓰면 안되겠군.&lt;/p&gt;
+
 &lt;p&gt;테스트 사이트 : &lt;a href="http://test-try-go.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://test-try-go.appspot.com/"&gt;http://test-try-go.appspot.com/&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;소스 코드 : &lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go"&gt;https://github.com/GoogleCloudPlatform/appengine-try-go&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;소스 코드 : &lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/GoogleCloudPlatform/appengine-try-go"&gt;https://github.com/GoogleCloudPlatform/appengine-try-go&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/431</guid>
       <pubDate>Sat, 28 Nov 2015 02:53:14 GMT</pubDate>
     </item>
@@ -241,21 +380,35 @@
       <title>TubeEnglish 를 소개합니다</title>
       <link>http://blog.wimy.com/430</link>
       <description>&lt;p&gt;Google Hackfair 에 내려고 만들었는데, 안타깝게도 전시회에는 못 나가게 되었음 ㅠㅜ 마무리하는 의미로 블로그에 소개글 남겨본다.&lt;/p&gt;
+
 &lt;p&gt;메인 주제는 YouTube 를 통한 영어 공부를 할 때 도움이 되는 웹앱이다.&lt;/p&gt;
-&lt;img src="tube_english.png" width="700" height="524" /&gt;
+
+&lt;p&gt;&lt;img src="tube_english.png" width="700" height="524" /&gt;&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
+
 &lt;p&gt;다음과 같은 기능이 있다.&lt;/p&gt;
+
 &lt;p&gt;* 구간 반복&lt;/p&gt;
+
 &lt;p&gt;* 속도 조절&lt;/p&gt;
+
 &lt;p&gt;* 5초/10초 앞으로 가기&lt;/p&gt;
+
 &lt;p&gt;* 자막 켜고 끄기&lt;/p&gt;
+
 &lt;p&gt;* 사전 연동&lt;/p&gt;
+
 &lt;p&gt;소개 동영상 주소는 &lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE" class="uri" class="tx-link"&gt;&lt;a href="https://www.youtube.com/watch?v=_UVfek-zRqE"&gt;https://www.youtube.com/watch?v=_UVfek-zRqE&lt;/a&gt;&lt;/a&gt; 이다.&lt;/p&gt;
+
 &lt;p&gt;홈페이지 주소는 &lt;a href="http://tube-english.appspot.com/" class="uri" class="tx-link"&gt;&lt;a href="http://tube-english.appspot.com/"&gt;http://tube-english.appspot.com/&lt;/a&gt;&lt;/a&gt; 이다. 여기서 검색 창에 YouTube 주소를 붙여넣고 검색하면 위의 화면처럼 로딩되면서 앞의 기능들을 사용할 수 있다. 크롬 웹브라우저에서는 &lt;a href="https://chrome.google.com/webstore/detail/bcojlbpjgjmaniipjelppbehhfhankcb/publish-accepted?hl=ko&amp;amp;utm_source=chrome-ntp-launcher" class="tx-link"&gt;[플러그인]&lt;/a&gt; 을 설치하면 YouTube 에서 동영상을 보다가 원클릭에 갈 수 있다.&lt;/p&gt;
+
 &lt;p&gt;오픈소스이며 주소는 &lt;a href="https://github.com/zelon/youtube-english" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/zelon/youtube-english"&gt;https://github.com/zelon/youtube-english&lt;/a&gt;&lt;/a&gt; 이다. 개발 환경은 golang + appengine, javascript, bootstrap, chrome extension 이다.&lt;/p&gt;
+
 &lt;p&gt;나름 열심히 준비했는데, 아이디어가 조금 부족했던 것 같다. 나름 요긴하게 쓰는 사이트가 되겠지만 말이다. 아쉽지만, 다음을 기약하며 관련 지식을 좀 더 습득했는 걸로 만족하자.&lt;/p&gt;
-&lt;p&gt;끝.&lt;/p&gt;</description>
+
+&lt;p&gt;끝.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/430</guid>
       <pubDate>Tue, 24 Nov 2015 15:24:40 GMT</pubDate>
     </item>
@@ -263,11 +416,17 @@
       <title>go언어 + appengine 으로 개발하면서 겪은 것들</title>
       <link>http://blog.wimy.com/429</link>
       <description>&lt;p&gt;google hackfair 2015 를 준비하면서 겪었던 것들을 잊기 전에 정리해본다. 아쉽게도 전시회 명단에는 들지 못했지만 ㅠㅜ&lt;/p&gt;
+
 &lt;p&gt;go 로 만든다고 매우 큰 속도 향상은 없었다. 연산을 많이 하는 작업은 빨라질 거라 예상하는데, 단순한 request~response 의 경우 속도가 그렇게 빠르다는 느낌은 없다. (내가 아직 잘 몰라서겠지만)오히려 단순한 작업의 경우 1,2초의 응답 속도를 보일 때가 있다. 왜 그런지는 좀 더 파악해봐야 할듯.&lt;/p&gt;
+
 &lt;p&gt;appengine 에서 datastore 를 사용할 때 로컬에서는 문제가 없었는데 실제 서버에서 "" 이런 오류가 날 경우가 있다. 해당 쿼리문의 조합을 지원하는 복합 인덱스가 있어야 한다는 것인데, 로컬 서버에서는 문제가 없었기 때문에 좀 난감했다. 로컬 서버를 띄울 때 'devappserver.py --require_indexes yes .' 형태로 띄우면 로컬 서버에서도 해당 문제가 재현이 된다. 원인은 index.yaml 에 복합 인덱스를 실수로 수동으로 지웠기 때문이었다. require indexes 옵션없이 로컬에서 서버를 동작시키면 index.yaml 파일을 갱신해주는데 이 파일을 수동으로 편집하고 서버에 올렸기 때문에 발생한 문제였다. 이것도 나중에 자세히 살펴봐야할듯. 여튼 중요한 건, 쿼리문에서 2개 이상의 필드를 함께 사용하면 그 필드들이 묶인 복합 인덱스가 필요하다. filter("A").order("B") 이면 A+B 의 복합 인덱스가 필요.&lt;/p&gt;
+
 &lt;p&gt;datastore 에서 1500자 넘는 문자열은 string 으로 저장이 안되는 것으로 나오는데, 좀 더 살펴보니 index 를 걸지 않으면 사용할 수 있다. 자동으로 index 가 걸려서 사용 못하나 싶었지만, `datastore:",noindex"` 를 구조체 필드에 붙여주면 index 를 걸지 않게 된다.&lt;/p&gt;
+
 &lt;p&gt;일반 go 언어에서는 http.Get 으로 다른 웹페이지를 가져오지만, appengine 에서는 "appengine/urlfetch" 를 사용해야 한다&lt;/p&gt;
-&lt;p&gt;index.yaml 에서 특정 디렉토리 전체를 업로드/노출시킬 수 있다. static_dir 구문을 사용하면 쉽게 가능하다.&lt;/p&gt;</description>
+
+&lt;p&gt;index.yaml 에서 특정 디렉토리 전체를 업로드/노출시킬 수 있다. static_dir 구문을 사용하면 쉽게 가능하다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/429</guid>
       <pubDate>Tue, 24 Nov 2015 14:48:20 GMT</pubDate>
     </item>
@@ -275,23 +434,41 @@
       <title>어느 게임 서버 개발자의 하루</title>
       <link>http://blog.wimy.com/428</link>
       <description>&lt;p&gt;어느날 갑자기 나는 회사에서 무엇을 하고 있는가하는 생각이 들었다. 블로그가 원래 개인의 기록을 남기는 것이기 때문이기도 하고 혹시나 게임 서버 개발자가 되고 싶어하는 사람들이 궁금해할까 싶기도 하고...&lt;/p&gt;
+
 &lt;p&gt; 대략 9시 전후로 자전거를 타고 출근을 한다. 집에서 나서서 회사 자리에 앉기까지 대략 20분 정도 걸리는 거리라서 부담이 없다. 오히려 버스를 타면, 걸어나오는 시간, 버스 기다리는 시간 등 때문에 더 오래 걸린다. 비오면 버스타야함. 9시 30분 기준으로 업무가 시작되며, 좀 늦게 와도 뭐라하는 사람은 없다. 다만, 업무시간 8시간은 다들 알아서 지킨다.&lt;/p&gt;
+
 &lt;p&gt; 출근해서 자리에 앉으면, 어느 자리에서나 보이는, 매우 커다란 모니터에 주기적으로 개발 상태를 체크하는 CI(젠킨스)가 현재 어떤 문제가 발생했는지 알려준다. 문제가 발생하면 빨간 배경에 'XXX Failed, YYY Failed' 같은 화면을 보여주고, 문제가 없으면 '최신 걸그룹 뮤직 비디오' 를 보여준다. 5일 중에 2일 정도는 이런저런 문제가 있기 때문에 이런 문제를 해결한다. 보통은 단순 실수, CI 프로세스의 버그 정도이다. 물론 해결하기 골치 아픈거라서 임시 땜빵으로 넘어가는 경우도 있다. 이런 문제를 해결하는 데 대략 1시간 정도 소모되는 것 같다.&lt;/p&gt;
+
 &lt;p&gt; 일단 급해보이는 'XXX Failed' 들을 해결하고나서 걸그룹 뮤직 비디오가 나오는 걸 잠시 잠깐 보고나서... 덤프 수집 웹페이지를 확인하고 처리한다. 그리고 팀원들의 commit log 들을 훑어보기 시작한다. 어떤 일들이 진행되고 있는지, 내가 실수한 걸 다른 팀원들이 고쳐주지는 않았는지, 다른 팀원들은 어떻게 코드를 만드는지, 나만 이상한 형태로 코드를 만들고 있지는 않은지 확인한다. 좀 관심있거나 흥미를 끄는 commit 은 파일 한줄한줄 diff 하면서 자세히 훑어본다. 궁금한게 있으면 작성자에게 의도를 물어보거나, 내가 생각한 방법은 어떤지 의견을 교환하기도 한다. 의견을 교환하면서 많이 배운다는 느낌도 받는다. 대략 30분~60분 정도의 시간이 소모된다.&lt;/p&gt;
+
 &lt;p&gt; 여기까지 오면 대략 10시나 11시쯤 된다. 12시부터 점심 시간이므로 이 때부터 점심시간 전까지는 코드를 다듬는 시간으로 한다. 지난번 구현에서 일정 부족으로 Ctrl+CV 했던 코드를 정리하거나, 특정 코드들을 모아서 클래스로 뽑아낸다. 평소에 마음에 들지 않았던 코드들을 조금씩 손보는 시간으로 활용한다. 일정과 상관없이 팀장님이 시킨 일들도 한다. 평소에 이런 일을 조금씩 계속 진행해놓아야 디버깅도 편하고, 가슴속의 답답함도 줄어들고, 숨겨진 버그들도 발견되어 수정된다. 물론 바쁜 일정이 있다면 일정을 진행한다.&lt;/p&gt;
+
 &lt;p&gt; 점심시간에는 운동하고 밥 먹거나(50%) 찜질방에서 자고 밥 먹거나(40%) 게임하고 밥 먹는다(10%)&lt;/p&gt;
+
 &lt;p&gt; 오후에는 일정에 따른 일들을 주로 한다. 기획팀에서 주도하는 '이런저런 기능을 추가해주세요', '이거 불편해요' 이런것들이다. 이런 일들을 하기 위해서, 생각도 하고, 코딩도 하고, 기획팀이랑 얘기도 한다. 그러다보면 팀장님이 와서 '뭐 도와줄거 없어요?' 라든지 '이거 좀 이상해요' 라면서 새로운 잡일들을 맡기고 간다... 간단한 일이면 바로 하고 아니면 할일목록에 넣어둔다. 또 계속 일정 진행... &lt;/p&gt;
+
 &lt;p&gt; CI 는 주기적으로 계속 체크를 하기 때문에, 갑자기 빨간색 화면을 보여준다. 그러면 살짝 쉴겸 CI 가 알려주는 문제를 해결한다. 이게 빨리 해결이 안되면 일정 진행을 미루고 해결하는데 시간을 들인다. 여기의 빨간색 화면은 적게는 몇십명, 많게는 백여명이 될 수 있으므로 가능하면 빨리 해결해야 한다.&lt;/p&gt;
+
 &lt;p&gt; &lt;/p&gt;
+
 &lt;p&gt; 다시 일정을 진행하려고 했는데, 누군가와서 이 덤프 좀 확인해주세요라며 덤프 확인을 요청한다. 나한테 왔다는건 내가 일을 저질렀다는 것이다. 열심히 일을 처리한 후, 핫픽스가 필요하면 해당 브랜치에 핫픽스를 진행하고 다시 배포를 진행한다.&lt;/p&gt;
+
 &lt;p&gt; 다시 일정을 진행하려고 하는데, 이번에는 기획팀원이 와서 이런저런 것들을 물어본다. 당연히 친절히 설명해준다. 나도 잘 모르면 잘 아는 팀원에게 같이가서 설명을 듣는다. 그리고 기획팀원이 헷갈려하는 부분을 헷갈려하지 않도록 하는 방안이 나온다면 또 할일목록에 넣어둔다.&lt;/p&gt;
+
 &lt;p&gt; 일정진행 좀 한다...&lt;/p&gt;
+
 &lt;p&gt; 5일 중에 하루나 이틀은 오후에 팀원들이랑 티타임을 하는 시간이 생겼다. 한번은 꼭 팀장님이 전체 팀원을 모으고, 그냥 몇몇 팀원들이 모여서 티타임을 가지기도 한다. 한창 바쁜데 무슨 티타임이냐고 할 수도 있지만, 팀원들간의 티타임은 중요하다고 생각한다. 서로 개인적인 이야기나 일에 대한 의견교환, 그리고 시덥잖은 농담따먹기도 팀웍에 도움이 된다고 생각한다. 이 팀웍이 일을 할 때 커뮤니케이션 비용을 줄여주고, 불필요한 설명이나 논쟁을 줄여준다. 그리고 사실 나에게도 잠시의 휴식도 필요하고... 어디서 논문인지 통계인지를 봤는데, 직장인이 가장 행복할 때는 상사의 인정, 월급, 승진 같은 것보다도 직장 동료와 즐겁게 대화하는 시간이라고 한다. 나는 행복해...&lt;/p&gt;
+
 &lt;p&gt; 잠시의 휴식 시간을 가진 후 다시 일정 진행...&lt;/p&gt;
+
 &lt;p&gt; 회의가 하나 잡혀있다. 대부분 1시간 정도 회의를 진행한다. 갔다오면 할일목록에 할일 추가 ㅋㅋㅋ&lt;/p&gt;
+
 &lt;p&gt; 다시 일정진행...&lt;/p&gt;
+
 &lt;p&gt; 오후 6시 30분이 퇴근 시간이다. 이 시간이 가까워지면 보통 살짝 다른 형태로 일을 진행하게 된다. 먼저, 함부로 commit 을 만들지 않는다. commit 해서 빌드가 깨지거나 큰 문제가 발생하면 집에 못가는 거다. 그 상태로 집에 가면 무책임하다는 소리가 나올 수 밖에 없다. 물론 조금 늦게 갈 거면 상관없다. 그리고 새로운 작업을 가능하면 시작하지 않는다. 그 대신 밀린 메일을 읽거나, 다른 팀원들의 commit log 를 보기도 한다. 물론 일정이 급하면 일정을 최대한 진행한다.&lt;/p&gt;
-&lt;p&gt; 좀 재미있는게, 'XXX Failed' 라는 메시지를 보는 팀원들의 시각이다. 누구나 빨간 배경 화면을 보면 무언가 문제가 있다는 것을 안다. 그리고 누군가는 이 문제를 해결해야 겠다. 누군가는 이 문제를 알려야 겠다. 누군가는 신경 안 쓴다... 누군가 해결하고 있겠지... 하지만 이건 단순한 현상일 뿐이고, 실제로는 얼마큼 해결할 수 있냐에 따라서 반응하는 것 같다. 저게 뭐야 해결해볼까... 아... 어렵구나... 흰건 배경이고 까만건 글자인데... 아몰랑... 그래서 팀에 합류한지 오래되면 문제 해결을 더 잘하게 되는 경향이 있다. 그런데 이걸 잘 해결한다고 해서 프로그래밍을 잘하게 된다거나 그런건 아니다. 그냥 소모적인 시간을 좀 더 쓸 뿐...&lt;/p&gt;</description>
+
+&lt;p&gt; 좀 재미있는게, 'XXX Failed' 라는 메시지를 보는 팀원들의 시각이다. 누구나 빨간 배경 화면을 보면 무언가 문제가 있다는 것을 안다. 그리고 누군가는 이 문제를 해결해야 겠다. 누군가는 이 문제를 알려야 겠다. 누군가는 신경 안 쓴다... 누군가 해결하고 있겠지... 하지만 이건 단순한 현상일 뿐이고, 실제로는 얼마큼 해결할 수 있냐에 따라서 반응하는 것 같다. 저게 뭐야 해결해볼까... 아... 어렵구나... 흰건 배경이고 까만건 글자인데... 아몰랑... 그래서 팀에 합류한지 오래되면 문제 해결을 더 잘하게 되는 경향이 있다. 그런데 이걸 잘 해결한다고 해서 프로그래밍을 잘하게 된다거나 그런건 아니다. 그냥 소모적인 시간을 좀 더 쓸 뿐...&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/428</guid>
       <pubDate>Wed, 02 Sep 2015 16:23:51 GMT</pubDate>
     </item>
@@ -299,12 +476,19 @@
       <title>코드가 망가지는 과정</title>
       <link>http://blog.wimy.com/427</link>
       <description>&lt;p&gt;누군가 코드를 만든다. 꽤 잘 만들었다.&lt;/p&gt;
+
 &lt;p&gt;다른 누군가 그 코드에 수정사항을 가할 일이 생겼다. 원래 코드의 의도를 100% 이해하지는 못하고 만들게 된다. 당연하다. 일정이 있고, 간단해보이는 일을 하는데, 원래 전체 코드를 다 읽고 일할 수는 없다. 하지만, 특정 함수가 길어지게 되었다.&lt;/p&gt;
+
 &lt;p&gt;또다른 누군가가 새로운 기능을 추가한다. 또다시 전체 코드를 모두 이해하고 작업을 하지 않는다. 하지만 새 기능은 제대로 동작하며, 딱히 고쳐야할 이유는 없다. 기존의 코드와 모양새가 다르고, 독립적인 모듈처럼 보이기도 한다.&lt;/p&gt;
+
 &lt;p&gt;또 새로운 기능이 추가되는데 앞의 기능과 비슷한 기능이다. 앞에서 누군가가 만든 클래스와 비슷한(복사~붙여넣기를 한) 클래스를 만들어서 하위 모듈로 추가한다. 여전히 잘 동작한다. 꽤 큰 기능인데, 쉽게 만들었다고 좋아한다.&lt;/p&gt;
+
 &lt;p&gt;앞의 4명 중, 처음 2명이 퇴사를 하였다. 누구도 코드의 의도를 제대로 파악한 사람이 없다.&lt;/p&gt;
+
 &lt;p&gt;새로운 누군가가 정말 간단한 기능을 추가했다. 그런데 중요한 기능이 동작하지 않는다. 디버깅을 한다. 헤맨다. 함수는 엄청나게 길고, 비슷한 클래스들이 여기저기 있고, 이상하게 코드들이 일관성이 없다. 읽기가 힘들다. 이 파일 저 파일을 따라가면서 디버깅을 해야한다.&lt;/p&gt;
-&lt;p&gt; What the XXXX. 코드가 왜 이렇게 된거야~~~~~!!!&lt;/p&gt;</description>
+
+&lt;p&gt; What the XXXX. 코드가 왜 이렇게 된거야~~~~~!!!&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/427</guid>
       <pubDate>Tue, 01 Sep 2015 15:21:00 GMT</pubDate>
     </item>
@@ -312,11 +496,17 @@
       <title>여러명이 함께 협업해서 코드를 만들 때 발생하는 일들</title>
       <link>http://blog.wimy.com/426</link>
       <description>&lt;p&gt;내가 주석으로 남겨놓은 코드는 남들에게 '이게 왜 주석처리되어 있는가, 앞으로 쓰일 코드인가?'라는 의구심을 주게 되고, 코드를 읽는데 방해를 주게 된다.&lt;/p&gt;
+
 &lt;p&gt;사용하지 않게 된 변수, 함수들을 남겨놓으면 그 코드를 잘못 사용하게 될 여지가 있다. 동료가 그 함수를 잘못 사용해버릴 수도 있고, 마찬가지로 더이상 사용하지 않는 변수를 비교한다든지할 수도 있고, 코드를 읽기도 힘들어 진다.&lt;/p&gt;
+
 &lt;p&gt;내가 A라는 작업과 B라는 작업을 동시에 진행하고 한번에 submit 하게 되면, 나의 코드를 리뷰하는 동료들은 도대체 이 submit 은 왜 이렇게 복잡한거야라면서 리뷰를 하지 않게 된다.&lt;/p&gt;
+
 &lt;p&gt;'가나다 동작 방식을 바꿈' 이라고 적어놓은 submit log 는 '가나다 동작 방식을 바꿈. 정렬을 먼저 시킨 후에 공백을 제거함' 이라고 적어놓은 submit log 보다 동료들을 고생시키게 된다.&lt;/p&gt;
+
 &lt;p&gt;내가 별 의미없이 수정한 코드를 동료들이 볼 때 '왜 이렇게 했을까... 뭔가 이상한데, 분명 의도가 있을거야. 그 의도는 무엇일까...' 하게 되는 경우가 있다.&lt;/p&gt;
-&lt;p&gt; 위에서 동료들은 '6개월 후의 자기 자신' 그리고 '디버깅 중인 자기 자신' 이 포함된다는 걸 잊지말자.&lt;/p&gt;</description>
+
+&lt;p&gt; 위에서 동료들은 '6개월 후의 자기 자신' 그리고 '디버깅 중인 자기 자신' 이 포함된다는 걸 잊지말자.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/426</guid>
       <pubDate>Mon, 31 Aug 2015 15:21:14 GMT</pubDate>
     </item>
@@ -324,10 +514,15 @@
       <title>프로그래밍을 할 때 변수, 클래스의 이름을 잘 지어야한다</title>
       <link>http://blog.wimy.com/425</link>
       <description>&lt;p&gt;오늘 팀장님께 열심히 강의들었던 내용임... 조금은 각색해서...&lt;/p&gt;
+
 &lt;p&gt;다들 알다시피 프로그래밍을 할 때 이름이 중요하다. 한 눈에 알아보기 쉽고, 읽기 쉽고, 의도를 파악하기 쉽다. 뭐 대충 책에서 이런 내용들이 있고, 다들 알고 있다. 하지만 우리는 비영어권이기 때문에 늘 이름짓기를 힘들어한다.&lt;/p&gt;
+
 &lt;p&gt;오늘 한창 디버깅을 하고 있는데, 살짝 멘탈이 붕괴되는 상황에서, 다른 사람들이 마구 추가한 코드를 접했다. 사실 내가 추가한 것도 있겠지. 하지만 내 기억과는 먼 코드들이다. 왜 여기에 이런 코드들이 존재하는가. 팀장님이 이런 얘기를 해줬다.&lt;/p&gt;
+
 &lt;p&gt;자꾸 다른 사람들이 이 XXXManager 클래스에 이런저런 코드들을 넣는 이유는 이름이 Manager 이기 때문이다. 클래스 이름을 좀더 특화시켜서, Creator 라고 지었으면, 생성과 관련 없는 코드를 다른 사람들이 추가하지 않았을 것이고, 생성에 관련된 코드만 모여있게 될 것이다. Manager 라는 이름으로 클래스를 만들면, 누구나 아무 코드를 집어넣는다. 그리고 그렇게 뚱뚱해진 클래스는 디버깅하는 데에 계속 걸림돌이 된다.&lt;/p&gt;
-&lt;p&gt;이름을 잘 짓자.&lt;/p&gt;</description>
+
+&lt;p&gt;이름을 잘 짓자.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/425</guid>
       <pubDate>Mon, 31 Aug 2015 15:08:39 GMT</pubDate>
     </item>
@@ -335,8 +530,11 @@
       <title>iocp WSARecv 에서의 특이한 10014 오류</title>
       <link>http://blog.wimy.com/424</link>
       <description>&lt;p&gt;아는 친구가 만든 프로그램에서 MFC 를 제거하고, x86에서 x64 로 전환하는 과정 중에서 생긴 버그였다. IOCP 에서 WSARecv 를 했는데, 실패하면서 에러코드를 살펴보니 10014 오류가 났다. 한글 번역으로는 '호출에 대한 포인터 인수를 사용하려는 동안 시스템에서 잘못된 포인터 주소를 감지했습니다.' 이고, msdn 에서는 lpbuffers 인자가 잘못되었다고 하고, 이래저래 검색해보면 인자의 생명 주기라든지, 다른 인자가 잘못되었느니라고 적혀있었다.&lt;/p&gt;
+
 &lt;p&gt; 결론은 winsock2.h 를 include 하기 전에 #pragma pack (1) 코드가 있었다. 제거하니 잘된다. ㅠㅜ 아마 pragma pack 에 의해서 winsock2.h 에서 정의하는 구조체가 pack 되어버렸을 것이고, 그렇게 pack 된 구조체만큼을 new 해서 인자로 넘겨주니, 함수로 넘겨진 포인터는 함수가 원하는 크기가 아니어서 생긴 오류인 듯.&lt;/p&gt;
-&lt;p&gt; bad pointer 오류 상황에서는 pragma pack 도 연관될 수 있다는 걸 깊이 새겨야겠다. 하지만 이런 오류를 다시 만날 일은 없겠지.&lt;/p&gt;</description>
+
+&lt;p&gt; bad pointer 오류 상황에서는 pragma pack 도 연관될 수 있다는 걸 깊이 새겨야겠다. 하지만 이런 오류를 다시 만날 일은 없겠지.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/424</guid>
       <pubDate>Thu, 04 Jun 2015 14:21:52 GMT</pubDate>
     </item>
@@ -344,7 +542,8 @@
       <title>나의 백업 방법</title>
       <link>http://blog.wimy.com/423</link>
       <description>&lt;p&gt;한 때는 외장하드에 주기적으로 백업을 했었으나 집에 불이라도 나면 다 날아간다는 생각에 클라우드로 백업을 하기로 했다.&lt;br /&gt;
-주기적으로 알람을 걸어놓고 때가 되면 스크립트로 ms azure 파일 서비스를 이용해서 백업을 한다. 초기 백업에는 시간이 꽤 걸리지만 두번째부터는 바뀌거나 새로운 파일만 가기 때문에 시간도 그나지 많이 걸리지도 않는다. 그리고 회사에서 msdn subscription을 지원해줘서 무려 공짜! ㅋㅋ&lt;/p&gt;</description>
+주기적으로 알람을 걸어놓고 때가 되면 스크립트로 ms azure 파일 서비스를 이용해서 백업을 한다. 초기 백업에는 시간이 꽤 걸리지만 두번째부터는 바뀌거나 새로운 파일만 가기 때문에 시간도 그나지 많이 걸리지도 않는다. 그리고 회사에서 msdn subscription을 지원해줘서 무려 공짜! ㅋㅋ&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/423</guid>
       <pubDate>Sat, 09 May 2015 14:13:59 GMT</pubDate>
     </item>
@@ -353,7 +552,9 @@
       <link>http://blog.wimy.com/422</link>
       <description>&lt;p&gt;윈도우에서 제공하는 소프트웨어 레이드1 구축하고 중요한 데이터를 넣어놓았는데 파일 할당 테이블이 갑자기 RAW 로 바뀌었다. testdrive 도 써봤는데 제대로 복구가 안되어서 결국 포기.&lt;br /&gt;
 원래 하드가 꽤 오래되어서 2개를 새로 사서 다시 레이드1 구성해서 쓰게로 했다. 다행히 클라우드에 백업을 두기적으로 했기에 날아간건 약 일주일 분량의 사진 20장 정도. 그래도 뭔가 궁극의 레이드! 라고 생각했었는데 생각보다 쉽게 데이터가 깨져서 좀 멘붕이다 ㅠㅜ&lt;/p&gt;
-&lt;p&gt; 역시 궁극은 클라우드 백업이다 -_-/&lt;/p&gt;</description>
+
+&lt;p&gt; 역시 궁극은 클라우드 백업이다 -_-/&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/422</guid>
       <pubDate>Sat, 09 May 2015 14:10:31 GMT</pubDate>
     </item>
@@ -362,7 +563,8 @@
       <link>http://blog.wimy.com/421</link>
       <description>&lt;p&gt;비공식 펌웨어 이거 깔아보니 잘됨&lt;br /&gt;
 현상은 와이파이가 계속 한번씩 안되는거였는데 첨에 펌웨어 자동 업그레이드 후부터 그런거 같았는데... 그래서 버리기 직전에 저거 한번 써보자해서 해봤는데 잘됨&lt;br /&gt;
-다들 한번 해보세요~&lt;/p&gt;</description>
+다들 한번 해보세요~&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/421</guid>
       <pubDate>Sat, 09 May 2015 14:03:10 GMT</pubDate>
     </item>
@@ -370,10 +572,15 @@
       <title>[책] 프로그래머가 몰랐던 멀티코어 CPU 이야기</title>
       <link>http://blog.wimy.com/420</link>
       <description>&lt;p&gt;서버 프로그래머라면 확 땡기는 제목을 가진 "멀티코어 CPU 이야기" 책을 사둔지는 꽤 된 것 같은데 이상하게 어려울 것이라는 생각에 책을 펼쳐보지 않았던 것 같다 -_-;;; 일단 읽어보니 쉽고 재미있게 적혀있고, 내가 컴퓨터과학을 전공하여 그나마 한번쯤은 들어본 단어들도 많이 나왔다. 항상 책을 읽고나서 좋은 책이었으면 하는 생각이 "왜 좀 더 빨리 이 책을 읽지 않았을까... ㅠㅜ" 이 책도 그런 책 중의 하나가 될 것 같다.&lt;/p&gt;
+
 &lt;p&gt; 멀티코어 CPU 의 동작 방식을 차근차근 풀어나가면서 이런저런 기법들로 CPU 가 돌아가고, 우리는 프로그래밍을 할 때 이런 것들을 고려하면 좋겠다 정도로 이 책을 요약....(너무 짧은가...)할 수 있을 것 같다.&lt;/p&gt;
+
 &lt;p&gt; 이 책을 보고 뽐뿌를 받아서, 미루고 있던 멀티스레드 적용을 ZViewer 의 디코딩 쓰레드를 FileIO 와 Decode 스레드로 분리해서 적용을 해봤는데 대략 2개의 이미지를 읽는데 기존의 60%의 시간만 걸렸다. 만족 중~&lt;/p&gt;
+
 &lt;p&gt; 책의 밑줄 친 내용은 &lt;a href="https://docs.google.com/document/d/105D0-K746Mgk-scuDWUVmuKxcs_a3De4n9r0j_ysJYw/edit?usp=sharing" class="tx-link"&gt;구글 문서[링크]&lt;/a&gt;로 정리했다.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;</description>
+
+&lt;p&gt; &lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/420</guid>
       <pubDate>Fri, 13 Mar 2015 13:46:00 GMT</pubDate>
     </item>
@@ -381,7 +588,9 @@
       <title>프로그래머의 정파와 사파</title>
       <link>http://blog.wimy.com/419</link>
       <description>&lt;p&gt;난 열혈강호를 좋아한다. 팀장님의 정파 사파 이론.&lt;/p&gt;
-&lt;p&gt;구글 검색을 바로 하면 사파, API Manual 을 뒤진다면 정파 등등&lt;/p&gt;</description>
+
+&lt;p&gt;구글 검색을 바로 하면 사파, API Manual 을 뒤진다면 정파 등등&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/419</guid>
       <pubDate>Wed, 04 Mar 2015 14:15:37 GMT</pubDate>
     </item>
@@ -389,14 +598,21 @@
       <title>boost 라이브러리 사용 중 링크 에러</title>
       <link>http://blog.wimy.com/418</link>
       <description>&lt;p&gt; 갑자기 boost 라이브러리의 asio 를 써보고 싶어져서 boost 를 다운받아서 잠깐 매뉴얼을 읽어본 후에 하라는 대로 bootstrap 과 b2 를 실행해서 라이브러리 빌드를 한 다음에 Visual Studio 2013 에서 asioTest 프로젝트를 만든 후 include/lib 디렉토리를 제대로 설정 후 빌드를 걸었더니 다음과 같은 링크 에러가 났다.&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;Error    1    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "public: __cdecl boost::system::error_code::error_code(void)" (??0error_code@system@boost@@QEAA@XZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
-&lt;p&gt;Error    2    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)" (??__Eerrno_ecat@system@boost@@YAXXZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
+  &lt;p&gt;Error    1    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "public: __cdecl boost::system::error_code::error_code(void)" (??0error_code@system@boost@@QEAA@XZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
+  
+  &lt;p&gt;Error    2    error LNK2019: unresolved external symbol "class boost::system::error_category const &amp;amp; __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)" (??__Eerrno_ecat@system@boost@@YAXXZ)    E:\git\asioTest\asioTest\asioTest.obj    asioTest&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; 대충 해석해보면, boost::system::system_category 를 찾을 수 없다는건데, 강제적으로 라이브러리 파일 링크를 걸어봐도 안되고, 도통 알 수가 없었다. 그러다가 asio 를 사용 중인 지인의 도움을 받아서 이리저리 비교해보다가 그 분도 링크 에러가 난 적이 있다면서, Win32 build 에서는 같은 에러가 나는 것을 보게 되었다...&lt;/p&gt;
+
 &lt;p&gt; 그랬다. 나는 요즘 계속 x64 프로그래밍만 하고 있어서 무의식적으로 x64 로 프로젝트를 설정했는데, boost 라이브러리는 win32 로 빌드가 기본이었다.&lt;/p&gt;
+
 &lt;p&gt; b2 address-model=64 로 빌드를 다시 하니 링크 오류 해결~!! &lt;/p&gt;
-&lt;p&gt;ps: 왜 boost 라이브러리에는 x86 이니 x64 같은게 lib 파일이름에 없을까라며 괜히 욕해본다;;&lt;/p&gt;</description>
+
+&lt;p&gt;ps: 왜 boost 라이브러리에는 x86 이니 x64 같은게 lib 파일이름에 없을까라며 괜히 욕해본다;;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/418</guid>
       <pubDate>Thu, 08 Jan 2015 16:18:17 GMT</pubDate>
     </item>
@@ -404,10 +620,15 @@
       <title>Google Inbox 에 대한 생각</title>
       <link>http://blog.wimy.com/417</link>
       <description>&lt;p&gt;난 스마트폰을 자주 쓴다. 버스를 타고 갈 때도, 자기 전에도, 컴퓨터 앞에서도 종종 쓴다. 그리고 트위터도 한다(주로 읽기만 하지만), 페이스북도 한다. 하지만 이런 것들은 짧은 시간동안 하는 것들이다. 예를 들어, 트위터에서 꽤 괜찮은 글을 발견했다. 하지만 난 버스에서 내려야 한다. 그러면 난 SendMe 를 이용해서 해당 링크를 나의 지메일로 보내놓고, 시간이 될 때, 스마트폰의 메일함이나, 데스크탑의 메일함에서 해당 메일을 열어서 천천히 해당 글을 읽어본다.&lt;/p&gt;
+
 &lt;p&gt; SendMe - (&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme" class="uri" class="tx-link"&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.wimy.android.sendme"&gt;https://play.google.com/store/apps/details?id=com.wimy.android.sendme&lt;/a&gt;&lt;/a&gt;) 는 한창 안드로이드를 공부할 때 취미로 만들어본 프로그램인데, 안드로이드의 '공유' 를 눌렀을 때 항상 내 메일주소로 해당 내용을 공유하는 간단한 프로그램이다. 쉽게 얘기하자면 지메일을 띄우고, 내 메일 주소, 제목, 본문을 자동으로 넣어주는 셈이다. 안드로이드 앱의 많은 앱들이 '공유' 기능을 지원하기 때문에 많은 앱들의 내용을 나에게 메일로 쉽게 내용을 보낼 수 있다.&lt;/p&gt;
+
 &lt;p&gt; 여튼 나는 이렇게 스마트폰을 활용하고 있었는데, 구글에서 Inbox 라는 것을 발표했다. 발표한지는 조금 되었는데 구글에 관심이 많은 나도 '이메일이 얼마나 다르겠어' 라면서 신경을 안 쓰고 있다가, 얼마전에 우연히 'inbox 는 지메일을 todo 처럼 관리한다' 는 문구를 보고 급히 초대 신청을 해서 써보게 되었다. 그래서 관련 글들도 조금 살펴봤는데, 구글에서는 많은 사람들이 지메일을 할일목록처럼 사용한다는 사실을 알게되었고 그래서 inbox 가 나왔다고 한다. 사실 나도 SendMe 를 통해서 지메일을 마치 할일목록처럼 사용하고 있었기 때문에, 많은 사람들이 나처럼 지메일을 사용하는구나 싶었다. &lt;span style="font-size: 9pt; line-height: 1.5;"&gt;사실 개인적인 이메일보다, 회사에서의 이메일 사용패턴을 생각해보면, 이메일은 정말 '할일목록' 이라는 생각이 많이 든다.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt; Inbox 를 잠깐 써본 소감은 간단히 얘기하자면 '지메일의 용어를 바꾸고, 알림을 추가했다' 정도이다. 기본 메일 목록을 할일 목록으로 생각하고, 보관함은 처리가 끝난 일로 생각한다. 이 방법은 사실 지메일을 할일목록처럼 쓰던 많은 사람들이 머릿속으로 생각하고 있던 방식일 것이다. 그리고 여기에 할일목록 앱의 기본 기능 중 하나인 알람을 넣었다.&lt;/p&gt;
-&lt;p&gt; 사람들의 사용 패턴을 분석하고, 그에 기반하여 새로운 관점을 만들어내었다. 이런 형태로 얼마나 많은 사람들이 사용할지는 모르겠지만 나에게는 정말 맞춤앱이라는 생각까지 든다. 구글에서 앞으로 내놓을 새로운 관점들도 기대한다.&lt;/p&gt;</description>
+
+&lt;p&gt; 사람들의 사용 패턴을 분석하고, 그에 기반하여 새로운 관점을 만들어내었다. 이런 형태로 얼마나 많은 사람들이 사용할지는 모르겠지만 나에게는 정말 맞춤앱이라는 생각까지 든다. 구글에서 앞으로 내놓을 새로운 관점들도 기대한다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/417</guid>
       <pubDate>Sun, 14 Dec 2014 04:22:49 GMT</pubDate>
     </item>
@@ -415,18 +636,24 @@
       <title>Code Complete 를 읽고...</title>
       <link>http://blog.wimy.com/416</link>
       <description>&lt;p&gt;&lt;a href="http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8956742561" class="tx-link"&gt;Code Complete 2nd&lt;/a&gt; 를 드디어 다 읽은 기념 포스팅.&lt;/p&gt;
+
 &lt;p&gt;회사 동료들의 추천으로 읽게 되었는데, 정말 유명한 책이다. 구현에 집중한 책이라는데 정말 나에게 많은 깨우침을 줬다. 사실 나는 내 스스로를, 우리 팀장님이 사파라고 부르는, 경험에 의존하는 프로그래머의 성격이 강하다고 생각하는데, 나에게 좀더 탄탄한 정파의 무공을 가르쳐주는 책이 아닌가 싶다. 스스로는 경험과 이론이 합쳐져야 제대로 힘을 내지라고 생각하면서도 이론보다는 경험에만 치우친 프로그래밍을 하고 있었다는 반성을 할 수 있었다.&lt;/p&gt;
+
 &lt;p&gt; 항상 머릿속에서는 '왜 그런지는 모르지만, 뭔가 이상한데...' 라고 생각하던 부분들을 '이래서 뭔가 이상했었군!!!' 이라는 생각을 많이 할 수 있었다. 역시 책을 많이 읽어야 한다는 생각을 다시 일깨워주고, 두 아이의 육아에 지쳤어도 작은 시간을 내어서 하루에 한번씩은 책을 보는 습관을 들여준 책이기도 하다. 꽤 두꺼워서 다 읽고 말겠다는 오기가 생겨서 이기도 하지만, 어쨌든 6개월이 걸려서 다 읽었다 ㅠㅜ&lt;/p&gt;
-&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;
-&lt;/span&gt;
+
+&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt; 누군가 나에게 묻는다면, 꼭 읽어보라고 권하고 싶은 책이다.&lt;/span&gt;&lt;/p&gt;
-&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;
-&lt;/span&gt;
+
+&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt; 책을 읽으면서 나름 와닿은 구문은 &lt;a href="https://docs.google.com/document/d/17IDtU7xXY94gTW_bB7mezWVWKGf4qvSLvqKLM68DH3I/edit?usp=sharing" class="tx-link"&gt;[여기]&lt;/a&gt;에 정리해뒀다. 한번씩 다시 읽어보야지~!&lt;/span&gt;&lt;/p&gt;
-&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;
-&lt;/span&gt;</description>
+
+&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/416</guid>
       <pubDate>Sat, 06 Dec 2014 14:40:46 GMT</pubDate>
     </item>
@@ -434,26 +661,38 @@
       <title>습관은 무거운 돌을 굴리는 것과 같다</title>
       <link>http://blog.wimy.com/415</link>
       <description>&lt;p&gt; 책 읽는 습관을 들이기 위해서 노력하고 있다. 그런데 생각보다 쉽지 않다. 아니, 쉽지 않았다. 책을 읽으려고 하면 어찌나 방해하는 게 많은지... 책을 읽다가 중요한 것들을 메모하려고 컴퓨터를 켜면, 게임이 나를 유혹하고, 스마트폰에 메모하려고 해도 SNS 아이콘에 손이 간다. 그리고 책을 조금 읽어도 눈도 아프고, 잠도 온다.&lt;/p&gt;
-&lt;p&gt; 그런데 재미있는 것은 일단 습관이 몸에 배이기 시작하면 이런 것들은 모두 사라진다. 책을 잡으면 1페이지도 읽기 힘들던 내 눈이 이제는 10페이지를 읽어도 아프지 않다. 처음에는 하루에 한 단락만 읽어야지 했던 것이 이제는 두 단락을 읽어도 할만하다.&lt;/p&gt;
-&lt;p&gt; 습관은 무거운 돌을 굴리는 것과 같다. 처음에는 무거운 돌을 조금 움직이기도 힘에 버거워서 낑낑되는 데, 한번 굴러가기 시작하면, 하루 이틀은 돌을 굴리지 않아도 계속 쉽게 굴러가고 있다.&lt;/p&gt;
-&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;
-&lt;/span&gt;
 
-&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt; 처음에는 힘들더라도, 조금 움직이는데 왜 이렇게 힘들지라는 생각이 들더라도, 일단 굴리기 시작하자. 몇번만 힘을 주어 굴리면, 어느새 굴러가는 돌 위에 올라탄 자기 자신을 발견하게 될 것이다. &lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt; 그런데 재미있는 것은 일단 습관이 몸에 배이기 시작하면 이런 것들은 모두 사라진다. 책을 잡으면 1페이지도 읽기 힘들던 내 눈이 이제는 10페이지를 읽어도 아프지 않다. 처음에는 하루에 한 단락만 읽어야지 했던 것이 이제는 두 단락을 읽어도 할만하다.&lt;/p&gt;
+
+&lt;p&gt; 습관은 무거운 돌을 굴리는 것과 같다. 처음에는 무거운 돌을 조금 움직이기도 힘에 버거워서 낑낑되는 데, 한번 굴러가기 시작하면, 하루 이틀은 돌을 굴리지 않아도 계속 쉽게 굴러가고 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt; 처음에는 힘들더라도, 조금 움직이는데 왜 이렇게 힘들지라는 생각이 들더라도, 일단 굴리기 시작하자. 몇번만 힘을 주어 굴리면, 어느새 굴러가는 돌 위에 올라탄 자기 자신을 발견하게 될 것이다. &lt;/span&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/415</guid>
       <pubDate>Sat, 18 Oct 2014 14:30:17 GMT</pubDate>
     </item>
     <item>
       <title>Google Cloud Storage 를 백업으로 사용하기</title>
       <link>http://blog.wimy.com/414</link>
-      <description>&lt;p&gt;구글에서 클라우드(&lt;a href="https://cloud.google.com)라는"&gt;https://cloud.google.com)라는&lt;/a&gt; 이름으로 여러 서비스들을 하고 있다. 대표적으로 Google App Engine, Compute Engine, Big Query 등이 있는데, 이 중에 Google Storage 라는 게 있다. AWS 의 S3 에 해당하는, 클라우드 파일 저장 공간쯤되는데, 어느날 구글에서 준 100만원쯤이었나 여튼 큰 쿠폰이 있어서 써보기 시작했었다.&lt;/p&gt;
+      <description>&lt;p&gt;구글에서 클라우드(&lt;a href="https://cloud.google.com"&gt;https://cloud.google.com&lt;/a&gt;)라는 이름으로 여러 서비스들을 하고 있다. 대표적으로 Google App Engine, Compute Engine, Big Query 등이 있는데, 이 중에 Google Storage 라는 게 있다. AWS 의 S3 에 해당하는, 클라우드 파일 저장 공간쯤되는데, 어느날 구글에서 준 100만원쯤이었나 여튼 큰 쿠폰이 있어서 써보기 시작했었다.&lt;/p&gt;
+
 &lt;p&gt; 이런 저런 정리를 해보니 내 컴퓨터에서 가장 소중하다고 할만한 것들을 추려보니, 사진과 소스 코드가 남았고, 이들을 정리해서 올려보기로 했다. 대략 용량은 300기가 정도. 모두 올리고 요금을 보니 한달에 약 1만원쯤 나온다. 우리 집에 불이나도 나의 15년 간의 내용이 안전하게 보관된다고 생각하면 크게 나쁘지 않은 요금이라는 생각이었다.&lt;/p&gt;
+
 &lt;p&gt; 구글의 막강한 클라우드 환경을 사용하고, 최근에는 일본에 IDC 가 생겼기 때문에 속도도 나쁘지 않았다. 그리고 Google App Engine 을 꽤 오래 사용했기 때문에 안정성이나 확장성은 믿을 수 있었다.&lt;/p&gt;
+
 &lt;p&gt; 그런데 막상 쓰기 시작하니 이런저런 문제가 발견되었다.&lt;/p&gt;
+
 &lt;p&gt; 첫번째로 한글 사용에 문제가 있다. 정확하게는 파일 복사, 즉 업로드를 하는 gsutil 이라는 프로그램에서 윈도우에서(!) 한글 파일을 제대로 업로드하지 못하는 문제가 있다. 파이썬으로 만들어진 프로그램이라서 대충 패치를 해서 쓰고 있긴 하다(대충 우회만 하는 패치라서 구글에 보내봤더니 rejected ㅠㅜ).&lt;/p&gt;
+
 &lt;p&gt; 두번째도 gsutil 에 관한 것인데, 백업에 맞게(!), 편리하게(!) rsync 라는 명령이 제공된다. 특정 폴더를 클라우드의 특정 폴더에 말그대로 sync 해주는 기능인데, 이게 제대로 동작하지 않는다... rsync -n 으로 복사가 필요한 목록을 뽑은 다음에 rsync 를 실행시켜서 sync 가 되었겠지 했는데, 다시 rsync -n 으로 확인해보면 여전히 복사가 필요하다고 한다... 한글 때문일까...;; 이건 자세히 살펴보지는 않았음&lt;/p&gt;
+
 &lt;p&gt; 세번째로 웹 기반 회사인 구글이다보니 &lt;a href="https://console.developers.google.com"&gt;https://console.developers.google.com&lt;/a&gt; 에서 웹으로 파일들을 관리할 수 있게 해준다. 그런데 이 웹이 구글의 이름에 걸맞지 않게 버그가 많다. 종종 화면이 멈춰버리고, 파일들을 삭제했는데 응답도 없고, 화면에 삭제한 파일들이 남아있어서 다른 페이지에 갔다가 와야 반영되기도 한다.&lt;/p&gt;
-&lt;p&gt; 결론은, Google Cloud Storage 는 윈도우에서 한글에 대한 배려가 부족하고, 웹콘솔은 아직 베타의 느낌이 남아있다. 그러니 이를 이용한 서비스를 개발할 때 이런 내용들을 고려해야 할 것 같다. 아마 구글에서도 인식하고 있으니 조만간 고쳐질 것 같긴한데, 서비스할 때는 한번쯤 체크~&lt;/p&gt;</description>
+
+&lt;p&gt; 결론은, Google Cloud Storage 는 윈도우에서 한글에 대한 배려가 부족하고, 웹콘솔은 아직 베타의 느낌이 남아있다. 그러니 이를 이용한 서비스를 개발할 때 이런 내용들을 고려해야 할 것 같다. 아마 구글에서도 인식하고 있으니 조만간 고쳐질 것 같긴한데, 서비스할 때는 한번쯤 체크~&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/414</guid>
       <pubDate>Wed, 15 Oct 2014 15:58:44 GMT</pubDate>
     </item>
@@ -463,7 +702,8 @@
       <description>&lt;p&gt;프로그래머의 실력에 대해서 고민해본 적이 있다. 누구나 저 사람이 나보다 실력이 있다라는 걸 느낌으로는 알고 있다. 하지만 왜? 라고 질문해본다면, 어떤점을 보면 저사람이 나보다 살력 있음을 알 수 있을까...&lt;br /&gt;
 최근 회사 생활을 하면서 이런 생각을 했다. 나는 왜 이렇게 우유부단할까...... 어떤 결정을 내려야할 때 A는 이런 장단점이 있고 B는 이런 장단점이 있다. 모든 일에는 각각의 장단점이 있다는걸 안다. 하지만 결정을 내리기가 힘들다. 이 때 실력자는 A를 선택하라고 한다. 이런저런 이유를 들어서 이 장점이 단점을 상쇄한다. 확고한 기준이 있다. 그렇다고 항상 A가 맞다고 주장하지도 않는다. 유연하면서도 확실히 알고 있다는 느낌.&lt;br /&gt;
 요즘 책을 읽다보면, 아... 내가 왠지 찜찜하게 느꼈던게 이거구나라는 생각을 한번씩 한다. 누군가는 나의 그 느낌을 잘 정리해서 객관화시킨 후 하나의 단어로 압축시켜놓았고 실력자들은 그 단어를 사용한다. 경험을 실력으로 바꾸려면 독서가 필요하다.&lt;br /&gt;
-결론은 책을 읽자...... ㅋ&lt;/p&gt;</description>
+결론은 책을 읽자...... ㅋ&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/413</guid>
       <pubDate>Sat, 23 Aug 2014 07:21:15 GMT</pubDate>
     </item>
@@ -472,8 +712,11 @@
       <link>http://blog.wimy.com/412</link>
       <description>&lt;p&gt;이사일번지, 영구클린, Z이사 중 이사일번지로 골랐다. 친절한 상담원과 방문견적과 괜찮은 가격이 원인이었다.&lt;br /&gt;
 영구클린은 이사전문이 아니라 청소전문인거 같은 느낌과 좀 비싼가격. 그리고 Z이사는 작은 업체라서 그런지 다음날 전화주겠다며 전화도 안주고... 기다리다가 그냥 이사일번지로 결정 ㅋ&lt;/p&gt;
+
 &lt;p&gt;사람과 대면하는 직업은 정말 친절도가 절반이상은 먹고 들어가는듯. 그러고보니 얼마전에 에어콘을 살 때도 하이마트의 직원과 엘지베스트샵의 친절도 차이가 생각난다. 엘지베스트샵 직원분의 친절은 지금 생각해도 흐뭇할 정도. 뭐가 어떻게 다른지, 이 모델을 왜 권하는지 친절히 설명해주고, 질문도 당연히 잘 대답해주고. 하이마트는 일단 멀뚱멀뚱서있고 그냥 이 모델 사시면 돱니다라고.... 그리고 나올 때 가관인 한마디. 다른데 알아보시고 오시면 더 할인해드릴께요~ 저런말을 하는 직원에게서 물건을 사고 싶지는 않다.&lt;/p&gt;
-&lt;p&gt; 인테리어 업체는 동네 인테리어 업체를 골랐는데, 나중에 AS 가 쉬울 거라는 생각이었다. 그런데 조금 아쉬운데, 부동산에서 권해주는 업체에게 맡겼는데, 나중에 동네 가게에서 들은 얘기로는 해당 부동산과 인테리어 업체는 서로 연결되어 있다는 것. 그리고 그 옆의 인테리어 업체가 작지만 더 잘한다는 얘기... 부동산에서 권해주는 인테리어 업체는 동네 가게에서 평판을 슬쩍 물어보자.&lt;/p&gt;</description>
+
+&lt;p&gt; 인테리어 업체는 동네 인테리어 업체를 골랐는데, 나중에 AS 가 쉬울 거라는 생각이었다. 그런데 조금 아쉬운데, 부동산에서 권해주는 업체에게 맡겼는데, 나중에 동네 가게에서 들은 얘기로는 해당 부동산과 인테리어 업체는 서로 연결되어 있다는 것. 그리고 그 옆의 인테리어 업체가 작지만 더 잘한다는 얘기... 부동산에서 권해주는 인테리어 업체는 동네 가게에서 평판을 슬쩍 물어보자.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/412</guid>
       <pubDate>Sat, 09 Aug 2014 09:27:15 GMT</pubDate>
     </item>
@@ -482,7 +725,8 @@
       <link>http://blog.wimy.com/411</link>
       <description>&lt;p&gt;내부 게임 서버 테스트 중에 이상하게 non paged pool memory 가 어느 순간부터 점점 증가하다가 갑자기 치솟아서 메모리를 모두 소모하는 문제가 발생했다.&lt;br /&gt;
 원인은 더미 클라이언트를 여러개 띄워서 테스트를 했는데 더미 클라이언트의 pc 가 점점 느려져서 패킷을 제대로 받지 못하자 서버가 네트웍으로 보낸 패킷들이 제대로 소모되지 못하고 non paged pool 에 쌓인것.&lt;br /&gt;
-누군가로부터 들은바로는 클라이언트마다 패킷큐를 두고 하나의 패킷이 다 전송되었음을 완료하고난 후에 다음 패킷을 보내는 방식으로는 괜찮을거라고.... 하지만 아직 정확한 테스트는 안해봤음;;&lt;/p&gt;</description>
+누군가로부터 들은바로는 클라이언트마다 패킷큐를 두고 하나의 패킷이 다 전송되었음을 완료하고난 후에 다음 패킷을 보내는 방식으로는 괜찮을거라고.... 하지만 아직 정확한 테스트는 안해봤음;;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/411</guid>
       <pubDate>Fri, 25 Jul 2014 14:20:21 GMT</pubDate>
     </item>
@@ -490,8 +734,11 @@
       <title>모바일 티스토리 가 생겨서...</title>
       <link>http://blog.wimy.com/410</link>
       <description>&lt;p&gt;원래 블로그에는 정성들여서 정리한 글을 쓰려고 노력하는 편인데 그래서 글감이 계속 미뤄지다가 사라지는 경우가 많았다.&lt;/p&gt;
+
 &lt;p&gt;그래서 모바일 티스토리가 나온 김에 바로바로 내용이 전달되는 수준에서 글을 적고 나중에 시간이 될 때 제대로 정리하자....(아마 정리 안 할거야 ㅠㅜ)&lt;/p&gt;
-&lt;p&gt;특히 개발관련글에 스샷올리고 이런거 좋아하지만 육아와 함께해서 제대로 정리는 힘들듯하니. 일단 정보공유 차원에서라도 적고보자!&lt;/p&gt;</description>
+
+&lt;p&gt;특히 개발관련글에 스샷올리고 이런거 좋아하지만 육아와 함께해서 제대로 정리는 힘들듯하니. 일단 정보공유 차원에서라도 적고보자!&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/410</guid>
       <pubDate>Fri, 25 Jul 2014 14:13:20 GMT</pubDate>
     </item>
@@ -499,7 +746,9 @@
       <title>Visual C++ 템플릿에서 특정 타입에만 브레이크포인트 설정하기</title>
       <link>http://blog.wimy.com/409</link>
       <description>&lt;p&gt;일단 코드에 브레이크포인트를 설정하고 실행 중에 걸리면 오른쪽 클릭해서 디스어셈블한다. 그러면 어떤 타입의 함수를 볼 것이냐 선택할 수 있는데 원하는 타입을 선택하면 원하는 타입의 어셈블리 코드로 가게되고 거기에 브레이크포인트를 설정하면 된다.&lt;/p&gt;
-&lt;p&gt;즉, 템플릿은 여러 타입이 각자의 어셈블리를 만들기 때문에 특정 타입의 어셈블리에 브레이크포인트를 걸어주는 것이다.&lt;/p&gt;</description>
+
+&lt;p&gt;즉, 템플릿은 여러 타입이 각자의 어셈블리를 만들기 때문에 특정 타입의 어셈블리에 브레이크포인트를 걸어주는 것이다.&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/409</guid>
       <pubDate>Fri, 25 Jul 2014 14:08:58 GMT</pubDate>
     </item>
@@ -507,11 +756,17 @@
       <title>github 의 Atom 에디터 윈도우 빌드</title>
       <link>http://blog.wimy.com/408</link>
       <description>&lt;p&gt;이제 공식 다운로드가 생겨서 이 글에서의 링크는 내립니다.&lt;/p&gt;
+
 &lt;hr /&gt;
+
 &lt;p&gt; 근래에 한참 프로그래머들의 화두가 되었던 Atom editor(&lt;a href="https://atom.io/" class="uri" class="tx-link"&gt;&lt;a href="https://atom.io/"&gt;https://atom.io/&lt;/a&gt;&lt;/a&gt;). github 에서 만드는 프로그래머를 위한 편집기를 표방하고 있어서 관심있게 보고 있었는데, 얼마전에 누구나 다운로드 가능하도록 되었다. 그래서 써보려고 하는데, 맥용만 다운로드가 가능해서... 일단 맥에서 써봤지만... 아무래도 윈도우 프로그래머다보니 윈도우용을 써보고 싶었다. 그래서 집에서 가지고 놀던 Azure 에다가 가상머신을 하나 만들어서 빌드 환경을 구축해서 빌드시켰다.&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; &lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 빌드 과정은 &lt;/span&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md"&gt;https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md&lt;/a&gt;&lt;/a&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 에 적힌대로하면 별 문제없었고, 다만 간과하기 쉬운게 Visual Studio 2010 Express 의 SP1 (Servicepack1) 을 꼭 설치해야한다는 것과 환경변수 path 경로에&lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; atom/repo/build/node_modules 를 추가해야한다는 정도.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 다운로드 - 삭제함&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 위의 다운로드는 '윈도우 버젼'이 공식 릴리즈되거나, 드랍박스에 뭔가 문제가 생기거나, 여튼 임의로 내려갈 수 있으며, 현재 atom 에디터가 공식버젼도 불안정한 상태라는 것을 어느 정도는 감안하고 쓰세요~&lt;/span&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 위의 다운로드는 '윈도우 버젼'이 공식 릴리즈되거나, 드랍박스에 뭔가 문제가 생기거나, 여튼 임의로 내려갈 수 있으며, 현재 atom 에디터가 공식버젼도 불안정한 상태라는 것을 어느 정도는 감안하고 쓰세요~&lt;/span&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/408</guid>
       <pubDate>Wed, 21 May 2014 13:27:08 GMT</pubDate>
     </item>
@@ -519,8 +774,11 @@
       <title>YouTube 임베드를 모바일 웹페이지에서 쓸 때 주의점</title>
       <link>http://blog.wimy.com/407</link>
       <description>&lt;p&gt;&lt;a href="http://box.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://box.wimy.com/"&gt;http://box.wimy.com/&lt;/a&gt;&lt;/a&gt; 을 만들어놓고 많은 시간이 지나서, 한번씩 이런저런 버그들을 고치고는 하지만, 모바일에서 재생이 제대로 안되는 건 정말 골치 아픈 일이다. 특히 작년까지만 해도 대부분의 스마트폰에서는 동영상을 full-frame 으로 보여주지도 못했으니... 이제는 그나마 성능은 어느 정도 받쳐주는 것 같다.&lt;/p&gt;
-&lt;p&gt; 그런데 최근에 다시 스마트 폰에서 해보니 재생이 안되는 것이다. 이래저래 디버깅을 해보다가 안되어서 구글 공식 문서를 뒤져보니, 이런 내용이 나왔다 : &lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations"&gt;https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations&lt;/a&gt;&lt;/a&gt; 대충 읽어보면, "데이터망에서 원치않은 다운로드를 막기 위해서 임베드된 미디어는 자동으로 재생될 수 없다" 그래서, playVideo() 같은 함수들은 모바일 환경에서 재생이 제대로 되지 않는 것이었다. 그래서 필요한 것은?? 바로 "사용자의 인터랙션" 이다. 즉, 한번 터치해주면 잘 동작한다.&lt;/p&gt;
-&lt;p&gt; 그래서 html5 모드에서는 기본 재생을 일부러 막고, 사용자의 입력으로 재생이 시작되기를 기다린 후, 재생이 감지되면, 기존의 자동 플레이 모드처럼 동작하도록 수정했다. '한번만 터치되면', 그 다음부터는 playVideo() 등의 함수가 제대로 동작한다. 단 한번의 터치가 필요할 뿐...&lt;/p&gt;</description>
+
+&lt;p&gt; 그런데 최근에 다시 스마트 폰에서 해보니 재생이 안되는 것이다. 이래저래 디버깅을 해보다가 안되어서 구글 공식 문서를 뒤져보니, 이런 내용이 나왔다 : &lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/youtube/iframe_api_reference#Mobile_considerations"&gt;https://developers.google.com/youtube/iframe&lt;em&gt;api&lt;/em&gt;reference#Mobile_considerations&lt;/a&gt;&lt;/a&gt; 대충 읽어보면, "데이터망에서 원치않은 다운로드를 막기 위해서 임베드된 미디어는 자동으로 재생될 수 없다" 그래서, playVideo() 같은 함수들은 모바일 환경에서 재생이 제대로 되지 않는 것이었다. 그래서 필요한 것은?? 바로 "사용자의 인터랙션" 이다. 즉, 한번 터치해주면 잘 동작한다.&lt;/p&gt;
+
+&lt;p&gt; 그래서 html5 모드에서는 기본 재생을 일부러 막고, 사용자의 입력으로 재생이 시작되기를 기다린 후, 재생이 감지되면, 기존의 자동 플레이 모드처럼 동작하도록 수정했다. '한번만 터치되면', 그 다음부터는 playVideo() 등의 함수가 제대로 동작한다. 단 한번의 터치가 필요할 뿐...&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/407</guid>
       <pubDate>Tue, 15 Apr 2014 15:12:56 GMT</pubDate>
     </item>
@@ -528,56 +786,95 @@
       <title>Google Cloud DNS 설정하기 - How to set up google cloud dns</title>
       <link>http://blog.wimy.com/406</link>
       <description>&lt;p&gt;Google에서 Cloud Platfrom 의 일원으로 Cloud DNS(&lt;a href="https://cloud.google.com/products/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://cloud.google.com/products/cloud-dns/"&gt;https://cloud.google.com/products/cloud-dns/&lt;/a&gt;&lt;/a&gt;) 를 발표했다. DNSEver 의 유료화와 비슷한 시기에 발표되어서 관심을 가지고 설정을 해보았다. 난 이미 DNSEver 유료 결재를 해버린건 함정;;&lt;/p&gt;
+
 &lt;p&gt; 가격은 현재(2014.04) 25개까지의 zone 을 유지하는데 한달에 zone 하나당 0.2달러. 100만 쿼리에 0.4달러. 나쁘지 않다. DNSEver 와 비교해도 나쁘지 않다 ㅋ 하지만 아직은 설정하기가 DNSEver 가 훨씬 편하다. 아마 google 에서 웹 인터페이스를 곧 제공하지 않을까 예상해본다(이미 API 도 있으니...)&lt;/p&gt;
+
 &lt;p&gt; 일단 &lt;a href="https://console.developers.google.com/project" class="uri" class="tx-link"&gt;&lt;a href="https://console.developers.google.com/project"&gt;https://console.developers.google.com/project&lt;/a&gt;&lt;/a&gt; 에서 새로운 프로젝트를 만든 후, 아래의 그림처럼 API 를 열어주자. "Google Cloud DNS API" 를 ON 하려면 enable billing 을 해야한다. 카드 입력하면 1달러 우선 결재 +_+&lt;/p&gt;
-&lt;img src="google_cloud_dns.png" width="620" height="190" /&gt;
+
+&lt;p&gt;&lt;img src="google_cloud_dns.png" width="620" height="190" /&gt;&lt;/p&gt;
 
 &lt;p&gt;이제 구글 Cloud DNS API 를 사용할 준비가 되었으면, &lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt;구글 클라우드 SDK 를 다운로드 하자.  &lt;/span&gt;&lt;span style="background-color: transparent;"&gt;&lt;a href="https://developers.google.com/cloud/sdk/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud/sdk/"&gt;https://developers.google.com/cloud/sdk/&lt;/a&gt;&lt;/a&gt; 에서 다운로드 하면 된다. 다운로드 후 압축을 풀고, install.sh (리눅스나 맥)나 install.bat (윈도우)를 실행시키자. path 에 설치된 bin 경로를 추가하고 아래의 명령으로 dns 명령을 실행할 수 있게하자.(혹시나 아래의 명령이 기존의 SDK 를 업데이트만 하고 dns components 를 설치하지 않을 수도 있으니 이상하게 명령이 안먹히면 아래의 명령을 다시 한번 실행해보자)&lt;/span&gt;&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span style="background-color: transparent;"&gt; &lt;/span&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud components update dns&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;span style="background-color: transparent;"&gt; &lt;/span&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud components update dns&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; 그런 후, 아래 명령으로 간단히 커맨드 로그인을 하고(웹 브라우저가 뜨면서 인증을 물어본다)&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud auth login&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud auth login&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; zone 을 생성해보자.&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns managed&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;-&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone create &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;dns_name&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"example.com."&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;description&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"A test zone"&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; examplezonename&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns managed&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;-&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone create &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;dns_name&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"example.com."&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;description&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"A test zone"&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; examplezonename&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; 이제 만든 zone 을 edit 해보자.&lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns records &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;examplezonename edit&lt;/span&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns records &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;examplezonename edit&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; 윈도우에서는 메모장이 뜨고, 맥에서는 vi 로 아래와 비슷한 내용이 편집할 준비가 된다. 이제 여기의 내용을 고쳐서 dns API 에 명령을 보내게 된다. &lt;/p&gt;
+
 &lt;blockquote&gt;
-&lt;p&gt;{&lt;/p&gt;
-&lt;p&gt;    "additions": [&lt;/p&gt;
-&lt;p&gt;        {&lt;/p&gt;
-&lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
-&lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
-&lt;p&gt;            "rrdatas": [&lt;/p&gt;
-&lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 8 21600 3600 1209600 300"&lt;/p&gt;
-&lt;p&gt;            ],&lt;/p&gt;
-&lt;p&gt;            "ttl": 21600,&lt;/p&gt;
-&lt;p&gt;            "type": "SOA"&lt;/p&gt;
-&lt;p&gt;        }&lt;/p&gt;
-&lt;p&gt;    ],&lt;/p&gt;
-&lt;p&gt;    "deletions": [&lt;/p&gt;
-&lt;p&gt;        {&lt;/p&gt;
-&lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
-&lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
-&lt;p&gt;            "rrdatas": [&lt;/p&gt;
-&lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 7 21600 3600 1209600 300"&lt;/p&gt;
-&lt;p&gt;            ],&lt;/p&gt;
-&lt;p&gt;            "ttl": 21600,&lt;/p&gt;
-&lt;p&gt;            "type": "SOA"&lt;/p&gt;
-&lt;p&gt;        }&lt;/p&gt;
-&lt;p&gt;    ]&lt;/p&gt;
-&lt;p&gt;}&lt;/p&gt;
+  &lt;p&gt;{&lt;/p&gt;
+  
+  &lt;p&gt;    "additions": [&lt;/p&gt;
+  
+  &lt;p&gt;        {&lt;/p&gt;
+  
+  &lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
+  
+  &lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
+  
+  &lt;p&gt;            "rrdatas": [&lt;/p&gt;
+  
+  &lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 8 21600 3600 1209600 300"&lt;/p&gt;
+  
+  &lt;p&gt;            ],&lt;/p&gt;
+  
+  &lt;p&gt;            "ttl": 21600,&lt;/p&gt;
+  
+  &lt;p&gt;            "type": "SOA"&lt;/p&gt;
+  
+  &lt;p&gt;        }&lt;/p&gt;
+  
+  &lt;p&gt;    ],&lt;/p&gt;
+  
+  &lt;p&gt;    "deletions": [&lt;/p&gt;
+  
+  &lt;p&gt;        {&lt;/p&gt;
+  
+  &lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
+  
+  &lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
+  
+  &lt;p&gt;            "rrdatas": [&lt;/p&gt;
+  
+  &lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 7 21600 3600 1209600 300"&lt;/p&gt;
+  
+  &lt;p&gt;            ],&lt;/p&gt;
+  
+  &lt;p&gt;            "ttl": 21600,&lt;/p&gt;
+  
+  &lt;p&gt;            "type": "SOA"&lt;/p&gt;
+  
+  &lt;p&gt;        }&lt;/p&gt;
+  
+  &lt;p&gt;    ]&lt;/p&gt;
+  
+  &lt;p&gt;}&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;p&gt; 위의 내용을 대충 훑어보면, 간단한 형식의 JSON 이다. 일단 내가 이 도메인에 사용할 name server 의 이름이 보이고 additions 에 추가할 내용, deletions 에 삭제할 내용을 추가해서 저장하고 편집기를 닫으면 google dns API 가 저장된 파일을 보고 적절한 명령을 내려주게 된다. additions 에 어떤 형식으로 넣을지는 &lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line"&gt;https://developers.google.com/cloud-dns/migrating-bind-zone-command-line&lt;/a&gt;&lt;/a&gt; 를 참고하자. 대부분의 형식을 알 수 있다.&lt;/p&gt;
+
 &lt;p&gt; 참고로, JSON 형식을 잘못입력하면(, 를 빠트리면....) 처음부터 다시 입력해야 하므로, 많은 내용을 입력할 때는 다른 메모장을 열어서 사용하거나 vi 의 split 기능을 이용해서 미리 다른 파일에 저장해두자.&lt;/p&gt;
-&lt;p&gt; 이 포스팅의 내용은 &lt;a href="https://developers.google.com/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/"&gt;https://developers.google.com/cloud-dns/&lt;/a&gt;&lt;/a&gt; 의 내용을 간략히 옮긴 것이므로, 추가 사항은 당연히 이 공식 홈페이지를 참고하세요~~ :)&lt;/p&gt;</description>
+
+&lt;p&gt; 이 포스팅의 내용은 &lt;a href="https://developers.google.com/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/"&gt;https://developers.google.com/cloud-dns/&lt;/a&gt;&lt;/a&gt; 의 내용을 간략히 옮긴 것이므로, 추가 사항은 당연히 이 공식 홈페이지를 참고하세요~~ :)&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/406</guid>
       <pubDate>Mon, 07 Apr 2014 13:26:02 GMT</pubDate>
     </item>
@@ -585,13 +882,21 @@
       <title>바이오쇼크1 플레이 후기</title>
       <link>http://blog.wimy.com/405</link>
       <description>&lt;p&gt;오랜만에 패키지 게임을 해보았다. 바이오쇼크1.&lt;/p&gt;
+
 &lt;p&gt;오랜만의 ftp 게임에 오랜만의 호러물이라서 처음에는 움찔움찔 놀라면서 진행했었는데 에피소드3정도되니, 게임 플레이의 긴장감은 사라지고(아마 업그레이드로 인한 난이도 하락과 더이상 새롭지 않은 몬스터들 때문인듯), 스토리에 대한 궁금증이 엔딩을 보게한 듯하다.&lt;/p&gt;
+
 &lt;p&gt; 스토리는 초반과 반전 이후의 후반이 좀 그럴싸하고, 중간 과정은 약간의 억지가 있는듯하다. 뭔가 불필요한 내용들이 나열되었다는 느낌이랄까...&lt;/p&gt;
+
 &lt;p&gt; 다만 후반에 플라스미드에 제한을 걸어서 답답하지만 약간의 긴장을 더했고, 덕분에 하나의 플라스미드(나는 주로 얼음공격만 했음)만 쓰게 되는 경험에서 조금은 벗어나게 해주었다. 그리고 잠수복을 쓰면서 약간의 시야의 제한도 주어서 조금이나마 다른 경험을 하게 해주었다.&lt;/p&gt;
+
 &lt;p&gt; 중반에 조금 심심한 느낌이 좀 아쉽긴 하지만, 게임 전반적으로는 꽤 괜찮았고, 스토리에 많은 점수를 주고 싶다. 오랜만에 패키지 게임을 해서인지, 하고나서 이런저런 배경설정도 찾아보고, 주요 장면도 다시 보고, 즐거운 시간이었던듯~&lt;/p&gt;
+
 &lt;p&gt; 스토리 반전은 역시 최고. 오랫동안 기억에 남는다.&lt;/p&gt;
+
 &lt;p&gt;전체 분석 : &lt;a href="http://sarammugur.egloos.com/1588650"&gt;http://sarammugur.egloos.com/1588650&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;주요 단어(영어) : &lt;a href="http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys"&gt;http://bioshock.wikia.com/wiki/A\_man\_chooses,\_a\_slave\_obeys&lt;/a&gt;&lt;/p&gt;</description>
+
+&lt;p&gt;주요 단어(영어) : &lt;a href="http://bioshock.wikia.com/wiki/A_man_chooses,_a_slave_obeys"&gt;http://bioshock.wikia.com/wiki/A_man_chooses,_a_slave_obeys&lt;/a&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/405</guid>
       <pubDate>Mon, 07 Apr 2014 12:04:02 GMT</pubDate>
     </item>
@@ -599,102 +904,166 @@
       <title>[책내용정리] 읽기 좋은 코드가 좋은 코드다</title>
       <link>http://blog.wimy.com/404</link>
       <description>&lt;p&gt;예전에 읽고 위키에만 정리했었는데, 블로그로 옮김. 책에는 당연히 더 많은 내용들이 있지만, 나에게 많이 와닿던 부분들만 정리.&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;내가 만든 코드를 먼 훗날 내가 다시 봐도 잘 알아볼 수 있게 하자.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;코드는 다른 사람이 이해하는 데 들이는 시간을 최소화하는 방식으로 작성되어야 한다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;분량이 적다고 이해하는 시간이 짧은 것만은 아니다. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;잘 구성된 아키텍처, 테스트의 용이성 등이 쉬운 코드 작성과 충돌을 일으키지는 않는다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;좀 더 분명한 이름을 짓자. 오해하기 쉬운 이름을 피하자.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;단위가 헛갈릴 수 있으면 단위를 변수명에 붙이자. elapsed_ms, delay_secs&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;좁은 scope 에서는 짧은 이름도 괜찮다. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;팀에 새로 합류한 사람이 이름이 의미하는 바를 이해할 수 있다며느, 그 일므은 괜찮은 것이다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;불필요한 단어 제거하기. ConvertToString() 은 ToString() 으로 써도 의미가 줄어들지 않는다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;본인이 의도한 바와 다르게 다른 사람이 의미를 해석할 수 있는 단어는 피하자.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;변수의 범위를 제한할 때, 그 값까지 포함하면, min/max, first/last, 처음은 포함하지만 끝은 포함하지 않으면, begin/end, &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;bool 변수는 부정적인 이름은 피하는 것이 좋다. disable_ssl 보다는 use_ssl 이 좋다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;어떤 상수가 특정한 값을 갖게 된 ‘사연’ 은 주석으로 넣어도 좋다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;주석이 복잡해지면 읽기가 코드만큼 어렵다. 간결한 주석을 달자.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;조건문에서, 변화하는 값을 왼쪽에 두고, 변하지 않는 값을 오른쪽에 두는 것이 좋다.  그래서 while ( bytes_received &amp;lt; bytes_expected ) 가 좋다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;조건문에서, 부정이 아닌 긍정을 다루어라. if ( !debug ) 보다는 if ( debug ) 를 선호하자&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 조건문에서, 간단한 것을 먼저 처리해라.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 조건문에서, 더 흥미롭고, 확실한 것을 먼저 다루어라.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 삼항 연산자는 정말 간단한 것이 아니라면 쓰지 말자.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
 &lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 의미를 쉽게 파악하기 위해 별다른 로직이 없지만, 따로 만들어낸 변수 - 요약 변수&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 문제를 다르게 접근하면 더욱 간단하게 처리되는 것들이 있다. 특히 범위 체크.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 아래와 같은 불필요한 임시 변수는 제거하자.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 복잡한 표현을 잘게 나누지 않는다.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 명확성에 도움이 되지 않는다.&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 한 번만 사용되어 중복된 코드를 압축하지 않는다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;변수의 범위를 좁혀라. 사용하기 직전에 선언해라. 많은 메소드를 정적(static)으로 만들어, 멤버 변수를 사용하지 않음을 알려라.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;const 를 사용하면 이 변수가 어디서 변경되는지를 기억하기 쉽다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;일반적인 코드와 프로젝트를 위한 코드를 분리하자. 좀 더 문제에 집중하기 쉽고, 재사용성도 높아진다.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 코드 베이스를 작게 유지해라. 이미 존재하는 라이브러리를 써라. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;매일 15분씩 자신의 표준 라이브러리에 있는 모든 함수/모듈/형들의 이름을 읽어라.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;코딩 대신 유닉스 도구 활용하기&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- cat access.log | awk ‘{ print $5 “ “ $7 }’ | egrep “[45]..$” \ | sort | uniq -c | sort -nr&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;-  4xx 혹은 5xx 응답코드를 가장 많이 담는 url 을 log 에서 찾는 프로그램&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
 &lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 유지보수하기 쉽고, 추가하기 쉽게 테스트 케이스를 만들어라. 테스트하기 쉽게 코드를 만들어라.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;**&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;**&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
+&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;assertEqual 처럼 의도를 나타내는 assert 를 가능하면 사용해라&lt;/span&gt;&lt;/p&gt;
+
 &lt;p&gt;&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
 &lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;/p&gt;</description>
+&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/404</guid>
       <pubDate>Thu, 09 Jan 2014 07:01:50 GMT</pubDate>
     </item>
@@ -702,7 +1071,9 @@
       <title>넥서스5, 넥서스7 이 윈도우에서 MTP 연결이 제대로 되지 않을때</title>
       <link>http://blog.wimy.com/403</link>
       <description>&lt;p&gt;장치 관리자를 열어놓고, 넥서스5/7 를 연결하면 "새롭게 추가되는 장치 - 이름이 아마 AD inteface 이런거임"에서 오른쪽 클릭해서 '제거' -&amp;gt; '드라이버도 함께 제거' 한 후, 케이블을 분리 후 다시 연결하면 제대로 MTP 로 잡힌다.&lt;/p&gt;
-&lt;p&gt; 아마 Android SDK 를 업데이트하면서 이런 문제가 생긴 것으로 '짐작'만 하고 있음;;&lt;/p&gt;</description>
+
+&lt;p&gt; 아마 Android SDK 를 업데이트하면서 이런 문제가 생긴 것으로 '짐작'만 하고 있음;;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/403</guid>
       <pubDate>Mon, 25 Nov 2013 12:52:07 GMT</pubDate>
     </item>
@@ -710,83 +1081,35 @@
       <title>eclipse 마켓을 통해 쉽게 안드로이드 개발 환경 구축하기</title>
       <link>http://blog.wimy.com/402</link>
       <description>&lt;p&gt;넥서스7이 생긴 바람에 오랜만에 안드로이드 개발환경을 구축할 일이 생겨서 eclipse 에서 설치를 하려고 생각했는데, 가만히 생각해보니 ADT 만 설치하면 ADT 가 sdk 를 설치해준 기억이 나서, ADT 가 왠지 eclipse marketplace 에 있을거 같아서 한번 찾아보니 왠걸(!!!) 있었다. 그래서 설치해보니 매우 잘되어서 포스팅 시작~&lt;/p&gt;
+
 &lt;p&gt; *** 알고보니 지금은 &lt;a href="http://d.android.com/"&gt;http://d.android.com/&lt;/a&gt; 에서 eclipse + ADT + SDK 까지 한번에 통합된 것을 받을 수 있네요 ㅠㅜ 아래 포스팅은 그냥 eclipse 가 이미 있을 때 안드로이드 개발환경 쉽게 붙이는 방법 정도로만....(아... 세상 빨리 변하네요 ㅋ) ***&lt;/p&gt;
+
 &lt;p&gt; 일단은 JDK 깔고, eclipse 는 깐다. 이제 ADT 를 주소를 넣고 깔고, SDK 를 다운받아서 설정하고 이런것을 해야하겠지만, ADT 와 SDK 는 아래와 같이 쉽게 설치할 수 있다.&lt;/p&gt;
+
 &lt;p&gt; eclipse 를 띄운 후, 아래처럼 Eclipse Marketplace 클릭&lt;/p&gt;
-&lt;img src="eclipse_marketplace.png" width="365" height="363" /&gt;
+
+&lt;p&gt;&lt;img src="eclipse_marketplace.png" width="365" height="363" /&gt;&lt;/p&gt;
 
 &lt;p&gt; android 로 검색한 후, 제작자가 Google 인 것을 install~&lt;/p&gt;
-&lt;img src="eclipse_adt.png" width="578" height="820" /&gt;
+
+&lt;p&gt;&lt;img src="eclipse_adt.png" width="578" height="820" /&gt;&lt;/p&gt;
 
 &lt;p&gt; 중간 설치 과정이야 뻔하게 ok, agree 등을 하고 설치한 후, eclipse 재시작 후 아래 화면에서 Close 하고, Install new SDK 를 선택해서 SDK 를 받아오자.&lt;/p&gt;
-&lt;img src="eclipse_adt_SDK.png" width="620" height="633" /&gt;
+
+&lt;p&gt;&lt;img src="eclipse_adt_SDK.png" width="620" height="633" /&gt;&lt;/p&gt;
 
 &lt;p&gt; 아래처럼 Android SDK Manager 를 띄울 수 있게 되면서 안드로이드 개발환경 설치 성공~~!!&lt;/p&gt;
-&lt;img src="eclipse_result.png" width="620" height="453" /&gt;
+
+&lt;p&gt;&lt;img src="eclipse_result.png" width="620" height="453" /&gt;&lt;/p&gt;
 
 &lt;p&gt; 포스팅하기 전에 잠깐 안드로이드 개발환경 글을 검색해보았는데, 너무 예전 글이 많다. 그리고 시중에 있는 안드로이드 책들도 상당히 예전 방법과 예전 환경에서 설치하고 있어서 안타까운 마음이 든다.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 24pt;"&gt; 이렇게 쉽게 설치할 수 있는데!!!!!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ps : 많이 퍼뜨려주세요...;;&lt;/p&gt;</description>
+
+&lt;p&gt;ps : 많이 퍼뜨려주세요...;;&lt;/p&gt;
+</description>
       <guid>http://blog.wimy.com/402</guid>
       <pubDate>Mon, 19 Nov 2012 13:44:51 GMT</pubDate>
-    </item>
-    <item>
-      <title>구글 핵페어 참가 후기</title>
-      <link>http://blog.wimy.com/401</link>
-      <description>&lt;p&gt; 얼마전 구글 코리아 주최의 핵페어가 있었다.(&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html" class="uri" class="tx-link"&gt;&lt;a href="http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html"&gt;http://googlekoreablog.blogspot.kr/2012/11/google-hackfair_6.html&lt;/a&gt;&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt; 난 평소에 wimybox 를 만들면서 생각했던 아이디어로 WimyLime(&lt;a href="http://lime.wimy.com/" class="uri" class="tx-link"&gt;&lt;a href="http://lime.wimy.com/"&gt;http://lime.wimy.com/&lt;/a&gt;&lt;/a&gt;)이라는 프로젝트로 참여를 했다. 바로 YouTube 에 있는 뮤직 비디오들에 리듬 액션 게임 요소를 넣어서 게임을 만들면 어떨까라는 생각! 리듬 액션 게임을 한번 만들어볼 생각은 전에도 했었지만, 음악과 리듬을 구하는게 쉽지 않아서, 음악은 YouTube 에 있는 공식 뮤직비디오들을 가져오고, 리듬은 직접 쉽게 입력할 수 있으면 어떨까해서... 시작했다.&lt;/p&gt;
-&lt;p&gt; 평소에 매우 조금씩 만들어오던 것을 시간을 조금 더 투자해서 제출해보았고, 다행히도 전시작품으로 선정되었다.&lt;/p&gt;
-&lt;p&gt; 경북 구미에서 직장 생활을 할 때는, 개발자로써의 공식 활동(?)이라는 것을 블로그에 글을 쓰는 것 정도였는데, 수도권으로 직장과 집을 옮기면서, 지난 Google DevFest 후 다음 행사인 듯한 Google Hackfair 에 참가할 수 있었다. (역시 사람은 서울로...;; )&lt;/p&gt;
-&lt;p&gt; 17일~18일 동안 내 작품의 부스를 지키면서 약 200명 정도한테 설명을 했던 것 같다. 장점은 뭐고, 타블렛에서도 되고 등등... 좀더 관심을 가지는 분들은 직접 플레이도 해보시고, 리듬도 만들어 보시고, 어떤 분은 라운지의 PC 에서 리듬을 만들었다고 오신 분도 계시고, 명함을 주시는 분, 사업화에 대한 질문을 하시는 분, 정말 즐기시는 분(!), 개선방향을 제시하시는 분 등 다양한 분들이 오셨었다.&lt;/p&gt;
-&lt;p&gt; 트위터에도 적었지만, &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;누군가가 나의 아이디어를 평가해주고 의견도 제시해주고 칭찬도 해주고, 다른 멋진 프로젝트 구경도 하고 기념품도 받고, 업계 사람들도 만나고. 좋은 경험이다~!&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt; 참고로 기념품은 넥서스7, 구글TV, 구글컵, 구글티셔츠, 구글볼펜, 참가 크리스탈, 구글큐브 등등~&lt;/p&gt;
-&lt;p&gt; 그리고 온라인으로만 알던 분도 만나고, WimyBox 잘 쓰고 있으시다며 같이 사진찍자고 하신분도 계셔서 정말 즐거운 경험이었다. 특히 같은 전시장소에 계시던 분들과는 이런저런 얘기 나누면서 좀더 친해지는 계기도 되었던듯~&lt;/p&gt;
-&lt;p&gt; 얼마전 포스팅에도 개인 프로젝트의 장점을 적었지만, 개인 프로젝트의 또하나의 기쁨을 느낄 수 있었던 것 같다. 다음에도 재미있는 개발자 대회가 있길~~~&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;img src="IMG_20121117_140407.jpg" width="620" height="826" /&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;img src="IMG_20121118_141435.jpg" width="620" height="1018" /&gt;
-
-&lt;p&gt; &lt;/p&gt;
-&lt;img src="IMG_20121118_150538.jpg" width="465" height="620" /&gt;</description>
-      <guid>http://blog.wimy.com/401</guid>
-      <pubDate>Mon, 19 Nov 2012 13:25:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>프로그래머가 개인 프로젝트를 해야하는 5가지 이유</title>
-      <link>http://blog.wimy.com/400</link>
-      <description>&lt;p&gt; 평소에 늘 가지고 있던 생각이지만 트위터에 한번 올렸더니 다들 많이 공감해서 정리삼아 블로그에 포스팅~&lt;/p&gt;
-&lt;img src="PersonalProject.png" width="536" height="306" /&gt;
-
-&lt;p&gt; 나는 개인적으로 꽤 여러 개의 개인 프로젝트를 하고 있다. ZViewer(Win32 이미지 뷰어, C++), WimyBox(최신가요 듣기, JavaScript + Python), ZAssist(Visual Studio Addin, C#), ClipDic(Chrome 확장 사전, JavaScript) 정도가 그나마 내세울만한 것이고, 이외에도 작은 다양한 것들을 만들고 있다 - &lt;a href="https://github.com/zelon"&gt;https://github.com/zelon&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; 물론 이 프로젝트들이 언제나 원활히 진행되는 것은 아니다. ZViewer 같은 것은 2004년부터 소스 관리를 시작했지만 중간에 1년 넘게 commit 이 없던 적도 있다. 언제나 내가 코딩을 하고 싶을 때만 작업을 시작한다.&lt;/p&gt;
-&lt;p&gt; 언제 코딩을 하고 싶을까? 내 개인 프로젝트들은 대부분 내가 쓰는 프로그램이다. 프로젝트 시작도 대부분 내가 '이런 프로그램이 있었으면 좋은데 찾기가 힘드네' 혹은 '이렇게, 이 기술/언어 재미있겠는데 해볼까' 라는 생각에서 출발한다. 그래서 내가 원하는 기능이 구현될 때까지는 열혈 코딩을 한다. 그러다가 어느 정도까지 완성되면 그 때부터는 나의 욕구가 내 프로젝트의 스펙이 된다. 만약 내가 이런이런 기능이 있으면 좋겠는데 싶으면 그냥 구현하는 거다. 구현해보다가 힘들면 그냥 놓아두기도 한다. 혹시나 누군가가 나에게 '이런 기능 있으면 좋겠어요~' 라고 한다면 또 구현해본다.&lt;/p&gt;
-&lt;p&gt; 반대로 내가 잘 쓰지 않게 되면 프로젝트의 진행이 멈추는 경우도 있다. ZViewer 같은 경우도, 얼마전에 노트북을 사면서 Windows 7 64bit 로 컴파일 시도도 해보고 했었고, 지금은 집에서 리눅스 데스크탑을 쓰고 있기 때문에 잘 안 쓰게 되었다. 그래서 프로젝트도 손 안대고 있고, 다만 어떻게 리눅스+윈도우 둘다 컴파일 되도록 해볼까 고려 중이다. wxwidget, qt 가 고려 중인데, 다른 우선순위에 밀려서 생각만 한번씩 해보는 중이다. 요렇게 64bit 로 프로젝트 운영도 해보고, 크로스 플랫폼 프로젝트 운영도 끄적여본다.&lt;/p&gt;
-&lt;p&gt; 나의 상황은 이정도이고, 이제 이렇게 개인 프로젝트를 가지면 어떤 점이 좋은지를 한번 정리해 보자.&lt;/p&gt;
-&lt;p&gt; 1. &lt;strong&gt;재미&lt;/strong&gt;가 있다(!!!) 코딩하는 게 무슨 재미냐고 할 수 있지만, 누구나 한번쯤 수학 시간(아니 산수 시간에라도)에 느껴본 '문제를 푸는 재미' 가 있다. 내가 원하는 프로그램이 있는데 내가 만들었다. 나에게 주어진, 문제를 푸는 재미가 있다.&lt;/p&gt;
-&lt;p&gt; 2. 나의 재미가 남에게 내세울 수 있는 &lt;strong&gt;경력&lt;/strong&gt;이 될 수도 있다. 개인적으로 부러운 사람 중의 한명인 빵집 개발자. '나 빵집 만든 사람이야' 이러면 컴퓨터 좀 한다는 사람들 중에 모르는 사람이 있을까? 물론 그만큼 시간과 노력이 필요하겠지만, 개인 프로젝트의 목표로 삼으면 좋을 것 같다.&lt;/p&gt;
-&lt;p&gt; 3. &lt;strong&gt;새로운 기술&lt;/strong&gt;을 쉽게 익혀둘 수 있다. 막상 새로운 기술을 업무용 프로젝트에 갑자기 적용하려면 쉽지 않다. 누구나 겁도 나기 마련이다. 하지만 개인 프로젝트로 새로운 기술을 잠깐 맛만 보았더라도 좀 더 쉽게 적용할 수 있다. 한번이라도 Hello World 를 짜본 프로그램은 아무래도 쉽다. 개인 프로젝트니까 일단 저질러보자. 실행해보자. 내가 궁금해하는 기능이 잘 돌아가는지 해보자. 일단 해보면 남들이 좋다좋다 해도 단점도 눈에 띄일 것이다.&lt;/p&gt;
-&lt;p&gt; 4. &lt;strong&gt;공부&lt;/strong&gt;하기 쉽다. 프로그래머는 늘 공부하는 직업이다. 책만 보고 '아! 이런 좋은 방법이 있네. 다음에 써먹어봐야지' 라고 하는 사람은 책을 잘 보는 사람이다. 하지만 정말 제대로 익히려면 직접 한번 써보는게 최고다. 어디에 써볼까? 개인 프로젝트에 써보면 된다. 리팩토링 책을 읽고나서 무슨 코드라도 리팩토링하고 싶은 열정이 솟아나는데 리팩토링할 코드가 없다면??? 다른 사람의 오픈소스를 뜯어고칠 것인가? 왜? 내 코드 고치는 게 더욱 재미있을건데? 내 코드 발전하는 거 정말 좋은데~! 남의 소스 리팩토링하려면 소스 이해부터 해야하는데, 내 소스는 이미 내가 알고 있으니 방금 배운 기법을 바로 적용해볼 수 있다. 잘못 고쳐도 남이 뭐라고 하지도 않는다.&lt;/p&gt;
-&lt;p&gt; 5. 내 &lt;strong&gt;실력 향상&lt;/strong&gt;의 척도가 될 수 있다. 몇년 전의 자신의 코드를 보면 누구나 '내가 예전에 왜 저렇게 코딩을 했을까' 라는 생각을 할 것이다. 지금의 나는 그 때보다는 아무래도 발전했을 테니... 그런데 예전 소스가 하나도 없다면? 소스 컨트롤 시스템과 함께하는 개인 프로젝트라면 회사를 옮겨도(회사 코드는 퇴사하면 내 손을 떠나니...) 개인의 코딩 실력의 변천사를 잘 가지고 다닐 수 있다. 나는 어느만큼 발전하고 있나... 5년 전의 나를 만나서 대화해보자. '너는 왜 그랬니 -_-'&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; "&gt; 지금 바로 개인 프로젝트를 시작하자.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;  &lt;/p&gt;</description>
-      <guid>http://blog.wimy.com/400</guid>
-      <pubDate>Sun, 23 Sep 2012 08:12:06 GMT</pubDate>
-    </item>
-    <item>
-      <title>[책] 나무를 심은 사람</title>
-      <link>http://blog.wimy.com/399</link>
-      <description>&lt;p&gt;나무를 심은 사람. 언젠가 나는 애니메이션으로 접한 내용이다. 꽤 어릴적에 봤었는데 그 내용이 아직 머릿속에 남아있다. 문득 생각나서 검색해보니 회사 도서관에 책으로 있어서 빌려봤다.&lt;/p&gt;
-&lt;p&gt;50페이지의 짧은 내용이고, 열심히 나무를 심은 사람에 대한 내용이다. 잠시 검색을 해보니,환경친화니 이런 얘기가 가장 많이 나오는데, 나에게는 꾸준한 노력이 얼마나 가치가 있는지를 알려주는 내용이었다. 지금의 나를 있게한, 지금도 가지고 있는 꾸준한 작은 발걸음. 언젠가는 좋은 결과를 가져올 것을 믿고 계속 나아가는 마음가짐. 이 책의 내용에서 배웠고 실천히려 노력하고 있다.&lt;br /&gt;
-다시 이 책을 읽으며 다시 한번더 마음가짐을 새롭게 다져본다. 지금 내가 꾸준히하고 있는 일들이 언젠가는......&lt;br /&gt;
-이 책의 작가, 내용을 애니메이션으로 만든 분, 그리고 그 애니메이션을 어릴적의 나에게 접하게 해주신 분께 감사드린다.&lt;/p&gt;
-&lt;p&gt;ps : 유투브에서 검색하면 애니메이션도 볼 수 있음~&lt;/p&gt;</description>
-      <guid>http://blog.wimy.com/399</guid>
-      <pubDate>Sun, 23 Sep 2012 07:47:10 GMT</pubDate>
     </item>
   </channel>
 </rss>

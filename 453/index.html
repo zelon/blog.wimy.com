@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>AMD CPU 컴퓨터에서 idle 상태에서 CPU가 사용되고 있을 때 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/453">AMD CPU 컴퓨터에서 idle 상태에서 CPU가 사용되고 있을 때</a></h1></div>
+        <div id="post_datetime">2019-06-10 23:20:35</div>
+
+        <div id="post_content">
+          <p>최근에 AMD CPU를 가진 컴퓨터를 구입했는데, 이상하게도 idle 상태일 때 CPU가 계속 사용 중인 것처럼 나타났다. 이래저래 살펴보다 보니, 결국 CPU 꾸미는 소프트웨어가 문제였다.</p>
+
+<p>LightingService.exe 가 점유율을 많이 차지한다면. Aura app을 실행 한 후에 Off시켜봐라. CPU 그래프 1개가 완전 꺽이는 현상을 볼 수 있다. 아마 '무지개'를 켰을 때 계속 계산하기 위해서 인듯 싶다.</p>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/453';
+    this.page.identifier = '453';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
