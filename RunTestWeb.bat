@@ -1,0 +1,1 @@
+C:\git\WimyBlog\TestWebServer\bin\Debug\netcoreapp3.0\publish\TestWebServer.exe .
