@@ -4,8 +4,25 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sun, 06 Oct 2019 13:36:09 GMT</pubDate>
+    <pubDate>Wed, 09 Oct 2019 14:41:52 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>Hyper-V에서 네트워크가 제대로 되지 않을 때</title>
+      <link>http://blog.wimy.com/455</link>
+      <description>&lt;p&gt;언제부터인지는 모르겠지만, 윈도우 10 Pro 1903버전에서 Hyper-V를 통해 VM을 만들면 네트워크가 Default Switch라는 걸로 기본 설정이 되고, 이 설정으로 VM을 만들면 네트워크가 제대로 되지 않는다. 인터넷에서 검색해보면 이런 현상이 다른 사람들도 종종 겪고 있는 것 같은데, 이런저런 삽질 끝에 나는 아래의 방법으로 성공하였다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hyper-V 관리자에서 메인 메뉴 중 '동작 -&gt; 가상 스위치 관리자'를 열어서 '새 가상 네트워크 스위치'를 눌러서 '외부' 가상 스위치를 만든다&lt;/li&gt;
+&lt;li&gt;기존의 VM이 실행 중이라면 종료한다&lt;/li&gt;
+&lt;li&gt;기존의 VM에서 기존의 Default Switch 네트워크 어댑터를 제거하고 새로 만든 '외부' 가상 스위치를 연결한다&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;VM 재시작&lt;/p&gt;
+
+&lt;p&gt;위와 같이 하면 VM안의 네트워크가 정상적으로 실행된다&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <guid>http://blog.wimy.com/455</guid>
+      <pubDate>Wed, 09 Oct 2019 14:36:35 GMT</pubDate>
+    </item>
     <item>
       <title>[게임 플레이 후기] Limbo</title>
       <link>http://blog.wimy.com/454</link>
@@ -1076,40 +1093,6 @@
 </description>
       <guid>http://blog.wimy.com/403</guid>
       <pubDate>Mon, 25 Nov 2013 12:52:07 GMT</pubDate>
-    </item>
-    <item>
-      <title>eclipse 마켓을 통해 쉽게 안드로이드 개발 환경 구축하기</title>
-      <link>http://blog.wimy.com/402</link>
-      <description>&lt;p&gt;넥서스7이 생긴 바람에 오랜만에 안드로이드 개발환경을 구축할 일이 생겨서 eclipse 에서 설치를 하려고 생각했는데, 가만히 생각해보니 ADT 만 설치하면 ADT 가 sdk 를 설치해준 기억이 나서, ADT 가 왠지 eclipse marketplace 에 있을거 같아서 한번 찾아보니 왠걸(!!!) 있었다. 그래서 설치해보니 매우 잘되어서 포스팅 시작~&lt;/p&gt;
-
-&lt;p&gt; *** 알고보니 지금은 &lt;a href="http://d.android.com/"&gt;http://d.android.com/&lt;/a&gt; 에서 eclipse + ADT + SDK 까지 한번에 통합된 것을 받을 수 있네요 ㅠㅜ 아래 포스팅은 그냥 eclipse 가 이미 있을 때 안드로이드 개발환경 쉽게 붙이는 방법 정도로만....(아... 세상 빨리 변하네요 ㅋ) ***&lt;/p&gt;
-
-&lt;p&gt; 일단은 JDK 깔고, eclipse 는 깐다. 이제 ADT 를 주소를 넣고 깔고, SDK 를 다운받아서 설정하고 이런것을 해야하겠지만, ADT 와 SDK 는 아래와 같이 쉽게 설치할 수 있다.&lt;/p&gt;
-
-&lt;p&gt; eclipse 를 띄운 후, 아래처럼 Eclipse Marketplace 클릭&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="eclipse_marketplace.png" width="365" height="363" /&gt;&lt;/p&gt;
-
-&lt;p&gt; android 로 검색한 후, 제작자가 Google 인 것을 install~&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="eclipse_adt.png" width="578" height="820" /&gt;&lt;/p&gt;
-
-&lt;p&gt; 중간 설치 과정이야 뻔하게 ok, agree 등을 하고 설치한 후, eclipse 재시작 후 아래 화면에서 Close 하고, Install new SDK 를 선택해서 SDK 를 받아오자.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="eclipse_adt_SDK.png" width="620" height="633" /&gt;&lt;/p&gt;
-
-&lt;p&gt; 아래처럼 Android SDK Manager 를 띄울 수 있게 되면서 안드로이드 개발환경 설치 성공~~!!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="eclipse_result.png" width="620" height="453" /&gt;&lt;/p&gt;
-
-&lt;p&gt; 포스팅하기 전에 잠깐 안드로이드 개발환경 글을 검색해보았는데, 너무 예전 글이 많다. 그리고 시중에 있는 안드로이드 책들도 상당히 예전 방법과 예전 환경에서 설치하고 있어서 안타까운 마음이 든다.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 24pt;"&gt; 이렇게 쉽게 설치할 수 있는데!!!!!&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;ps : 많이 퍼뜨려주세요...;;&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/402</guid>
-      <pubDate>Mon, 19 Nov 2012 13:44:51 GMT</pubDate>
     </item>
   </channel>
 </rss>
