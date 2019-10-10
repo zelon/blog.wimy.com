@@ -4,8 +4,62 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Wed, 09 Oct 2019 14:41:52 GMT</pubDate>
+    <pubDate>Thu, 10 Oct 2019 14:25:54 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>[책 후기] 클린 소프트웨어</title>
+      <link>http://blog.wimy.com/456</link>
+      <description>&lt;p&gt;꽤 흥미롭게 읽었다. 꽤 두꺼웠지만, 하루에 한 챕터 혹은 힘들면 반 챕터씩 읽었다. 나에게 꾸준함을 다시 일깨워준 책이다.&lt;/p&gt;
+
+&lt;p&gt;내용은 프로그램을 애자일 방법으로 설계하고 코딩 해나가는 방법에 대한 것이다. 나에게 많은 위로를 줬던 것이, 한번에 잘 설계할 수는 없다는 내용이다. 설계는 초기 설계가 있으면 당연히 코드가 자라면서 그 설계 방향과 형태는 계속 흔들리면서 자라나게 된다는 것이다. 한번에 설계를 잘하면 좋겠지만 다들 그렇게는 안된다고 한다. (다행이다. 나만 그런게 아니라...)&lt;/p&gt;
+
+&lt;p&gt;주요 구문들을 정리해서 구글 문서(&lt;a href="https://docs.google.com/document/d/1SjjrAc3Hni2OFK3odyXBIZwLn1AR7KBXns5Pvjnwelo/edit?usp=sharing"&gt;https://docs.google.com/document/d/1SjjrAc3Hni2OFK3odyXBIZwLn1AR7KBXns5Pvjnwelo/edit?usp=sharing&lt;/a&gt;)에 올렸지만, 그 중에서도 많이 와 닿은 문장들을 적어본다&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;시스템에 대한 이해를 계속 유지하기 위해 지속적으로 코드를 읽고 소화한다&lt;/li&gt;
+&lt;li&gt;애자일 선언문
+
+&lt;ul&gt;
+&lt;li&gt;프로세스와 툴보다 개인과 상호작용이 우선이다&lt;/li&gt;
+&lt;li&gt;포괄적인 문서보다 동작하는 소프트웨어가 우선이다&lt;/li&gt;
+&lt;li&gt;계약 협상보다 고객 협력이 우선이다&lt;/li&gt;
+&lt;li&gt;계획을 따르는 것보다 변화에 대한 반응이 우선이다&lt;/li&gt;
+&lt;li&gt;왼쪽 항목 각각에도 가치는 있지만, 우리는 오른쪽 항목에 더 가치를 부여한다는 뜻이다&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;그 필요가 급박하고 중요하지 않다면 아무 문서도 만들지 마라 - 마틴의 문서화 제1법칙&lt;/li&gt;
+&lt;li&gt;테스트 케이스와 코드는 함께 진화하며, 테스트 케이스가 코드보다 아주 약간 앞서는 정도다. 이 방식은 리팩토링을 굉장히 용이하게 만든다&lt;/li&gt;
+&lt;li&gt;어떻게든 동작하는 가장 단순한 것을 생각한다. DB없이 파일로 할 수 있다면 파일로 한다. 멀티스레딩 없이 현재 스토리를 구현할 수 있다면, 멀티스레딩을 포함시키지 않을 수도 있다. 그리고 실제로 구현할 수 있을 정도로 최대한 단순한 솔루션을 선택한다&lt;/li&gt;
+&lt;li&gt;코드는 부패하기 쉽다. 기능 요소 다음에 또 기능 요소를 추가하고 버그 다음에 또 버그를 잡아나갈수록 코드 구조는 퇴화한다&lt;/li&gt;
+&lt;li&gt;테스트를 먼저 작성함으로써, 프로그래머는 자신이 반드시 테스트 가능한 프로그램을 설계하도록 강제할 수 있다&lt;/li&gt;
+&lt;li&gt;모든 소프트웨어 모듈에는 세 가지 기능이 있다. 동작하는 기능, 변경 기능, 읽는 사람과 의사소통하는 기능이다. 변경이 힘든 모듈은 망가진 것이다. 읽기 힘든 모듈도 망가진 것이다&lt;/li&gt;
+&lt;li&gt;아무 악취도 나지 않을 때는 원칙을 적용하지 않는다. 그저 원칙이라는 이유만으로 무조건 따르는 것은 좋지 않다. 원칙에 대한 맹종은 불필요한 복잡성이란 설계의 악취로 이어진다&lt;/li&gt;
+&lt;li&gt;현재 시점에서는 유용하지 않은 요소가 설계에 포함되어 있다면, 이 설계는 불필요한 복잡성을 포함하는 것이다&lt;/li&gt;
+&lt;li&gt;요구사항의 변경 때문에 소프트웨어는 부패하지만, 프로그래머인 우리들 대부분은 요구사항이 프로젝트에서 가장 변덕스러운 요소임을 인식하고 있다. 만약 계속되는 요구사항 변경 때문에 설계가 실패한다면, 우리의 설계와 방식에 문제가 있는 것이다. 이런 변경에 대해서도 탄력적인 설계를 만드는 방식을 찾아야 한다&lt;/li&gt;
+&lt;li&gt;SRP: 한 클래스는 단 한 가지의 변경 이유 만을 가져야 한다&lt;/li&gt;
+&lt;li&gt;OCP: 확장에 대해 열려 있어야 하고, 수정에 대해서는 닫혀 있어야 한다. 해결책은 추상화다&lt;/li&gt;
+&lt;li&gt;LSP: 서브타입은 그것의 기반 타입으로 치환 가능해야 한다&lt;/li&gt;
+&lt;li&gt;DIP: 상위 수준의 모듈은 하위 수준의 모듈에 의존해서는 안 된다. 둘 모두 추상화에 의존해야 한다&lt;/li&gt;
+&lt;li&gt;ISP: 인터페이스 분리 원칙. 클라이언트가 자신이 사용하지 않는 메소드에 의존하도록 강제되어서는 안 된다&lt;/li&gt;
+&lt;li&gt;순환을 끊으려녀 인터페이스를 만들어서 해결하거나 두 개의 패키지가 둘 다 의존하는 새로운 패키지를 만든다&lt;/li&gt;
+&lt;li&gt;패키지 구조는 시스템이 성장하고 변화하면서 같이 진화하는 것으로 보인다&lt;/li&gt;
+&lt;li&gt;애플리케이션이 계속 성장하면서 재사용 가능한 요소를 만드는 일도 고려하기 시작한다&lt;/li&gt;
+&lt;li&gt;패키지 의존 관계 그래프는 조금씩 흔들리면서 성장한다&lt;/li&gt;
+&lt;li&gt;어떤 패키지는 불안정하고 또 어떤 패키지는 안정적인 설계가 우리가 원하는 패키지 구조의 설계다&lt;/li&gt;
+&lt;li&gt;패키지는 안정적인 만큼 추상적이기도 해야한다. 반대로 불안정한 패키지는 구체적이어야 한다&lt;/li&gt;
+&lt;li&gt;팩토리 패턴은 큰 도움이 되지만 피하려면 피할 수도 있는 복잡함이다&lt;/li&gt;
+&lt;li&gt;잦은 변경을 겪게 될지는 예상 할 수 밖에 없으며, 처음에는 간단하게 시작하고 필요에 따라 구조를 발전시키는 것이 가장 좋다&lt;/li&gt;
+&lt;li&gt;어떤 모듈을 테스트하려면, 그 모듈을 시스템의 다른 모듈로부터 분리할 수 있어야 한다&lt;/li&gt;
+&lt;li&gt;테스트를 먼저 생각해본 것이 설계에서 결합을 줄이는 일에 도움이 되었다&lt;/li&gt;
+&lt;li&gt;이 세상에 충분한 분석 같은 것은 없다. 얼마나 잘 설계하든 고객이 언제나 그 구조를 망쳐버릴 새로운 변경사항을 들고 나온다는 사실을 알게 될 것이다.&lt;/li&gt;
+&lt;li&gt;시간이 흐르면서 시스템에 대한 요구사항이 변경되면 이 구조들도 변경되어야 한다. 이런 변경들을 잘 해나갈 수 있는 비결은 시스템을 되도록 단순하고 유연하게 유지하는 것이다&lt;/li&gt;
+&lt;li&gt;적어도 세 번 이상 그 프레임워크를 기반으로 애플리케이션을 구축해봐야(그리고 실패해봐야) 그 도메인에 맞는 올바른 아키텍처를 구축했다는 자신감이 그런대로 생길 수 있다 - 레베카 워프스-브록&lt;/li&gt;
+&lt;li&gt;복잡성을 다루기 위해, 소프트웨어는 계층 구조로 설계된다&lt;/li&gt;
+ * 
+&lt;/ul&gt;
+</description>
+      <guid>http://blog.wimy.com/456</guid>
+      <pubDate>Thu, 10 Oct 2019 14:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Hyper-V에서 네트워크가 제대로 되지 않을 때</title>
       <link>http://blog.wimy.com/455</link>
@@ -1083,16 +1137,6 @@
 </description>
       <guid>http://blog.wimy.com/404</guid>
       <pubDate>Thu, 09 Jan 2014 07:01:50 GMT</pubDate>
-    </item>
-    <item>
-      <title>넥서스5, 넥서스7 이 윈도우에서 MTP 연결이 제대로 되지 않을때</title>
-      <link>http://blog.wimy.com/403</link>
-      <description>&lt;p&gt;장치 관리자를 열어놓고, 넥서스5/7 를 연결하면 "새롭게 추가되는 장치 - 이름이 아마 AD inteface 이런거임"에서 오른쪽 클릭해서 '제거' -&amp;gt; '드라이버도 함께 제거' 한 후, 케이블을 분리 후 다시 연결하면 제대로 MTP 로 잡힌다.&lt;/p&gt;
-
-&lt;p&gt; 아마 Android SDK 를 업데이트하면서 이런 문제가 생긴 것으로 '짐작'만 하고 있음;;&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/403</guid>
-      <pubDate>Mon, 25 Nov 2013 12:52:07 GMT</pubDate>
     </item>
   </channel>
 </rss>
