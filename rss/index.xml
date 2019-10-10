@@ -4,7 +4,7 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Thu, 10 Oct 2019 14:25:54 GMT</pubDate>
+    <pubDate>Thu, 10 Oct 2019 14:32:35 GMT</pubDate>
     <generator>wimyblog</generator>
     <item>
       <title>[책 후기] 클린 소프트웨어</title>
@@ -54,7 +54,6 @@
 &lt;li&gt;시간이 흐르면서 시스템에 대한 요구사항이 변경되면 이 구조들도 변경되어야 한다. 이런 변경들을 잘 해나갈 수 있는 비결은 시스템을 되도록 단순하고 유연하게 유지하는 것이다&lt;/li&gt;
 &lt;li&gt;적어도 세 번 이상 그 프레임워크를 기반으로 애플리케이션을 구축해봐야(그리고 실패해봐야) 그 도메인에 맞는 올바른 아키텍처를 구축했다는 자신감이 그런대로 생길 수 있다 - 레베카 워프스-브록&lt;/li&gt;
 &lt;li&gt;복잡성을 다루기 위해, 소프트웨어는 계층 구조로 설계된다&lt;/li&gt;
- * 
 &lt;/ul&gt;
 </description>
       <guid>http://blog.wimy.com/456</guid>
