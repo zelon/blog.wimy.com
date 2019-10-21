@@ -4,8 +4,34 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Thu, 10 Oct 2019 14:32:35 GMT</pubDate>
+    <pubDate>Mon, 21 Oct 2019 15:08:25 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>구글 클라우드 쉘에서 VS Code 사용하기</title>
+      <link>http://blog.wimy.com/457</link>
+      <description>&lt;p&gt;구글 클라우드에서 돌아가는 toy project가 있어서 오랜만에 유지보수를 하려니, SDK 설치부터 너무 힘들었다. 그래서 좀 뒤져보다 보니, google에서도 Cloud Shell을 제공하고 있었고, Cloud Shell에는 이미 SDK 및 관련 툴들이 이미 설치되어 있어서 개발 환경을 구축할 필요없이 바로 개발을 이어갈 수 있었다.&lt;/p&gt;
+
+&lt;p&gt;하지만 파일 편집 환경이 너무 불편해서 좀 더 찾아보니, Cloud Shell안에서 VS Code를 웹 서버로 띄워서 사용할 수 있다고 한다. &lt;a href="https://medium.com/google-cloud/how-to-run-visual-studio-code-in-google-cloud-shell-354d125d5748"&gt;https://medium.com/google-cloud/how-to-run-visual-studio-code-in-google-cloud-shell-354d125d5748&lt;/a&gt; 에서 해당 내용을 확인할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;정리하자면 아래와 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/cdr/code-server/"&gt;https://github.com/cdr/code-server/&lt;/a&gt; 라는 프로젝트가 VS Code를 웹 서버로 띄울 수 있도록 해준다&lt;/li&gt;
+&lt;li&gt;Google Cloud Shell 안(!)에서 해당 프로젝트를 다운 받아서 압축을 해제한 후 실행한다. 그러면 8080를 통해서 VS Code를 서비스해준다&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Google Cloud Shell의 Web Preview 기능을 통해서 해당 포트를 연결하는 주소를 생성해주고 해당 주소를 통해서 VS Code 서비스에 접속해서 사용한다&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;혹시나 'Not Found' 같은 오류가 난다면, 주소줄에서 xxxx.appspot.com 이후의 문자열들을 삭제한 주소로 접속하면 된다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;재미있는 것은 이렇게 열린 VS Code in WebBrowser를 통해서, Google Cloud Shell도 열 수가 있다는 것이다. 뭔가 현대적인 클라우드 컴퓨팅을 사용한다는 느낌이 팍팍 든다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src="VSCodeInWebBrowser.png" alt="VS Code in WebBrowser" /&gt;&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/457</guid>
+      <pubDate>Mon, 21 Oct 2019 14:39:00 GMT</pubDate>
+    </item>
     <item>
       <title>[책 후기] 클린 소프트웨어</title>
       <link>http://blog.wimy.com/456</link>
@@ -969,173 +995,6 @@
 </description>
       <guid>http://blog.wimy.com/405</guid>
       <pubDate>Mon, 07 Apr 2014 12:04:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>[책내용정리] 읽기 좋은 코드가 좋은 코드다</title>
-      <link>http://blog.wimy.com/404</link>
-      <description>&lt;p&gt;예전에 읽고 위키에만 정리했었는데, 블로그로 옮김. 책에는 당연히 더 많은 내용들이 있지만, 나에게 많이 와닿던 부분들만 정리.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;내가 만든 코드를 먼 훗날 내가 다시 봐도 잘 알아볼 수 있게 하자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;코드는 다른 사람이 이해하는 데 들이는 시간을 최소화하는 방식으로 작성되어야 한다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;분량이 적다고 이해하는 시간이 짧은 것만은 아니다. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;잘 구성된 아키텍처, 테스트의 용이성 등이 쉬운 코드 작성과 충돌을 일으키지는 않는다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;좀 더 분명한 이름을 짓자. 오해하기 쉬운 이름을 피하자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;단위가 헛갈릴 수 있으면 단위를 변수명에 붙이자. elapsed_ms, delay_secs&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;좁은 scope 에서는 짧은 이름도 괜찮다. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;팀에 새로 합류한 사람이 이름이 의미하는 바를 이해할 수 있다며느, 그 일므은 괜찮은 것이다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;불필요한 단어 제거하기. ConvertToString() 은 ToString() 으로 써도 의미가 줄어들지 않는다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;본인이 의도한 바와 다르게 다른 사람이 의미를 해석할 수 있는 단어는 피하자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;변수의 범위를 제한할 때, 그 값까지 포함하면, min/max, first/last, 처음은 포함하지만 끝은 포함하지 않으면, begin/end, &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;bool 변수는 부정적인 이름은 피하는 것이 좋다. disable_ssl 보다는 use_ssl 이 좋다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;어떤 상수가 특정한 값을 갖게 된 ‘사연’ 은 주석으로 넣어도 좋다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;주석이 복잡해지면 읽기가 코드만큼 어렵다. 간결한 주석을 달자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;조건문에서, 변화하는 값을 왼쪽에 두고, 변하지 않는 값을 오른쪽에 두는 것이 좋다.  그래서 while ( bytes_received &amp;lt; bytes_expected ) 가 좋다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;조건문에서, 부정이 아닌 긍정을 다루어라. if ( !debug ) 보다는 if ( debug ) 를 선호하자&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 조건문에서, 간단한 것을 먼저 처리해라.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 조건문에서, 더 흥미롭고, 확실한 것을 먼저 다루어라.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 삼항 연산자는 정말 간단한 것이 아니라면 쓰지 말자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 의미를 쉽게 파악하기 위해 별다른 로직이 없지만, 따로 만들어낸 변수 - 요약 변수&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 문제를 다르게 접근하면 더욱 간단하게 처리되는 것들이 있다. 특히 범위 체크.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 아래와 같은 불필요한 임시 변수는 제거하자.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 복잡한 표현을 잘게 나누지 않는다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 명확성에 도움이 되지 않는다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- 한 번만 사용되어 중복된 코드를 압축하지 않는다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;변수의 범위를 좁혀라. 사용하기 직전에 선언해라. 많은 메소드를 정적(static)으로 만들어, 멤버 변수를 사용하지 않음을 알려라.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;const 를 사용하면 이 변수가 어디서 변경되는지를 기억하기 쉽다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;일반적인 코드와 프로젝트를 위한 코드를 분리하자. 좀 더 문제에 집중하기 쉽고, 재사용성도 높아진다.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 코드 베이스를 작게 유지해라. 이미 존재하는 라이브러리를 써라. &lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;매일 15분씩 자신의 표준 라이브러리에 있는 모든 함수/모듈/형들의 이름을 읽어라.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;코딩 대신 유닉스 도구 활용하기&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;- cat access.log | awk ‘{ print $5 “ “ $7 }’ | egrep “[45]..$” \ | sort | uniq -c | sort -nr&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;span class="Apple-tab-span" style="white-space:pre;"&gt; &lt;/span&gt;-  4xx 혹은 5xx 응답코드를 가장 많이 담는 url 을 log 에서 찾는 프로그램&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt; 유지보수하기 쉽고, 추가하기 쉽게 테스트 케이스를 만들어라. 테스트하기 쉽게 코드를 만들어라.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;*&lt;br /&gt;
-&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;&lt;/span&gt;&lt;/em&gt;*&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size:15px;font-family:Arial;color:#000000;background-color:transparent;font-weight:normal;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"&gt;assertEqual 처럼 의도를 나타내는 assert 를 가능하면 사용해라&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;br /&gt;
-&lt;span style="font-size: 15px; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;/span&gt;&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/404</guid>
-      <pubDate>Thu, 09 Jan 2014 07:01:50 GMT</pubDate>
     </item>
   </channel>
 </rss>
