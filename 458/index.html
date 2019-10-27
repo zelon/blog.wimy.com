@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>Visual Studio WPF Designer에서 내가 만든 UserControl을 인식하지 못할 때 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/458">Visual Studio WPF Designer에서 내가 만든 UserControl을 인식하지 못할 때</a></h1></div>
+        <div id="post_datetime">2019-10-28 00:25:00</div>
+
+        <div id="post_content">
+          <p>Visual Studio의 WPF Designer에서 내가 만든 UserControl을 추가했는데, 실행은 문제가 없는데 Could not load type xxxx 라면서 Designer에서 제대로 previwe가 안 될 때는, bin 폴더를 삭제하고, 다시 빌드 시켜본다. 뭔가 임시 파일에서 정보를 캐싱하는 게 있는지 삭제하고 빌드를 해야 인식하는 경우가 있다</p>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/458';
+    this.page.identifier = '458';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
