@@ -4,8 +4,22 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sun, 27 Oct 2019 15:45:42 GMT</pubDate>
+    <pubDate>Thu, 21 Nov 2019 14:22:25 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>Visual Studio WPF Designer View에서 Exit Code: 80131623</title>
+      <link>http://blog.wimy.com/459</link>
+      <description>&lt;p&gt;.NET Core 3.0으로 WPF로 GUI Git client(&lt;a href="https://github.com/zelon/wimygit"&gt;https://github.com/zelon/wimygit&lt;/a&gt;)를 취미삼아 만들고 있는데, 특정 상황에서 Visual Studio의 WPF Designer View에서 80131623 에러를 내면서 제대로 미리보기를 보여주지 않았다. 버그 리포팅을 해도 묵묵부답이고... 뭔가 내 컴퓨터에서만 발생하는 문제인가 싶기도 한데, window10의 샌드박스에서 테스트해도, Visual Studio 2019 preview 버전에서도 같은 문제가 발생했다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="XAML_Designer_Error.png" alt="XAML Designer Error" /&gt;&lt;/p&gt;
+
+&lt;p&gt;문제의 원인은 XAML 코드를 여기저기 주석처리하다가 알았는데, ListBox에 MultiBinding을 사용할 때였다. 문제도 없는 코드이고 빌드 및 실행도 잘되는데, XAML preview에서만 'The XAML Designer has exited unexpectedly. (Exit code: 80131623)' 과 같은 화면을 띄우면서 preview를 보여주지 못했다. 이런저런 방법을 써도 잘 안되다가 정말 엉뚱한 방법으로 문제를 회피(!)했다. 바로 MultiBinding Coverter에 사용되는 클래스 이름을 바꾸는 것. 희안하게 클래스의 이름을 줄였더니 이 문제가 회피가 되었는데, 웃기는 것이 XAML Designer에서는 새롭게 변경한 클래스 이름을 발견을 못한다. 그래서 경고 밑줄을 띄우면서, preview는 잘보여준다. 아마 내가 사용했던 클래스 이름이 반쯤(?) 인식되어서 뭔가 동작을 하다가 멈춘게 아닌가 생각된다. 이름을 더 길게도 해보고 어떤 패턴이나 어떤 단어에 문제가 생기는 지 더 찾고 싶지만 이 문제에 너무 오래 시달려서 일단 preview가 보이는 데서 만족하고 포스팅 중...&lt;/p&gt;
+
+&lt;p&gt;혹시나 이런 문제를 겪는 사람이 있다면 일단 클래스 이름을 바꿔 보시길.&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/459</guid>
+      <pubDate>Thu, 21 Nov 2019 13:28:00 GMT</pubDate>
+    </item>
     <item>
       <title>Visual Studio WPF Designer에서 내가 만든 UserControl을 인식하지 못할 때</title>
       <link>http://blog.wimy.com/458</link>
@@ -885,102 +899,6 @@
 </description>
       <guid>http://blog.wimy.com/407</guid>
       <pubDate>Tue, 15 Apr 2014 15:12:56 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Cloud DNS 설정하기 - How to set up google cloud dns</title>
-      <link>http://blog.wimy.com/406</link>
-      <description>&lt;p&gt;Google에서 Cloud Platfrom 의 일원으로 Cloud DNS(&lt;a href="https://cloud.google.com/products/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://cloud.google.com/products/cloud-dns/"&gt;https://cloud.google.com/products/cloud-dns/&lt;/a&gt;&lt;/a&gt;) 를 발표했다. DNSEver 의 유료화와 비슷한 시기에 발표되어서 관심을 가지고 설정을 해보았다. 난 이미 DNSEver 유료 결재를 해버린건 함정;;&lt;/p&gt;
-
-&lt;p&gt; 가격은 현재(2014.04) 25개까지의 zone 을 유지하는데 한달에 zone 하나당 0.2달러. 100만 쿼리에 0.4달러. 나쁘지 않다. DNSEver 와 비교해도 나쁘지 않다 ㅋ 하지만 아직은 설정하기가 DNSEver 가 훨씬 편하다. 아마 google 에서 웹 인터페이스를 곧 제공하지 않을까 예상해본다(이미 API 도 있으니...)&lt;/p&gt;
-
-&lt;p&gt; 일단 &lt;a href="https://console.developers.google.com/project" class="uri" class="tx-link"&gt;&lt;a href="https://console.developers.google.com/project"&gt;https://console.developers.google.com/project&lt;/a&gt;&lt;/a&gt; 에서 새로운 프로젝트를 만든 후, 아래의 그림처럼 API 를 열어주자. "Google Cloud DNS API" 를 ON 하려면 enable billing 을 해야한다. 카드 입력하면 1달러 우선 결재 +_+&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="google_cloud_dns.png" width="620" height="190" /&gt;&lt;/p&gt;
-
-&lt;p&gt;이제 구글 Cloud DNS API 를 사용할 준비가 되었으면, &lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt;구글 클라우드 SDK 를 다운로드 하자.  &lt;/span&gt;&lt;span style="background-color: transparent;"&gt;&lt;a href="https://developers.google.com/cloud/sdk/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud/sdk/"&gt;https://developers.google.com/cloud/sdk/&lt;/a&gt;&lt;/a&gt; 에서 다운로드 하면 된다. 다운로드 후 압축을 풀고, install.sh (리눅스나 맥)나 install.bat (윈도우)를 실행시키자. path 에 설치된 bin 경로를 추가하고 아래의 명령으로 dns 명령을 실행할 수 있게하자.(혹시나 아래의 명령이 기존의 SDK 를 업데이트만 하고 dns components 를 설치하지 않을 수도 있으니 이상하게 명령이 안먹히면 아래의 명령을 다시 한번 실행해보자)&lt;/span&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span style="background-color: transparent;"&gt; &lt;/span&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud components update dns&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt; 그런 후, 아래 명령으로 간단히 커맨드 로그인을 하고(웹 브라우저가 뜨면서 인증을 물어본다)&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span style="color: rgb(0, 0, 0); font-family: inherit; font-style: inherit; font-weight: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250);"&gt;gcloud auth login&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt; zone 을 생성해보자.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns managed&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;-&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone create &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;dns_name&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"example.com."&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;description&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="str" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 136, 0);"&gt;"A test zone"&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt; examplezonename&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt; 이제 만든 zone 을 edit 해보자.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;gcloud dns records &lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;--&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;zone&lt;/span&gt;&lt;span class="pun" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(102, 102, 0);"&gt;=&lt;/span&gt;&lt;span class="pln" style="font-family: inherit; font-size: 1em; line-height: 1.5; background-color: rgb(250, 250, 250); margin: 0px; padding: 0px; border: 0px; font-weight: inherit; font-style: inherit; vertical-align: baseline; color: rgb(0, 0, 0);"&gt;examplezonename edit&lt;/span&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt; 윈도우에서는 메모장이 뜨고, 맥에서는 vi 로 아래와 비슷한 내용이 편집할 준비가 된다. 이제 여기의 내용을 고쳐서 dns API 에 명령을 보내게 된다. &lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;{&lt;/p&gt;
-  
-  &lt;p&gt;    "additions": [&lt;/p&gt;
-  
-  &lt;p&gt;        {&lt;/p&gt;
-  
-  &lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
-  
-  &lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
-  
-  &lt;p&gt;            "rrdatas": [&lt;/p&gt;
-  
-  &lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 8 21600 3600 1209600 300"&lt;/p&gt;
-  
-  &lt;p&gt;            ],&lt;/p&gt;
-  
-  &lt;p&gt;            "ttl": 21600,&lt;/p&gt;
-  
-  &lt;p&gt;            "type": "SOA"&lt;/p&gt;
-  
-  &lt;p&gt;        }&lt;/p&gt;
-  
-  &lt;p&gt;    ],&lt;/p&gt;
-  
-  &lt;p&gt;    "deletions": [&lt;/p&gt;
-  
-  &lt;p&gt;        {&lt;/p&gt;
-  
-  &lt;p&gt;            "kind": "dns#resourceRecordSet",&lt;/p&gt;
-  
-  &lt;p&gt;            "name": "wimy.com.",&lt;/p&gt;
-  
-  &lt;p&gt;            "rrdatas": [&lt;/p&gt;
-  
-  &lt;p&gt;                "ns-cloud-e1.googledomains.com. dns-admin.google.com. 7 21600 3600 1209600 300"&lt;/p&gt;
-  
-  &lt;p&gt;            ],&lt;/p&gt;
-  
-  &lt;p&gt;            "ttl": 21600,&lt;/p&gt;
-  
-  &lt;p&gt;            "type": "SOA"&lt;/p&gt;
-  
-  &lt;p&gt;        }&lt;/p&gt;
-  
-  &lt;p&gt;    ]&lt;/p&gt;
-  
-  &lt;p&gt;}&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt; 위의 내용을 대충 훑어보면, 간단한 형식의 JSON 이다. 일단 내가 이 도메인에 사용할 name server 의 이름이 보이고 additions 에 추가할 내용, deletions 에 삭제할 내용을 추가해서 저장하고 편집기를 닫으면 google dns API 가 저장된 파일을 보고 적절한 명령을 내려주게 된다. additions 에 어떤 형식으로 넣을지는 &lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/migrating-bind-zone-command-line"&gt;https://developers.google.com/cloud-dns/migrating-bind-zone-command-line&lt;/a&gt;&lt;/a&gt; 를 참고하자. 대부분의 형식을 알 수 있다.&lt;/p&gt;
-
-&lt;p&gt; 참고로, JSON 형식을 잘못입력하면(, 를 빠트리면....) 처음부터 다시 입력해야 하므로, 많은 내용을 입력할 때는 다른 메모장을 열어서 사용하거나 vi 의 split 기능을 이용해서 미리 다른 파일에 저장해두자.&lt;/p&gt;
-
-&lt;p&gt; 이 포스팅의 내용은 &lt;a href="https://developers.google.com/cloud-dns/" class="uri" class="tx-link"&gt;&lt;a href="https://developers.google.com/cloud-dns/"&gt;https://developers.google.com/cloud-dns/&lt;/a&gt;&lt;/a&gt; 의 내용을 간략히 옮긴 것이므로, 추가 사항은 당연히 이 공식 홈페이지를 참고하세요~~ :)&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/406</guid>
-      <pubDate>Mon, 07 Apr 2014 13:26:02 GMT</pubDate>
     </item>
   </channel>
 </rss>
