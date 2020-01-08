@@ -4,8 +4,69 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Wed, 01 Jan 2020 15:45:46 GMT</pubDate>
+    <pubDate>Wed, 08 Jan 2020 14:52:17 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>KT에서 U+알뜰모바일로 셀프개통 통신사 이동 후기</title>
+      <link>http://blog.wimy.com/461</link>
+      <description>&lt;p&gt;드디어 1월 4일부로 KT의 2년 약정이 끝나서 알뜰 통신사로 옮겨가게 되었다. 이상하게 좀 알아보니, U+알뜰모바일과 헬로모바일 요금이 완전 같아서(헬로모바일 주소가 lghellovision인 걸 봐서는 뭔가 합쳐진듯) 고민하다가 그냥 GS25에서 유심을 구하고, '셀프개통'을 할 수 있는  U+알뜰모바일로 선택했다.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;요금제 및 셀프개통: &lt;a href="https://gs25.uplussave.com/prtn/gs25/index.mhp"&gt;https://gs25.uplussave.com/prtn/gs25/index.mhp&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;직접 해보니 신기(?)한 것이 통신사 대리점에서 할 법한 일들을 내가 직접 하면서 새로운 유심을 등록한다. KT에다가 ARS로 전화해서 확인하고, 본인 인증을 내 카드로 하고 등등... 여튼 완전 자동은 아니지만, 대리점 직원이 아닌 나도 한번에 할 수 있을 정도의 수준이었다.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;장점들&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;U+알뜰모바일 및 KT와도 상담사 연결을 할 필요가 없었다. 기껏해야 ARS에 숫자 입력해주는 정도&lt;/li&gt;
+&lt;li&gt;매달 4만 8천원을 내면서 데이터 2기가를 받고 있었는데 2만 5천원에 15기가를 받는 요금제로 옮겨간 것이다. 절반가격으로 데이터를 7배 넘게 받는다. 이게 핵심. 이걸 왜 이제야했을까...(사실 KT 2년 약정 때문이었지만;;)&lt;/li&gt;
+&lt;li&gt;크롬 웹 브라우저로 진행이 가능하다(!!!!)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;아쉬운 점들&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;이상하게 GS25 편의점에서 산 유심이 잘못된 유심일련번호라면서 등록이 안되는데, 이게 홈페이지의 오류처럼 보인다. 내가 혹시나하고, U+알뜰모바일 사이트를 여기저기 다니면서 '셀프개통' 시작페이지가 여러 군데인 것을 확인했고, 이 여러군데 중 한곳은 나의 유심 일련번호를 제대로 인식했다. 홈페이지의 특정 페이지를 잘못 만든듯하다&lt;/li&gt;
+&lt;li&gt;컴퓨터 앞에서 진행하다가, 휴대폰으로 카톡이 와서 양쪽 진행?? 같은 게 이상하다&lt;/li&gt;
+&lt;li&gt;KT에서 문자가와서 해당 url을 클릭하라는 설명이 있는데 있는데  KT의 문자에는 해당 url이 없었다. 그래서 잠깐 헤매었다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;안전한 것들&lt;/h1&gt;
+
+&lt;p&gt;사실 내 환경에서는 날아간게 하나도 없어서 적기도 민망하지만 일단 찝찝했지만 안전한 것들을 적어본다&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;카카오톡을 백업할 필요도 없었다&lt;/li&gt;
+&lt;li&gt;문자 메시지도 날아가지 않는다. 보통 문자 메시지를 유심에 저장하지 않기 때문에 괜찮다&lt;/li&gt;
+&lt;li&gt;삼성 페이가 기본적으로 동작하지 않게 된다. 삼성 페이 앱을 직접 실행해주면 유심이 바뀌었다가면서 다시 본인 확인 후 정상 동작한다. 다만 교통카드 기능도 함께 초기화되는 데 난 안 썻기 때문에 어떻게 될지 모르겠다. 내가 안 쓰는 이유는 신한카드를 교통카드로 사용하는데 삼성 페이를 통해서 교통카드 결재를 하면 교통카드 혜택이 안되기 때문이다&lt;/li&gt;
+&lt;li&gt;T전화를 다시 등록하라고 왔다. T전화 초기화를 눌렀지만 다행히 주소록이 날아가지는 않았다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;기타&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;실제로 컴퓨터에 앉아서 약 20분이 걸렸으며, 실제로 통화가 안 되는 시간은 정말 2~3분 정도 밖에 안될 것 같다&lt;/li&gt;
+&lt;li&gt;유심을 갈아끼우고 해당 카드에 정보를 기록했다면서 리부팅이 한번 있었다. 그런데 이 때 리부팅 한다는 앱(?)이 전체 화면을 가려서 잠시 동안 폰 리부팅을 안하면 아무것도 못하는 상황이 벌어진다
+
+&lt;ul&gt;
+&lt;li&gt;구글로부터 이상한 문자 하나가 왔다. Google SIM verification 이라고 오면서 url이 하나 오는데 따라가서 읽어보면 원래 전화번호가 바뀌면 문자를 보내면서 바뀐 인증 같은 걸 한단다. 사실 전화번호가 바뀐게 아니라 유심만 바뀌었지만 뭐...&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;U+알뜰모바일에서 문자가 3통 밖에 안 왔다. 그 내용도 담백하다 ㅋㅋ KT에 처음 가입했을 때 문자가 정말 10통은 넘게 왔었던 것 같은데, 다 쓸데없는 내용으로 기억한다. 그리고 문자 하나에 고객님 어쩌구부터, 마지막에는 초능력 5G라는 둥... 내용을 읽게 힘드는 문구들이 가득하다. U+ 알뜰모바일에서는 이래도 되나 싶을 정도로 문자가 적고, 오히려 빠져나오는 KT에서 여러 문자를 보내면서 이런저런 내용(남은 요금이 어쩌구)을 안내했다&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;결론&lt;/h1&gt;
+
+&lt;p&gt;KT에서 U+ 알뜰모바일로 꽤 쉽게 넘어갈 수 있으며, GS25에서 유심을 미리 사서 시작하면 약 20분 만에 통신사를 바꿀 수 있다. 다들 3대 통신사를 쓰고 있다면 한번쯤 알아보시길~~&lt;/p&gt;
+
+&lt;h1&gt;ps&lt;/h1&gt;
+
+&lt;p&gt;아내도 KT에서 U+알뜰모바일로 가려고 했는데, KT가 더 싼 조건이 있긴 했다. 바로 3만원 대 요금을 쓰면서 무제한 음성통화를 사용할 경우. 아내의 평균 월 통화량이 거의 400분이어서... 아내의 상황에서는 KT가 더 쌌다&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/461</guid>
+      <pubDate>Wed, 08 Jan 2020 06:12:00 GMT</pubDate>
+    </item>
     <item>
       <title>2019년 돌아보기</title>
       <link>http://blog.wimy.com/460</link>
@@ -919,24 +980,6 @@
 </description>
       <guid>http://blog.wimy.com/409</guid>
       <pubDate>Fri, 25 Jul 2014 14:08:58 GMT</pubDate>
-    </item>
-    <item>
-      <title>github 의 Atom 에디터 윈도우 빌드</title>
-      <link>http://blog.wimy.com/408</link>
-      <description>&lt;p&gt;이제 공식 다운로드가 생겨서 이 글에서의 링크는 내립니다.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt; 근래에 한참 프로그래머들의 화두가 되었던 Atom editor(&lt;a href="https://atom.io/" class="uri" class="tx-link"&gt;&lt;a href="https://atom.io/"&gt;https://atom.io/&lt;/a&gt;&lt;/a&gt;). github 에서 만드는 프로그래머를 위한 편집기를 표방하고 있어서 관심있게 보고 있었는데, 얼마전에 누구나 다운로드 가능하도록 되었다. 그래서 써보려고 하는데, 맥용만 다운로드가 가능해서... 일단 맥에서 써봤지만... 아무래도 윈도우 프로그래머다보니 윈도우용을 써보고 싶었다. 그래서 집에서 가지고 놀던 Azure 에다가 가상머신을 하나 만들어서 빌드 환경을 구축해서 빌드시켰다.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; &lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 빌드 과정은 &lt;/span&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md" class="uri" class="tx-link"&gt;&lt;a href="https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md"&gt;https://github.com/atom/atom/blob/master/docs/build-instructions/windows.md&lt;/a&gt;&lt;/a&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 에 적힌대로하면 별 문제없었고, 다만 간과하기 쉬운게 Visual Studio 2010 Express 의 SP1 (Servicepack1) 을 꼭 설치해야한다는 것과 환경변수 path 경로에&lt;/span&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; atom/repo/build/node_modules 를 추가해야한다는 정도.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 다운로드 - 삭제함&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="background-color: transparent; font-size: 9pt; line-height: 1.5;"&gt; 위의 다운로드는 '윈도우 버젼'이 공식 릴리즈되거나, 드랍박스에 뭔가 문제가 생기거나, 여튼 임의로 내려갈 수 있으며, 현재 atom 에디터가 공식버젼도 불안정한 상태라는 것을 어느 정도는 감안하고 쓰세요~&lt;/span&gt;&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/408</guid>
-      <pubDate>Wed, 21 May 2014 13:27:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
