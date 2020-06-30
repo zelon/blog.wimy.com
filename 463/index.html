@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>wimybox 서비스 종료 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/463">wimybox 서비스 종료</a></h1></div>
+        <div id="post_datetime">2020-07-01 00:25:00</div>
+
+        <div id="post_content">
+          <p>Wimybox - <a href="http://box.wimy.com">http://box.wimy.com</a> 을 이제 더이상 서비스할 수 없게 되었다. 그래서 더이상 개발도 하지 않게 되었다.</p>
+
+<p>회사 일도 바쁘고 조금 지친 것도 있지만, 직접적인 원인은 YouTube API를 쓰는데 너무 복잡한 것을 요구해왔기 때문이다</p>
+
+<p>아마 YouTube API를 쓰는 다른 사람들도 관련 메일을 받았겠지만 얼마 전부터 YouTube API측에서 약관을 지키라면서 Audit Form(사용 방법 등 - <a href="https://support.google.com/youtube/contact/yt_api_form">https://support.google.com/youtube/contact/yt<em>api</em>form</a>)을 등록하라고 해왔고, 귀찮기도 하고, 엄청나게 긴 영어로 된 약관을 하나하나 읽어보기는 힘들었기 때문에 Audit Form을 보내지 않았다. 참고로 읽어보고 준수해야 하는 약관은 3개이며 그 중에 1개는 이만큼(<a href="https://developers.google.com/youtube/terms/developer-policies">https://developers.google.com/youtube/terms/developer-policies</a>)의 길이다. 여튼 Form을 보내지 않았더니 YouTube API 접근이 제한되었고 결국 wimybox 서비스는 오류를 발생하게 되었다.</p>
+
+<p>시간이 되어서 Audit Form을 채워서 보냈더니, "이런저런 약관이 위배되었으니 A,B,C를 고쳐주세요"라고 답변 받았고, 다시 예전 소스를 꺼내서 수정하고, 약관을 첫 화면 잘 보이는 곳에 배치하고, 링크도 걸고 해서 답변을 보냈더니, 아래처럼 답변이 왔다.</p>
+
+<ul>
+<li>Screencast or Video recording(s) that clearly demonstrates how your API Client and its users access and use the YouTube API Services</li>
+<li><p>Please confirm that you don't wish to use the YouTube API services any longer in the future for this project key. Once we get the confirmation, we will revoke access for the project keys from our end</p>
+
+<p>동영상을 만드는 것도 힘들고, 나의 구현 방법을 알려달라는 것도 웃기고... 사용 안할거면 알려달라고 친절하게 설명도 해준다(내가 귀찮아한다는 것을 알았나...) 그래서 wimybox 서비스를 종료하기로 결정했다.</p>
+
+<p>2009년 무한도전 듀엣 가요제의 냉면을 들으면서 열심히 만들고, 2011년 원더걸스의 Be My Baby를 들으면서 재미있게 업그레이드 했던 기억이 난다. 아쉽지만 여기까지.</p>
+
+<p>시간이 되면 코드만 마지막으로 정리하고, 정식으로 사이트 닫아야 겠다. 앞으로 취미 삼아 토이프로젝트 만들 때도 이제 구글의 API를 가능하면 사용하지 않도록 해야겠다</p></li>
+</ul>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/463';
+    this.page.identifier = '463';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
