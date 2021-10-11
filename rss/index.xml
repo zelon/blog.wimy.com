@@ -4,8 +4,35 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Mon, 11 Oct 2021 09:11:47 GMT</pubDate>
+    <pubDate>Mon, 11 Oct 2021 10:24:04 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>CPU TPM BIOS 제한 없이 구형 컴퓨터에서 윈도우11 클린 설치하기</title>
+      <link>http://blog.wimy.com/467</link>
+      <description>&lt;p&gt;&lt;img src="Win11.png" alt="Win11" /&gt;&lt;/p&gt;
+
+&lt;p&gt;얼마전(10월 5일)에 윈도우11이 출시되었다. 늦게나마 세컨드 컴퓨터에 설치해서 써보려고 하는데 세컨드 컴퓨터의 사양은 2010년에 발매된 i7-930 이다. TPM이니, UEFI니 이런거 없다.&lt;/p&gt;
+
+&lt;p&gt;인터넷을 좀 찾아보니 윈도우11에서 요구하는 사양들을 통과하는 레지스트리 설정이 있었다. 레지스트리의 특정 위치에 특정 제약 사항들을 체크하지 않는 설정을 하는 것이다. 참고: &lt;a href="https://www.techpowerup.com/287584/windows-11-tpm-requirement-bypass-it-in-5-minutes"&gt;https://www.techpowerup.com/287584/windows-11-tpm-requirement-bypass-it-in-5-minutes&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;윈도우11 iso 파일 다운받아서 USB 드라이브에 넣어준다&lt;/li&gt;
+&lt;li&gt;&lt;a href="bypass.reg"&gt;bypass.reg 링크&lt;/a&gt; 파일을 설치용 USB 드라이브에 복사-붙여넣기로 넣어준다&lt;/li&gt;
+&lt;li&gt;USB 드라이브로 부팅&lt;/li&gt;
+&lt;li&gt;설치 시작 화면에서 Shift+F10 을 누른 후 regedit 엔터&lt;/li&gt;
+&lt;li&gt;레지스트리 편집기에서 파일 -&gt; 가져오기 를 통해서 해당 bypass.reg 파일을 연다&lt;/li&gt;
+&lt;li&gt;일반적인 설치 과정 진행&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;위와 같이, 설치 과정에서 해당 레지스트리를 입력해주면 관련 사양 체크없이 설치가 된다. i7-930, 12GB RAM, HDD, GeForce 210 의 사양으로도 딱히 윈도우10과 다를바 없이 설치 및 사용이 가능하다.&lt;/p&gt;
+
+&lt;p&gt;잠깐 써보니 설정창이 꽤 바뀐 것 외에는 크게 와닿는게 없고, 아래의 스샷처럼 전체화면 아이콘을 마우스를 오버하면 적절한 크기로 창을 키울 수 있다. 큰 모니터를 사용할 때 꽤 유용하게 사용할 수 있을 것 같다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="Win11Snap.png" alt="Win11Snap" /&gt;&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/467</guid>
+      <pubDate>Mon, 11 Oct 2021 09:14:00 GMT</pubDate>
+    </item>
     <item>
       <title>제주도 전기차 렌터카 후기</title>
       <link>http://blog.wimy.com/466</link>
@@ -1038,28 +1065,6 @@
 </description>
       <guid>http://blog.wimy.com/415</guid>
       <pubDate>Sat, 18 Oct 2014 14:30:17 GMT</pubDate>
-    </item>
-    <item>
-      <title>Google Cloud Storage 를 백업으로 사용하기</title>
-      <link>http://blog.wimy.com/414</link>
-      <description>&lt;p&gt;구글에서 클라우드(&lt;a href="https://cloud.google.com"&gt;https://cloud.google.com&lt;/a&gt;)라는 이름으로 여러 서비스들을 하고 있다. 대표적으로 Google App Engine, Compute Engine, Big Query 등이 있는데, 이 중에 Google Storage 라는 게 있다. AWS 의 S3 에 해당하는, 클라우드 파일 저장 공간쯤되는데, 어느날 구글에서 준 100만원쯤이었나 여튼 큰 쿠폰이 있어서 써보기 시작했었다.&lt;/p&gt;
-
-&lt;p&gt; 이런 저런 정리를 해보니 내 컴퓨터에서 가장 소중하다고 할만한 것들을 추려보니, 사진과 소스 코드가 남았고, 이들을 정리해서 올려보기로 했다. 대략 용량은 300기가 정도. 모두 올리고 요금을 보니 한달에 약 1만원쯤 나온다. 우리 집에 불이나도 나의 15년 간의 내용이 안전하게 보관된다고 생각하면 크게 나쁘지 않은 요금이라는 생각이었다.&lt;/p&gt;
-
-&lt;p&gt; 구글의 막강한 클라우드 환경을 사용하고, 최근에는 일본에 IDC 가 생겼기 때문에 속도도 나쁘지 않았다. 그리고 Google App Engine 을 꽤 오래 사용했기 때문에 안정성이나 확장성은 믿을 수 있었다.&lt;/p&gt;
-
-&lt;p&gt; 그런데 막상 쓰기 시작하니 이런저런 문제가 발견되었다.&lt;/p&gt;
-
-&lt;p&gt; 첫번째로 한글 사용에 문제가 있다. 정확하게는 파일 복사, 즉 업로드를 하는 gsutil 이라는 프로그램에서 윈도우에서(!) 한글 파일을 제대로 업로드하지 못하는 문제가 있다. 파이썬으로 만들어진 프로그램이라서 대충 패치를 해서 쓰고 있긴 하다(대충 우회만 하는 패치라서 구글에 보내봤더니 rejected ㅠㅜ).&lt;/p&gt;
-
-&lt;p&gt; 두번째도 gsutil 에 관한 것인데, 백업에 맞게(!), 편리하게(!) rsync 라는 명령이 제공된다. 특정 폴더를 클라우드의 특정 폴더에 말그대로 sync 해주는 기능인데, 이게 제대로 동작하지 않는다... rsync -n 으로 복사가 필요한 목록을 뽑은 다음에 rsync 를 실행시켜서 sync 가 되었겠지 했는데, 다시 rsync -n 으로 확인해보면 여전히 복사가 필요하다고 한다... 한글 때문일까...;; 이건 자세히 살펴보지는 않았음&lt;/p&gt;
-
-&lt;p&gt; 세번째로 웹 기반 회사인 구글이다보니 &lt;a href="https://console.developers.google.com"&gt;https://console.developers.google.com&lt;/a&gt; 에서 웹으로 파일들을 관리할 수 있게 해준다. 그런데 이 웹이 구글의 이름에 걸맞지 않게 버그가 많다. 종종 화면이 멈춰버리고, 파일들을 삭제했는데 응답도 없고, 화면에 삭제한 파일들이 남아있어서 다른 페이지에 갔다가 와야 반영되기도 한다.&lt;/p&gt;
-
-&lt;p&gt; 결론은, Google Cloud Storage 는 윈도우에서 한글에 대한 배려가 부족하고, 웹콘솔은 아직 베타의 느낌이 남아있다. 그러니 이를 이용한 서비스를 개발할 때 이런 내용들을 고려해야 할 것 같다. 아마 구글에서도 인식하고 있으니 조만간 고쳐질 것 같긴한데, 서비스할 때는 한번쯤 체크~&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/414</guid>
-      <pubDate>Wed, 15 Oct 2014 15:58:44 GMT</pubDate>
     </item>
   </channel>
 </rss>
