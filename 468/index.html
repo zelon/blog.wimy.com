@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>ASP.NET Core 에서 커스텀 json 파일 사용하기 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/468">ASP.NET Core 에서 커스텀 json 파일 사용하기</a></h1></div>
+        <div id="post_datetime">2022-03-01 10:37:00</div>
+
+        <div id="post_content">
+          <p>ASP.NET Core를 재미있게 보고 있어서 appsettings.json 에 이런 저런 설정을 많이 넣다가 별도의 파일에 특정한 설정들만 분리해서 넣고 싶어서 찾아보니 아래와 같은 방법으로 사용할 수 있었다. .NET 6.0 기준이다. 재미있는 점은 json 파일의 내용이 변경되었을 때 바로 변경된 내용을 반영해주는 옵션이 제공된다는 점이다</p>
+
+<p>mydata.json 파일을 추가한 다음에 Properties 창에서 Copy to Output Directory 옵션이 Copy if newer 인지만 잘 확인하고 사용하자.</p>
+
+<p>Program.cs 를 아래 코드를 참고하여 수정</p>
+
+<pre><code>var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("mydata.json", optional: false, reloadOnChange: true);
+</code></pre>
+
+<p>특정 페이지에서 아래와 같이 사용</p>
+
+<pre><code>private readonly IConfiguration _configuration;
+
+public IndexModel(IConfiguration configuration)
+{
+    _configuration = configuration;
+}
+
+public void OnGet()
+{
+    var section = _configuration.GetSection("Additional");
+    var k = section.GetSection("MySetting").GetSection("Default")["Max"];
+    System.Diagnostics.Trace.WriteLine(k);
+}
+</code></pre>
+
+<h1>ASP.NETCore #json #data</h1>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/468';
+    this.page.identifier = '468';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>

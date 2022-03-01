@@ -4,8 +4,43 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Mon, 11 Oct 2021 10:24:04 GMT</pubDate>
+    <pubDate>Tue, 01 Mar 2022 01:57:03 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>ASP.NET Core 에서 커스텀 json 파일 사용하기</title>
+      <link>http://blog.wimy.com/468</link>
+      <description>&lt;p&gt;ASP.NET Core를 재미있게 보고 있어서 appsettings.json 에 이런 저런 설정을 많이 넣다가 별도의 파일에 특정한 설정들만 분리해서 넣고 싶어서 찾아보니 아래와 같은 방법으로 사용할 수 있었다. .NET 6.0 기준이다. 재미있는 점은 json 파일의 내용이 변경되었을 때 바로 변경된 내용을 반영해주는 옵션이 제공된다는 점이다&lt;/p&gt;
+
+&lt;p&gt;mydata.json 파일을 추가한 다음에 Properties 창에서 Copy to Output Directory 옵션이 Copy if newer 인지만 잘 확인하고 사용하자.&lt;/p&gt;
+
+&lt;p&gt;Program.cs 를 아래 코드를 참고하여 수정&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("mydata.json", optional: false, reloadOnChange: true);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;특정 페이지에서 아래와 같이 사용&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;private readonly IConfiguration _configuration;
+
+public IndexModel(IConfiguration configuration)
+{
+    _configuration = configuration;
+}
+
+public void OnGet()
+{
+    var section = _configuration.GetSection("Additional");
+    var k = section.GetSection("MySetting").GetSection("Default")["Max"];
+    System.Diagnostics.Trace.WriteLine(k);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1&gt;ASP.NETCore #json #data&lt;/h1&gt;
+</description>
+      <guid>http://blog.wimy.com/468</guid>
+      <pubDate>Tue, 01 Mar 2022 01:37:00 GMT</pubDate>
+    </item>
     <item>
       <title>CPU TPM BIOS 제한 없이 구형 컴퓨터에서 윈도우11 클린 설치하기</title>
       <link>http://blog.wimy.com/467</link>
@@ -1048,23 +1083,6 @@
 </description>
       <guid>http://blog.wimy.com/416</guid>
       <pubDate>Sat, 06 Dec 2014 14:40:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>습관은 무거운 돌을 굴리는 것과 같다</title>
-      <link>http://blog.wimy.com/415</link>
-      <description>&lt;p&gt; 책 읽는 습관을 들이기 위해서 노력하고 있다. 그런데 생각보다 쉽지 않다. 아니, 쉽지 않았다. 책을 읽으려고 하면 어찌나 방해하는 게 많은지... 책을 읽다가 중요한 것들을 메모하려고 컴퓨터를 켜면, 게임이 나를 유혹하고, 스마트폰에 메모하려고 해도 SNS 아이콘에 손이 간다. 그리고 책을 조금 읽어도 눈도 아프고, 잠도 온다.&lt;/p&gt;
-
-&lt;p&gt; 그런데 재미있는 것은 일단 습관이 몸에 배이기 시작하면 이런 것들은 모두 사라진다. 책을 잡으면 1페이지도 읽기 힘들던 내 눈이 이제는 10페이지를 읽어도 아프지 않다. 처음에는 하루에 한 단락만 읽어야지 했던 것이 이제는 두 단락을 읽어도 할만하다.&lt;/p&gt;
-
-&lt;p&gt; 습관은 무거운 돌을 굴리는 것과 같다. 처음에는 무거운 돌을 조금 움직이기도 힘에 버거워서 낑낑되는 데, 한번 굴러가기 시작하면, 하루 이틀은 돌을 굴리지 않아도 계속 쉽게 굴러가고 있다.&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt;&lt;br /&gt;
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;span style="font-size: 9pt; line-height: 1.5;"&gt; 처음에는 힘들더라도, 조금 움직이는데 왜 이렇게 힘들지라는 생각이 들더라도, 일단 굴리기 시작하자. 몇번만 힘을 주어 굴리면, 어느새 굴러가는 돌 위에 올라탄 자기 자신을 발견하게 될 것이다. &lt;/span&gt;&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/415</guid>
-      <pubDate>Sat, 18 Oct 2014 14:30:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
