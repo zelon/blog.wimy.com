@@ -1,1 +1,1 @@
-C:\git\WimyBlog\WimyBlog\bin\Debug\netcoreapp3.1\publish\WimyBlog.exe .
+C:\git\WimyBlog\WimyBlog\bin\DebugPublish\WimyBlog.exe .

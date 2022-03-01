@@ -1,1 +1,1 @@
-C:\git\WimyBlog\TestWebServer\bin\Debug\netcoreapp3.1\publish\TestWebServer.exe .
+C:\git\WimyBlog\TestWebServer\bin\DebugPublish\TestWebServer.exe .
