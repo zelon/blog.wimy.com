@@ -1,1 +1,1 @@
-C:\git\WimyBlog\WimyBlog\bin\DebugPublish\WimyBlog.exe .
+D:\git\WimyBlog\WimyBlog\bin\DebugPublish\WimyBlog.exe .
