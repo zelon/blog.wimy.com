@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>winget 사용하여 간단하게 프로그램 설치하기 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/471">winget 사용하여 간단하게 프로그램 설치하기</a></h1></div>
+        <div id="post_datetime">2022-10-09 18:35:00</div>
+
+        <div id="post_content">
+          <p>리눅스 진영에는 apt, yum 같은 패키지 관리자들이 오래전부터 존재하여 쉽게 패키지, 프로그램들을 설치할 수 있었다. 윈도우에도 WinStore 같은게 있지만 GUI 기반이고 이런저런 문제로 많이 쓰이고 있지는 않다. 우분투의 apt(이전에는 aptget)에 영향을 받아서인지, 최근에 winget(<a href="https://learn.microsoft.com/ko-kr/windows/package-manager/winget/">https://learn.microsoft.com/ko-kr/windows/package-manager/winget/</a>)이라는 게 만들어져서 조금 써봤는데 그냥 apt 의 윈도우 버전이라고 보면 될 것 같다. 모든 것이 winget에 있다고 할 수는 없지만 상당히 많은 프로그램들이 winget 으로도 설치할 수 있게 된 상황이다</p>
+
+<p>winget을 사용하려면, 윈도우10 이상의 윈도우즈가 설치되어 있어야 하고, 가능하면 최신 업데이트가 되어 있어야 한다. Windows 10 1709 이전 버전의 윈도우에서는 제공되지 않는다. 하지만 1709 이상 버전이라고 바로 winget을 사용할 수 있는게 아니다. 아래의 간단한 과정을 거쳐야 사용할 수 있다</p>
+
+<ul>
+<li><p>Microsoft Store 앱에서 '다운로드 및 업데이트' 클릭</p>
+
+<p><img src="microsoftStoreUpdate.png" alt="microsoftStoreUpdate.png" /></p>
+
+<ul>
+<li>'앱 설치 관리자' 업데이트</li>
+</ul></li>
+</ul>
+
+<p><img src="앱설치관리자업데이트.png" alt="앱설치관리자업데이트.png" /></p>
+
+<ul>
+<li>다운로드 완료 기다리기</li>
+</ul>
+
+<p><img src="downloading.png" alt="downloading.png" /></p>
+
+<ul>
+<li>다운로드가 완료되면 콘솔창(cmd, powershell)에서 winget 명령어를 사용할 수 있음(첫 실행 시에 라이센스 동의 필요)</li>
+</ul>
+
+<p><img src="winget.png" alt="winget.png" /></p>
+
+<p>예를 들어 gimp 를 설치하고 싶다고 하면 아래와 같이 search 해본 다음에 install 명령으로 설치하면 자동으로 설치 파일을 다운로드 받아서 실행해준다</p>
+
+<p><img src="winget_example.png" alt="winget_example.png" /></p>
+
+<p>2022년 10월 기준 아래와 같은 패키지들이 사용가능하다. 주로 내가 사용하는 것들만 나열해봤는데, search 명령으로 더 많이 찾아볼 수 있다. </p>
+
+<ul>
+<li>Chrome</li>
+<li>7zip</li>
+<li>Everything</li>
+<li>qBittorrent</li>
+<li>VLC</li>
+<li>Audacity</li>
+<li>Visual Studio 2022 포함 모든 버젼</li>
+<li>Python3</li>
+<li>gVim</li>
+<li>Steam</li>
+<li>EpicGamesLauncher</li>
+<li>DockerDesktop</li>
+<li>Visual Studio Code</li>
+</ul>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/471';
+    this.page.identifier = '471';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
