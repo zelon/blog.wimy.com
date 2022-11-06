@@ -4,8 +4,27 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sun, 09 Oct 2022 09:56:26 GMT</pubDate>
+    <pubDate>Sun, 06 Nov 2022 12:03:22 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>윈도우 랜덤 배경 화면 이미지 파일 저장하기</title>
+      <link>http://blog.wimy.com/472</link>
+      <description>&lt;p&gt;윈도우의 바탕화면 이미지를 따로 설정하지 않거나 아래와 같이 'Windows 추천' 으로 설정했다면 한번씩 윈도우의 바탕화면 이미지가 자동으로 이런저런 멋진 이미지로 바뀐다. 한번씩 다운받아서 계속 사용하고 싶은 생각이 들기도 한다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="WindowsRecommendationBackground.png" alt="WindowsRecommendationBackground.png" /&gt; &lt;/p&gt;
+
+&lt;p&gt;이 때 해당 파일을 얻으려면 아래와 같이 하면 된다&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;탐색기에서 %UserProfile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets 로 이동&lt;/li&gt;
+&lt;li&gt;해당 폴더의 파일들을 특정 폴더(C:\Temp 같은)로 모두 복사&lt;/li&gt;
+&lt;li&gt;복사한 폴더(C:\Temp 같은)에서 파워쉘이나 터미널을 열어서 cmd / c "ren &lt;em&gt;.&lt;/em&gt; *.jpg" 를 입력하여 확장자를 붙여준다&lt;/li&gt;
+&lt;li&gt;해당 파일들을 둘러보면 원하는 파일을 얻을 수 있고, 좀 더 고화질 사진을 얻으려면 구글 이미지 검색(&lt;a href="https://www.google.com/imghp?hl=ko"&gt;https://www.google.com/imghp?hl=ko&lt;/a&gt;)에 이미지 파일을 드래그해서 검색해보자&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <guid>http://blog.wimy.com/472</guid>
+      <pubDate>Sun, 06 Nov 2022 09:35:00 GMT</pubDate>
+    </item>
     <item>
       <title>winget 사용하여 간단하게 프로그램 설치하기</title>
       <link>http://blog.wimy.com/471</link>
@@ -1104,16 +1123,6 @@ public void OnGet()
 </description>
       <guid>http://blog.wimy.com/420</guid>
       <pubDate>Fri, 13 Mar 2015 13:46:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>프로그래머의 정파와 사파</title>
-      <link>http://blog.wimy.com/419</link>
-      <description>&lt;p&gt;난 열혈강호를 좋아한다. 팀장님의 정파 사파 이론.&lt;/p&gt;
-
-&lt;p&gt;구글 검색을 바로 하면 사파, API Manual 을 뒤진다면 정파 등등&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/419</guid>
-      <pubDate>Wed, 04 Mar 2015 14:15:37 GMT</pubDate>
     </item>
   </channel>
 </rss>

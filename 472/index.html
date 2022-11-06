@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>윈도우 랜덤 배경 화면 이미지 파일 저장하기 : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/472">윈도우 랜덤 배경 화면 이미지 파일 저장하기</a></h1></div>
+        <div id="post_datetime">2022-11-06 18:35:00</div>
+
+        <div id="post_content">
+          <p>윈도우의 바탕화면 이미지를 따로 설정하지 않거나 아래와 같이 'Windows 추천' 으로 설정했다면 한번씩 윈도우의 바탕화면 이미지가 자동으로 이런저런 멋진 이미지로 바뀐다. 한번씩 다운받아서 계속 사용하고 싶은 생각이 들기도 한다</p>
+
+<p><img src="WindowsRecommendationBackground.png" alt="WindowsRecommendationBackground.png" /> </p>
+
+<p>이 때 해당 파일을 얻으려면 아래와 같이 하면 된다</p>
+
+<ul>
+<li>탐색기에서 %UserProfile%\AppData\Local\Packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets 로 이동</li>
+<li>해당 폴더의 파일들을 특정 폴더(C:\Temp 같은)로 모두 복사</li>
+<li>복사한 폴더(C:\Temp 같은)에서 파워쉘이나 터미널을 열어서 cmd / c "ren <em>.</em> *.jpg" 를 입력하여 확장자를 붙여준다</li>
+<li>해당 파일들을 둘러보면 원하는 파일을 얻을 수 있고, 좀 더 고화질 사진을 얻으려면 구글 이미지 검색(<a href="https://www.google.com/imghp?hl=ko">https://www.google.com/imghp?hl=ko</a>)에 이미지 파일을 드래그해서 검색해보자</li>
+</ul>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/472';
+    this.page.identifier = '472';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>
