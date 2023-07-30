@@ -4,8 +4,55 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sat, 15 Jul 2023 15:21:57 GMT</pubDate>
+    <pubDate>Sun, 30 Jul 2023 16:53:51 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>Windows Server 에서 winget 설치하기. Installing winget on Windows Server</title>
+      <link>http://blog.wimy.com/476</link>
+      <description>&lt;p&gt;윈도우 10 1709 이상의 버전에서는 기본적으로 winget 이라는 명령을 사용하여 각종 프로그램을 설치할 수 있다(&lt;a href="http://blog.wimysoft.com/471/"&gt;http://blog.wimysoft.com/471/&lt;/a&gt;). 하지만 윈도우 서버(Windows Server)에서는 기본적으로 설치가 되어 있지 않은데, 공식 사이트의 샌드박스에서의 설치 방법(&lt;a href="https://learn.microsoft.com/ko-kr/windows/package-manager/winget/"&gt;https://learn.microsoft.com/ko-kr/windows/package-manager/winget/&lt;/a&gt;)과 github 의 comment(&lt;a href="https://github.com/microsoft/winget-cli/issues/700#issuecomment-825918522"&gt;https://github.com/microsoft/winget-cli/issues/700#issuecomment-825918522&lt;/a&gt;)를 참고하면 아래와 같이 설치하면 된다&lt;/p&gt;
+
+&lt;p&gt;먼저 아래와 같이 powershell 권한을 상승시켜준다&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;PS&amp;gt; Set-ExecutionPolicy RemoteSigned
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;그 후 아래의 스크립트를 실행하면 된다&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$progressPreference = 'silentlyContinue'
+Write-Host "Installing Microsoft.UI.Xaml v2.7.3..."
+$latestUIXamlAppxUri = "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.7.3/Microsoft.UI.Xaml.2.7.x64.appx"
+$latestUIXamlAppxOutFileName = $latestUIXamlAppxUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestUIXamlAppxUri -OutFile "./$latestUIXamlAppxOutFileName"
+Add-AppxPackage "./$latestUIXamlAppxOutFileName"
+Write-Host "Installing Microsoft.VCLibs.x64.14.00..."
+Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile Microsoft.VCLibs.x64.14.00.Desktop.appx
+Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
+Write-Host "Download WinGet:latest License..."
+$latestWingetLicenseUri = $(Invoke-RestMethod https://api.github.com/repos/microsoft/winget-cli/releases/latest).assets.browser_download_url | Where-Object {$_.EndsWith("_License1.xml")}
+$latestWingetLicenseOutfileName = $latestWingetLicenseUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestWingetLicenseUri -OutFile "./$latestWingetLicenseOutfileName"
+Write-Host "Installing WinGet:latest..."
+$latestWingetMsixBundleUri = $(Invoke-RestMethod https://api.github.com/repos/microsoft/winget-cli/releases/latest).assets.browser_download_url | Where-Object {$_.EndsWith(".msixbundle")}
+$latestWingetMsixBundleOutfileName = $latestWingetMsixBundleUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestWingetMsixBundleUri -OutFile "./$latestWingetMsixBundleOutfileName"
+Add-AppxProvisionedPackage -Online -PackagePath "./$latestWingetMsixBundleOutfileName" -LicensePath "./$latestWingetLicenseOutfileName" -Verbose
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;설치되고 나면 해당 폴더에 다운로드 받은 파일들은 삭제하자.&lt;/p&gt;
+
+&lt;p&gt;위의 스크립트의 내용을 살펴보면, 공식 사이트(&lt;a href="https://learn.microsoft.com/ko-kr/windows/package-manager/winget/"&gt;https://learn.microsoft.com/ko-kr/windows/package-manager/winget/&lt;/a&gt;)의 방법대로 하면 windows server 에서는 Microsoft.UI.Xaml 이 없어서 설치가 실패한다. 그래서 Microsoft.UI.Xaml 을 설치해준다. 최신 버전은 오히려 winget 설치가 안되어서 2.7버전을 지정해서 설치한다. 그리고 그냥 winget 을 설치하면 License 가 없다고 오류가 나기 때문에 License 파일도 받아서, Add-AppxProvisionedPackage 명령으로 설치해준다&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/476</guid>
+      <pubDate>Sun, 30 Jul 2023 14:40:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>wimy.com 에서 wimysoft.com 으로 이사합니다</title>
+      <link>http://blog.wimy.com/475</link>
+      <description>&lt;p&gt;2003년부터 사용했던 wimy.com 에서 wimysoft.com 으로 이사합니다. 블로그도, 다른 사이트들도 wimy.com 에서 wimysoft.com 으로 이사합니다&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/475</guid>
+      <pubDate>Sun, 30 Jul 2023 14:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>2023년 6월 런던 여행</title>
       <link>http://blog.wimy.com/474</link>
@@ -1162,26 +1209,6 @@ public void OnGet()
 </description>
       <guid>http://blog.wimy.com/424</guid>
       <pubDate>Thu, 04 Jun 2015 14:21:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>나의 백업 방법</title>
-      <link>http://blog.wimy.com/423</link>
-      <description>&lt;p&gt;한 때는 외장하드에 주기적으로 백업을 했었으나 집에 불이라도 나면 다 날아간다는 생각에 클라우드로 백업을 하기로 했다.&lt;br /&gt;
-주기적으로 알람을 걸어놓고 때가 되면 스크립트로 ms azure 파일 서비스를 이용해서 백업을 한다. 초기 백업에는 시간이 꽤 걸리지만 두번째부터는 바뀌거나 새로운 파일만 가기 때문에 시간도 그나지 많이 걸리지도 않는다. 그리고 회사에서 msdn subscription을 지원해줘서 무려 공짜! ㅋㅋ&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/423</guid>
-      <pubDate>Sat, 09 May 2015 14:13:59 GMT</pubDate>
-    </item>
-    <item>
-      <title>레이드1 이라도 fat 는 날아간다 ㅠㅜ</title>
-      <link>http://blog.wimy.com/422</link>
-      <description>&lt;p&gt;윈도우에서 제공하는 소프트웨어 레이드1 구축하고 중요한 데이터를 넣어놓았는데 파일 할당 테이블이 갑자기 RAW 로 바뀌었다. testdrive 도 써봤는데 제대로 복구가 안되어서 결국 포기.&lt;br /&gt;
-원래 하드가 꽤 오래되어서 2개를 새로 사서 다시 레이드1 구성해서 쓰게로 했다. 다행히 클라우드에 백업을 두기적으로 했기에 날아간건 약 일주일 분량의 사진 20장 정도. 그래도 뭔가 궁극의 레이드! 라고 생각했었는데 생각보다 쉽게 데이터가 깨져서 좀 멘붕이다 ㅠㅜ&lt;/p&gt;
-
-&lt;p&gt; 역시 궁극은 클라우드 백업이다 -_-/&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/422</guid>
-      <pubDate>Sat, 09 May 2015 14:10:31 GMT</pubDate>
     </item>
   </channel>
 </rss>

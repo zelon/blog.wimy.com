@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-351021-7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-351021-7');
+    </script>
+
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css">
+	<title>Windows Server 에서 winget 설치하기. Installing winget on Windows Server : zelon's blog</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1><a href="/">Zelon's Blog</a></h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="post_title"><h1><a href="/476">Windows Server 에서 winget 설치하기. Installing winget on Windows Server</a></h1></div>
+        <div id="post_datetime">2023-07-30 23:40:00</div>
+
+        <div id="post_content">
+          <p>윈도우 10 1709 이상의 버전에서는 기본적으로 winget 이라는 명령을 사용하여 각종 프로그램을 설치할 수 있다(<a href="http://blog.wimysoft.com/471/">http://blog.wimysoft.com/471/</a>). 하지만 윈도우 서버(Windows Server)에서는 기본적으로 설치가 되어 있지 않은데, 공식 사이트의 샌드박스에서의 설치 방법(<a href="https://learn.microsoft.com/ko-kr/windows/package-manager/winget/">https://learn.microsoft.com/ko-kr/windows/package-manager/winget/</a>)과 github 의 comment(<a href="https://github.com/microsoft/winget-cli/issues/700#issuecomment-825918522">https://github.com/microsoft/winget-cli/issues/700#issuecomment-825918522</a>)를 참고하면 아래와 같이 설치하면 된다</p>
+
+<p>먼저 아래와 같이 powershell 권한을 상승시켜준다</p>
+
+<pre><code>PS&gt; Set-ExecutionPolicy RemoteSigned
+</code></pre>
+
+<p>그 후 아래의 스크립트를 실행하면 된다</p>
+
+<pre><code>$progressPreference = 'silentlyContinue'
+Write-Host "Installing Microsoft.UI.Xaml v2.7.3..."
+$latestUIXamlAppxUri = "https://github.com/microsoft/microsoft-ui-xaml/releases/download/v2.7.3/Microsoft.UI.Xaml.2.7.x64.appx"
+$latestUIXamlAppxOutFileName = $latestUIXamlAppxUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestUIXamlAppxUri -OutFile "./$latestUIXamlAppxOutFileName"
+Add-AppxPackage "./$latestUIXamlAppxOutFileName"
+Write-Host "Installing Microsoft.VCLibs.x64.14.00..."
+Invoke-WebRequest -Uri https://aka.ms/Microsoft.VCLibs.x64.14.00.Desktop.appx -OutFile Microsoft.VCLibs.x64.14.00.Desktop.appx
+Add-AppxPackage Microsoft.VCLibs.x64.14.00.Desktop.appx
+Write-Host "Download WinGet:latest License..."
+$latestWingetLicenseUri = $(Invoke-RestMethod https://api.github.com/repos/microsoft/winget-cli/releases/latest).assets.browser_download_url | Where-Object {$_.EndsWith("_License1.xml")}
+$latestWingetLicenseOutfileName = $latestWingetLicenseUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestWingetLicenseUri -OutFile "./$latestWingetLicenseOutfileName"
+Write-Host "Installing WinGet:latest..."
+$latestWingetMsixBundleUri = $(Invoke-RestMethod https://api.github.com/repos/microsoft/winget-cli/releases/latest).assets.browser_download_url | Where-Object {$_.EndsWith(".msixbundle")}
+$latestWingetMsixBundleOutfileName = $latestWingetMsixBundleUri.Split("/")[-1]
+Invoke-WebRequest -Uri $latestWingetMsixBundleUri -OutFile "./$latestWingetMsixBundleOutfileName"
+Add-AppxProvisionedPackage -Online -PackagePath "./$latestWingetMsixBundleOutfileName" -LicensePath "./$latestWingetLicenseOutfileName" -Verbose
+</code></pre>
+
+<p>설치되고 나면 해당 폴더에 다운로드 받은 파일들은 삭제하자.</p>
+
+<p>위의 스크립트의 내용을 살펴보면, 공식 사이트(<a href="https://learn.microsoft.com/ko-kr/windows/package-manager/winget/">https://learn.microsoft.com/ko-kr/windows/package-manager/winget/</a>)의 방법대로 하면 windows server 에서는 Microsoft.UI.Xaml 이 없어서 설치가 실패한다. 그래서 Microsoft.UI.Xaml 을 설치해준다. 최신 버전은 오히려 winget 설치가 안되어서 2.7버전을 지정해서 설치한다. 그리고 그냥 winget 을 설치하면 License 가 없다고 오류가 나기 때문에 License 파일도 받아서, Add-AppxProvisionedPackage 명령으로 설치해준다</p>
+
+        </div>
+
+        <div id="comment">
+  <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'http://blog.wimy.com/476';
+    this.page.identifier = '476';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://wimyblog.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">by <a href="https://github.com/zelon">zelon</a></p>
+        <p align="right"><a href="/rss"><img src="/rss/rss.png"/></a></p>
+      </footer>
+    </div>
+  </body>
+</html>

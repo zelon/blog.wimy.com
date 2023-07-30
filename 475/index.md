@@ -1,0 +1,1 @@
+ 2003년부터 사용했던 wimy.com 에서 wimysoft.com 으로 이사합니다. 블로그도, 다른 사이트들도 wimy.com 에서 wimysoft.com 으로 이사합니다
