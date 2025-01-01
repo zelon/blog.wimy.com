@@ -4,8 +4,41 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sun, 30 Jul 2023 16:53:51 GMT</pubDate>
+    <pubDate>Wed, 01 Jan 2025 12:29:59 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>MSSQL 2022 docker image 만들기. Making MSSQL 2022 docker image</title>
+      <link>http://blog.wimy.com/477</link>
+      <description>&lt;p&gt;MSSQL 2019부터는 Microsoft 에서 공식적으로 리눅스 컨테이너에서의 MSSQL 을 지원하게 되면서 간단하게 mssql을 컨테이너에서 실행할 수 있게 되었다. 하지만 오히려 윈도우 컨테이너용 MSSQL을 공식적으로 지원하지 않게 되어버렸다.&lt;/p&gt;
+
+&lt;p&gt;윈도우용 서버 프로그램을 개발하는 입장에서는 윈도우용 컨테이너와 리눅스용 컨테이너를 혼용해서 사용해야하는 상황이 되어버려서 좀 찾아보니, 윈도우용 컨테이너에서 MSSQL을 실행하는 방법들이 있었다&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/microsoft/mssql-docker/tree/master/windows/mssql-server-windows-developer"&gt;https://github.com/microsoft/mssql-docker/tree/master/windows/mssql-server-windows-developer&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;위의 주소에 가보면, MSSQL 2019 버전을 윈도우 컨테이너로 만드는 방법이 있는데, MSSQL 2022 버전으로 만들어 보았다.&lt;/p&gt;
+
+&lt;p&gt;github url: &lt;a href="https://github.com/zelon/DockerUtil/tree/main/MSSQLWindowsServer"&gt;https://github.com/zelon/DockerUtil/tree/main/MSSQLWindowsServer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;docker build 에 필요한 SQLServer2022-DEV-x64-ENU.box, SQLServer2022-DEV-x64-ENU.exe 파일은 &lt;a href="https://www.microsoft.com/en-us/sql-server/sql-server-downloads"&gt;https://www.microsoft.com/en-us/sql-server/sql-server-downloads&lt;/a&gt; 에서 다운 받은 후 실행하면 '미디어 다운로드' 를 하면 받을 수 있다&lt;/p&gt;
+
+&lt;p&gt;Dockerfile 의 내용에 따라서&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker build -t mssql-win-zelon .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;위와 같이 빌드를 하고&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run -d -p 1433:1433 -v C:/temp/:C:/temp/ -e sa_password=&amp;lt;YOUR SA PASSWORD&amp;gt; -e ACCEPT_EULA=Y -e mssql-win-zelon
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;위와 같이 실행을 하면 된다. 다만 sa_password 는 충분히 복잡한 암호를 사용해야 한다. 그렇지 않으면 sa 암호 설정이 되지 않는다&lt;/p&gt;
+
+&lt;p&gt;참고 Link:&lt;br /&gt;
+ * setup.exe 인자들 설명: &lt;a href="https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15"&gt;https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15&lt;/a&gt;&lt;/p&gt;
+</description>
+      <guid>http://blog.wimy.com/477</guid>
+      <pubDate>Wed, 01 Jan 2025 12:28:00 GMT</pubDate>
+    </item>
     <item>
       <title>Windows Server 에서 winget 설치하기. Installing winget on Windows Server</title>
       <link>http://blog.wimy.com/476</link>
@@ -1197,18 +1230,6 @@ public void OnGet()
 </description>
       <guid>http://blog.wimy.com/425</guid>
       <pubDate>Mon, 31 Aug 2015 15:08:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>iocp WSARecv 에서의 특이한 10014 오류</title>
-      <link>http://blog.wimy.com/424</link>
-      <description>&lt;p&gt;아는 친구가 만든 프로그램에서 MFC 를 제거하고, x86에서 x64 로 전환하는 과정 중에서 생긴 버그였다. IOCP 에서 WSARecv 를 했는데, 실패하면서 에러코드를 살펴보니 10014 오류가 났다. 한글 번역으로는 '호출에 대한 포인터 인수를 사용하려는 동안 시스템에서 잘못된 포인터 주소를 감지했습니다.' 이고, msdn 에서는 lpbuffers 인자가 잘못되었다고 하고, 이래저래 검색해보면 인자의 생명 주기라든지, 다른 인자가 잘못되었느니라고 적혀있었다.&lt;/p&gt;
-
-&lt;p&gt; 결론은 winsock2.h 를 include 하기 전에 #pragma pack (1) 코드가 있었다. 제거하니 잘된다. ㅠㅜ 아마 pragma pack 에 의해서 winsock2.h 에서 정의하는 구조체가 pack 되어버렸을 것이고, 그렇게 pack 된 구조체만큼을 new 해서 인자로 넘겨주니, 함수로 넘겨진 포인터는 함수가 원하는 크기가 아니어서 생긴 오류인 듯.&lt;/p&gt;
-
-&lt;p&gt; bad pointer 오류 상황에서는 pragma pack 도 연관될 수 있다는 걸 깊이 새겨야겠다. 하지만 이런 오류를 다시 만날 일은 없겠지.&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/424</guid>
-      <pubDate>Thu, 04 Jun 2015 14:21:52 GMT</pubDate>
     </item>
   </channel>
 </rss>
