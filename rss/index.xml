@@ -4,8 +4,28 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Thu, 02 Jan 2025 15:03:48 GMT</pubDate>
+    <pubDate>Thu, 02 Jan 2025 15:41:18 GMT</pubDate>
     <generator>wimyblog</generator>
+    <item>
+      <title>마루 부리 글꼴 소개 - Maru buri font</title>
+      <link>http://blog.wimy.com/479</link>
+      <description>&lt;p&gt;전자책으로 책을 보기 시작하면서 왠지 기본 글꼴들이 마음에 들지 않아서 글꼴을 조금 찾아봤다. 평소에 코딩할 때도 네이버의 D2Coding 글꼴을 주로 사용하기 때문에 네이버의 글꼴 모음(&lt;a href="https://hangeul.naver.com/font"&gt;https://hangeul.naver.com/font&lt;/a&gt;)에서 나온 마루부리 글꼴(&lt;a href="https://hangeul.naver.com/maruproject_11"&gt;https://hangeul.naver.com/maruproject_11&lt;/a&gt;)이 제법 마음에 들어서 모든 전자책 앱에서 '마루 부리 글꼴'을 사용하게 되었다. 특히 마루 부리 글꼴 중에서도 semi-bold 의 굵기가 전자책을 읽기에 가장 괜찮은 것 같다&lt;/p&gt;
+
+&lt;p&gt;간단히 소개하자면, "화면에서 고딕체로 편중된 글꼴 환경을 넘어 콘텐츠를 폭넓게 담을 수 있는 디지털 한글의 원형을 제시하는 글꼴" 이라고 한다. 보통 컴퓨터에서는 sans-serif 라고 하는 '획의 삐침(serif)'이 없는 글꼴(D2Coding, 돋움체등)을 주로 쓴다. 반대로 serif 라고 하면 대표적으로 '궁서체'가 있는데, 초창기 윈도우에서는 한글 글꼴의 다양성을 주는 고마운 존재였다. 아래의 스크린샷을 보면 그 차이를 쉽게 알 수 있다&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="maruburi_sample.png" alt="maruburi_sample.png" /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;글꼴 테스트 사이트: &lt;a href="https://hangeul.naver.com/fonts/search?f=maru"&gt;https://hangeul.naver.com/fonts/search?f=maru&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;글꼴 다운로드 사이트: &lt;a href="https://hangeul.naver.com/font"&gt;https://hangeul.naver.com/font&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;blog 에서 직접 다운로드: &lt;a href="maruburi_font.zip"&gt;maruburi_font&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;사실 이 포스팅을 하는 이유가 너무 마음에 드는 마루 부리 글꼴 소개도 있지만, 공식 사이트를 통해서는 모바일/전자책에서 글꼴 다운로드가 쉽지 않아서도 있다 :)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      <guid>http://blog.wimy.com/479</guid>
+      <pubDate>Thu, 02 Jan 2025 15:39:00 GMT</pubDate>
+    </item>
     <item>
       <title>2024년 결산</title>
       <link>http://blog.wimy.com/478</link>
@@ -1280,24 +1300,6 @@ public void OnGet()
 </description>
       <guid>http://blog.wimy.com/427</guid>
       <pubDate>Tue, 01 Sep 2015 15:21:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>여러명이 함께 협업해서 코드를 만들 때 발생하는 일들</title>
-      <link>http://blog.wimy.com/426</link>
-      <description>&lt;p&gt;내가 주석으로 남겨놓은 코드는 남들에게 '이게 왜 주석처리되어 있는가, 앞으로 쓰일 코드인가?'라는 의구심을 주게 되고, 코드를 읽는데 방해를 주게 된다.&lt;/p&gt;
-
-&lt;p&gt;사용하지 않게 된 변수, 함수들을 남겨놓으면 그 코드를 잘못 사용하게 될 여지가 있다. 동료가 그 함수를 잘못 사용해버릴 수도 있고, 마찬가지로 더이상 사용하지 않는 변수를 비교한다든지할 수도 있고, 코드를 읽기도 힘들어 진다.&lt;/p&gt;
-
-&lt;p&gt;내가 A라는 작업과 B라는 작업을 동시에 진행하고 한번에 submit 하게 되면, 나의 코드를 리뷰하는 동료들은 도대체 이 submit 은 왜 이렇게 복잡한거야라면서 리뷰를 하지 않게 된다.&lt;/p&gt;
-
-&lt;p&gt;'가나다 동작 방식을 바꿈' 이라고 적어놓은 submit log 는 '가나다 동작 방식을 바꿈. 정렬을 먼저 시킨 후에 공백을 제거함' 이라고 적어놓은 submit log 보다 동료들을 고생시키게 된다.&lt;/p&gt;
-
-&lt;p&gt;내가 별 의미없이 수정한 코드를 동료들이 볼 때 '왜 이렇게 했을까... 뭔가 이상한데, 분명 의도가 있을거야. 그 의도는 무엇일까...' 하게 되는 경우가 있다.&lt;/p&gt;
-
-&lt;p&gt; 위에서 동료들은 '6개월 후의 자기 자신' 그리고 '디버깅 중인 자기 자신' 이 포함된다는 걸 잊지말자.&lt;/p&gt;
-</description>
-      <guid>http://blog.wimy.com/426</guid>
-      <pubDate>Mon, 31 Aug 2015 15:21:14 GMT</pubDate>
     </item>
   </channel>
 </rss>
