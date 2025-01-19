@@ -16,9 +16,16 @@
 
  위와 같이 빌드를 하고
 
-    docker run -d -p 1433:1433 -v C:/temp/:C:/temp/ -e sa_password=<YOUR SA PASSWORD> -e ACCEPT_EULA=Y -e mssql-win-zelon
+    docker run -d -p 1433:1433 -v C:/temp/:C:/temp/ -e sa_password=Abcd!234 -e ACCEPT_EULA=Y mssql-win-zelon
 
- 위와 같이 실행을 하면 된다. 다만 sa_password 는 충분히 복잡한 암호를 사용해야 한다. 그렇지 않으면 sa 암호 설정이 되지 않는다
+ 위와 같이 실행을 하면 된다. 다만 sa_password 에는 원하는 암호로 변경하면 되는데 충분히 복잡한 암호를 사용해야 한다. 그렇지 않으면 sa 암호 설정이 되지 않는다
+
+
+ 이렇게 만들어진 이미지는 아래의 hub.docker.com 에 공유되어 있다
+
+* MSSQL2022 on WindowsServer2019: https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2019
+* MSSQL2022 on WindowsServer2025: https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2025
+
 
 
 참고 Link:

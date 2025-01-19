@@ -4,7 +4,7 @@
     <title>blog.wimy.com</title>
     <link>http://blog.wimy.com/</link>
     <description>zelon의 프로그래밍과 일상</description>
-    <pubDate>Sat, 04 Jan 2025 14:43:04 GMT</pubDate>
+    <pubDate>Sun, 19 Jan 2025 03:34:26 GMT</pubDate>
     <generator>wimyblog</generator>
     <item>
       <title>마루 부리 글꼴 소개 - Maru buri font</title>
@@ -14,6 +14,8 @@
 &lt;p&gt;간단히 소개하자면, "화면에서 고딕체로 편중된 글꼴 환경을 넘어 콘텐츠를 폭넓게 담을 수 있는 디지털 한글의 원형을 제시하는 글꼴" 이라고 한다. 보통 컴퓨터에서는 sans-serif 라고 하는 '획의 삐침(serif)'이 없는 글꼴(D2Coding, 돋움체등)을 주로 쓴다. 반대로 serif 라고 하면 대표적으로 '궁서체'가 있는데, 초창기 윈도우에서는 한글 글꼴의 다양성을 주는 고마운 존재였다. 아래의 스크린샷을 보면 그 차이를 쉽게 알 수 있다&lt;/p&gt;
 
 &lt;p&gt;&lt;img src="maruburi_sample.png" alt="maruburi_sample.png" /&gt;&lt;/p&gt;
+
+&lt;p&gt;참고로 OTF/TTF 가 있는데 OTF가 좀 더 발전된 형태의 파일이다&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;글꼴 테스트 사이트: &lt;a href="https://hangeul.naver.com/fonts/search?f=maru"&gt;https://hangeul.naver.com/fonts/search?f=maru&lt;/a&gt;&lt;/li&gt;
@@ -132,10 +134,17 @@
 
 &lt;p&gt;위와 같이 빌드를 하고&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;docker run -d -p 1433:1433 -v C:/temp/:C:/temp/ -e sa_password=&amp;lt;YOUR SA PASSWORD&amp;gt; -e ACCEPT_EULA=Y -e mssql-win-zelon
+&lt;pre&gt;&lt;code&gt;docker run -d -p 1433:1433 -v C:/temp/:C:/temp/ -e sa_password=Abcd!234 -e ACCEPT_EULA=Y mssql-win-zelon
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;위와 같이 실행을 하면 된다. 다만 sa_password 는 충분히 복잡한 암호를 사용해야 한다. 그렇지 않으면 sa 암호 설정이 되지 않는다&lt;/p&gt;
+&lt;p&gt;위와 같이 실행을 하면 된다. 다만 sa_password 에는 원하는 암호로 변경하면 되는데 충분히 복잡한 암호를 사용해야 한다. 그렇지 않으면 sa 암호 설정이 되지 않는다&lt;/p&gt;
+
+&lt;p&gt;이렇게 만들어진 이미지는 아래의 hub.docker.com 에 공유되어 있다&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MSSQL2022 on WindowsServer2019: &lt;a href="https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2019"&gt;https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2019&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MSSQL2022 on WindowsServer2025: &lt;a href="https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2025"&gt;https://hub.docker.com/repository/docker/zelonion/mssql2022-winsvr2025&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;참고 Link:&lt;br /&gt;
  * setup.exe 인자들 설명: &lt;a href="https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15"&gt;https://learn.microsoft.com/en-us/sql/database-engine/install-windows/install-sql-server-from-the-command-prompt?view=sql-server-ver15&lt;/a&gt;&lt;/p&gt;

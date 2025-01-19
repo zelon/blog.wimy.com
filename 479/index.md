@@ -4,6 +4,8 @@
 
  ![maruburi_sample.png](maruburi_sample.png)
 
+ 참고로 OTF/TTF 가 있는데 OTF가 좀 더 발전된 형태의 파일이다
+
  * 글꼴 테스트 사이트: https://hangeul.naver.com/fonts/search?f=maru
  * 글꼴 다운로드 사이트: https://hangeul.naver.com/font
  * blog 에서 직접 다운로드: [maruburi_font](maruburi_font.zip)
